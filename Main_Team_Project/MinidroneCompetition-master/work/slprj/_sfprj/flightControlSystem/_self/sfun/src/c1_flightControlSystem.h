@@ -1095,6 +1095,8 @@ typedef struct {
   boolean_T c1_local_cond_not_empty;
   real_T c1_local_array[4];
   boolean_T c1_local_array_not_empty;
+  real_T c1_add_yaw;
+  boolean_T c1_add_yaw_not_empty;
   uint32_T c1_mlFcnLineNumber;
   void *c1_fcnDataPtrs[44];
   char_T *c1_dataNames[44];
