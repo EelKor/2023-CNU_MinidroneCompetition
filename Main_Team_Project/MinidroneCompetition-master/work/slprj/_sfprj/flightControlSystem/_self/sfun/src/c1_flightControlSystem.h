@@ -2,13 +2,6 @@
 #define __c1_flightControlSystem_h__
 
 /* Forward Declarations */
-#ifndef typedef_c1_sL6LJlPlxhdTxZzXh5NTaQC
-#define typedef_c1_sL6LJlPlxhdTxZzXh5NTaQC
-
-typedef struct c1_tag_sL6LJlPlxhdTxZzXh5NTaQC c1_sL6LJlPlxhdTxZzXh5NTaQC;
-
-#endif                                 /* typedef_c1_sL6LJlPlxhdTxZzXh5NTaQC */
-
 #ifndef typedef_c1_s_0K68mFBjQDo1WRxKPpRFgD
 #define typedef_c1_s_0K68mFBjQDo1WRxKPpRFgD
 
@@ -16,26 +9,12 @@ typedef struct c1_tag_0K68mFBjQDo1WRxKPpRFgD c1_s_0K68mFBjQDo1WRxKPpRFgD;
 
 #endif                                 /* typedef_c1_s_0K68mFBjQDo1WRxKPpRFgD */
 
-#ifndef typedef_c1_s_uQLN1NcerENJIz4qGmcwwD
-#define typedef_c1_s_uQLN1NcerENJIz4qGmcwwD
-
-typedef struct c1_tag_uQLN1NcerENJIz4qGmcwwD c1_s_uQLN1NcerENJIz4qGmcwwD;
-
-#endif                                 /* typedef_c1_s_uQLN1NcerENJIz4qGmcwwD */
-
 #ifndef typedef_c1_s_P9BqU0OiPAu5sFhUNvbXPC
 #define typedef_c1_s_P9BqU0OiPAu5sFhUNvbXPC
 
 typedef struct c1_tag_P9BqU0OiPAu5sFhUNvbXPC c1_s_P9BqU0OiPAu5sFhUNvbXPC;
 
 #endif                                 /* typedef_c1_s_P9BqU0OiPAu5sFhUNvbXPC */
-
-#ifndef typedef_c1_s_mNGnJly2Zun29dyJ12DbmE
-#define typedef_c1_s_mNGnJly2Zun29dyJ12DbmE
-
-typedef struct c1_tag_mNGnJly2Zun29dyJ12DbmE c1_s_mNGnJly2Zun29dyJ12DbmE;
-
-#endif                                 /* typedef_c1_s_mNGnJly2Zun29dyJ12DbmE */
 
 #ifndef typedef_c1_s_a7TcNrdk5JZcy5uxGijaRG
 #define typedef_c1_s_a7TcNrdk5JZcy5uxGijaRG
@@ -162,13 +141,6 @@ typedef struct c1_tag_URxaCoPZWr69Oy7fwnFxl c1_cell_16;
 typedef struct c1_tag_yMfj6323Zqv19VFnWGoHjH c1_cell_17;
 
 #endif                                 /* typedef_c1_cell_17 */
-
-#ifndef typedef_c1_s_BQV9usR1POAMWBqT2mQDX
-#define typedef_c1_s_BQV9usR1POAMWBqT2mQDX
-
-typedef struct c1_tag_BQV9usR1POAMWBqT2mQDX c1_s_BQV9usR1POAMWBqT2mQDX;
-
-#endif                                 /* typedef_c1_s_BQV9usR1POAMWBqT2mQDX */
 
 #ifndef typedef_c1_s_tP4ysjhyvuYk36JuHDg8bD
 #define typedef_c1_s_tP4ysjhyvuYk36JuHDg8bD
@@ -297,23 +269,6 @@ typedef struct c1_tag_lv60kHidgCVN68cHDjBCkF c1_s_lv60kHidgCVN68cHDjBCkF;
 #endif                                 /* typedef_c1_s_lv60kHidgCVN68cHDjBCkF */
 
 /* Type Definitions */
-#ifndef struct_c1_tag_sL6LJlPlxhdTxZzXh5NTaQC
-#define struct_c1_tag_sL6LJlPlxhdTxZzXh5NTaQC
-
-struct c1_tag_sL6LJlPlxhdTxZzXh5NTaQC
-{
-  int32_T intNumBits;
-};
-
-#endif                                 /* struct_c1_tag_sL6LJlPlxhdTxZzXh5NTaQC */
-
-#ifndef typedef_c1_sL6LJlPlxhdTxZzXh5NTaQC
-#define typedef_c1_sL6LJlPlxhdTxZzXh5NTaQC
-
-typedef struct c1_tag_sL6LJlPlxhdTxZzXh5NTaQC c1_sL6LJlPlxhdTxZzXh5NTaQC;
-
-#endif                                 /* typedef_c1_sL6LJlPlxhdTxZzXh5NTaQC */
-
 #ifndef struct_c1_tag_0K68mFBjQDo1WRxKPpRFgD
 #define struct_c1_tag_0K68mFBjQDo1WRxKPpRFgD
 
@@ -332,23 +287,6 @@ typedef struct c1_tag_0K68mFBjQDo1WRxKPpRFgD c1_s_0K68mFBjQDo1WRxKPpRFgD;
 
 #endif                                 /* typedef_c1_s_0K68mFBjQDo1WRxKPpRFgD */
 
-#ifndef struct_c1_tag_uQLN1NcerENJIz4qGmcwwD
-#define struct_c1_tag_uQLN1NcerENJIz4qGmcwwD
-
-struct c1_tag_uQLN1NcerENJIz4qGmcwwD
-{
-  const char_T *f1;
-};
-
-#endif                                 /* struct_c1_tag_uQLN1NcerENJIz4qGmcwwD */
-
-#ifndef typedef_c1_s_uQLN1NcerENJIz4qGmcwwD
-#define typedef_c1_s_uQLN1NcerENJIz4qGmcwwD
-
-typedef struct c1_tag_uQLN1NcerENJIz4qGmcwwD c1_s_uQLN1NcerENJIz4qGmcwwD;
-
-#endif                                 /* typedef_c1_s_uQLN1NcerENJIz4qGmcwwD */
-
 #ifndef struct_c1_tag_P9BqU0OiPAu5sFhUNvbXPC
 #define struct_c1_tag_P9BqU0OiPAu5sFhUNvbXPC
 
@@ -365,23 +303,6 @@ struct c1_tag_P9BqU0OiPAu5sFhUNvbXPC
 typedef struct c1_tag_P9BqU0OiPAu5sFhUNvbXPC c1_s_P9BqU0OiPAu5sFhUNvbXPC;
 
 #endif                                 /* typedef_c1_s_P9BqU0OiPAu5sFhUNvbXPC */
-
-#ifndef struct_c1_tag_mNGnJly2Zun29dyJ12DbmE
-#define struct_c1_tag_mNGnJly2Zun29dyJ12DbmE
-
-struct c1_tag_mNGnJly2Zun29dyJ12DbmE
-{
-  c1_s_uQLN1NcerENJIz4qGmcwwD _data;
-};
-
-#endif                                 /* struct_c1_tag_mNGnJly2Zun29dyJ12DbmE */
-
-#ifndef typedef_c1_s_mNGnJly2Zun29dyJ12DbmE
-#define typedef_c1_s_mNGnJly2Zun29dyJ12DbmE
-
-typedef struct c1_tag_mNGnJly2Zun29dyJ12DbmE c1_s_mNGnJly2Zun29dyJ12DbmE;
-
-#endif                                 /* typedef_c1_s_mNGnJly2Zun29dyJ12DbmE */
 
 #ifndef struct_c1_tag_a7TcNrdk5JZcy5uxGijaRG
 #define struct_c1_tag_a7TcNrdk5JZcy5uxGijaRG
@@ -752,23 +673,6 @@ typedef struct c1_tag_yMfj6323Zqv19VFnWGoHjH c1_cell_17;
 
 #endif                                 /* typedef_c1_cell_17 */
 
-#ifndef struct_c1_tag_BQV9usR1POAMWBqT2mQDX
-#define struct_c1_tag_BQV9usR1POAMWBqT2mQDX
-
-struct c1_tag_BQV9usR1POAMWBqT2mQDX
-{
-  char_T Value[18];
-};
-
-#endif                                 /* struct_c1_tag_BQV9usR1POAMWBqT2mQDX */
-
-#ifndef typedef_c1_s_BQV9usR1POAMWBqT2mQDX
-#define typedef_c1_s_BQV9usR1POAMWBqT2mQDX
-
-typedef struct c1_tag_BQV9usR1POAMWBqT2mQDX c1_s_BQV9usR1POAMWBqT2mQDX;
-
-#endif                                 /* typedef_c1_s_BQV9usR1POAMWBqT2mQDX */
-
 #ifndef struct_c1_tag_tP4ysjhyvuYk36JuHDg8bD
 #define struct_c1_tag_tP4ysjhyvuYk36JuHDg8bD
 
@@ -1098,13 +1002,13 @@ typedef struct {
   real_T c1_add_yaw;
   boolean_T c1_add_yaw_not_empty;
   uint32_T c1_mlFcnLineNumber;
-  void *c1_fcnDataPtrs[44];
-  char_T *c1_dataNames[44];
+  void *c1_fcnDataPtrs[50];
+  char_T *c1_dataNames[50];
   uint32_T c1_numFcnVars;
-  uint32_T c1_ssIds[44];
-  uint32_T c1_statuses[44];
-  void *c1_outMexFcns[44];
-  void *c1_inMexFcns[44];
+  uint32_T c1_ssIds[50];
+  uint32_T c1_statuses[50];
+  void *c1_outMexFcns[50];
+  void *c1_inMexFcns[50];
   real_T c1_yaw_mat[19200];
   real_T c1_find_yaw_mat[19200];
   real_T c1_head_canny_mat[19200];
@@ -1120,6 +1024,7 @@ typedef struct {
   boolean_T (*c1_u)[19200];
   boolean_T (*c1_center_mat)[961];
   real_T (*c1_b_head_canny_mat)[19200];
+  int8_T (*c1_pts_local_area)[4];
   real_T (*c1_b_yaw_mat)[19200];
   real_T *c1_x_out;
   real_T *c1_yaw_out;
