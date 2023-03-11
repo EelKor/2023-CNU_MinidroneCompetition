@@ -16,7 +16,7 @@ MATLAB_ROOT  = d:\program files\matlab\r2022b\toolbox\stateflow\stateflow\..\..\
 BUILDARGS   = 
 #------------------------------ Include/Lib Path ------------------------------
  
-USER_INCLUDES = -I"D:\OneDrive\Desktop\2023-cnu_minidronecompetition\main_team_project\minidronecompetition-master\work\slprj\_sfprj\flightcontrolsystem\_self\sfun\src" -I"D:\OneDrive\Desktop\2023-cnu_minidronecompetition\main_team_project\minidronecompetition-master" -I"D:\OneDrive\Desktop\2023-cnu_minidronecompetition\main_team_project\minidronecompetition-master\controller" 
+USER_INCLUDES = -I"D:\OneDrive\Desktop\2023-cnu_minidronecompetition\main_team_project\minidronecompetition-master\work\slprj\_sfprj\flightcontrolsystem\_self\sfun\src" -I"D:\OneDrive\Desktop\3DScope" -I"D:\OneDrive\Desktop\2023-cnu_minidronecompetition\main_team_project\minidronecompetition-master\controller" 
 AUX_INCLUDES = 
 MLSLSF_INCLUDES  = \
     -I"D:\Program Files\MATLAB\R2022b\extern\include" \
