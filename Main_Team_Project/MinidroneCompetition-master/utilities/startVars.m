@@ -75,7 +75,8 @@ takeOffDuration = 1;
 
 %% Custom Variables
 % Add your variables here:
-% myvariable = 0;
+ ROI_OF_CIRCLEDETECT = zeros(38);
+ CIRCLE_PTS = [19 19 19];
 
 % Vision Ts
 VTs= 40*Ts;
@@ -84,6 +85,7 @@ VTs= 40*Ts;
 % initVars so they can be cleared later on the project shutdown.
 endVars = who;
 initVars = setdiff(endVars,initVars);
+
 clear endVars;
 
 % LocalWords:  myvariable
