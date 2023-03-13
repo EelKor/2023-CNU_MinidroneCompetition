@@ -70,17 +70,17 @@ static emlrtRSInfo c1_emlrtRSI = { 23, /* lineNo */
   "#flightControlSystem:2683"          /* pathName */
 };
 
-static emlrtRSInfo c1_b_emlrtRSI = { 163,/* lineNo */
+static emlrtRSInfo c1_b_emlrtRSI = { 166,/* lineNo */
   "Image Processing System/Mode_Select_Function",/* fcnName */
   "#flightControlSystem:2683"          /* pathName */
 };
 
-static emlrtRSInfo c1_c_emlrtRSI = { 171,/* lineNo */
+static emlrtRSInfo c1_c_emlrtRSI = { 174,/* lineNo */
   "Image Processing System/Mode_Select_Function",/* fcnName */
   "#flightControlSystem:2683"          /* pathName */
 };
 
-static emlrtRSInfo c1_d_emlrtRSI = { 201,/* lineNo */
+static emlrtRSInfo c1_d_emlrtRSI = { 204,/* lineNo */
   "Image Processing System/Mode_Select_Function",/* fcnName */
   "#flightControlSystem:2683"          /* pathName */
 };
@@ -215,22 +215,22 @@ static emlrtRSInfo c1_eb_emlrtRSI = { 76,/* lineNo */
   "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imreconstruct.m"/* pathName */
 };
 
-static emlrtRSInfo c1_fb_emlrtRSI = { 220,/* lineNo */
+static emlrtRSInfo c1_fb_emlrtRSI = { 223,/* lineNo */
   "Image Processing System/Mode_Select_Function",/* fcnName */
   "#flightControlSystem:2683"          /* pathName */
 };
 
-static emlrtRSInfo c1_gb_emlrtRSI = { 221,/* lineNo */
+static emlrtRSInfo c1_gb_emlrtRSI = { 224,/* lineNo */
   "Image Processing System/Mode_Select_Function",/* fcnName */
   "#flightControlSystem:2683"          /* pathName */
 };
 
-static emlrtRSInfo c1_hb_emlrtRSI = { 222,/* lineNo */
+static emlrtRSInfo c1_hb_emlrtRSI = { 225,/* lineNo */
   "Image Processing System/Mode_Select_Function",/* fcnName */
   "#flightControlSystem:2683"          /* pathName */
 };
 
-static emlrtRSInfo c1_ib_emlrtRSI = { 223,/* lineNo */
+static emlrtRSInfo c1_ib_emlrtRSI = { 226,/* lineNo */
   "Image Processing System/Mode_Select_Function",/* fcnName */
   "#flightControlSystem:2683"          /* pathName */
 };
@@ -265,43 +265,43 @@ static emlrtRSInfo c1_ob_emlrtRSI = { 79,/* lineNo */
   "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
 };
 
-static emlrtRTEInfo c1_emlrtRTEI = { 198,/* lineNo */
+static emlrtRTEInfo c1_emlrtRTEI = { 201,/* lineNo */
   5,                                   /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_b_emlrtRTEI = { 154,/* lineNo */
+static emlrtRTEInfo c1_b_emlrtRTEI = { 157,/* lineNo */
   22,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_c_emlrtRTEI = { 154,/* lineNo */
+static emlrtRTEInfo c1_c_emlrtRTEI = { 157,/* lineNo */
   39,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_d_emlrtRTEI = { 154,/* lineNo */
+static emlrtRTEInfo c1_d_emlrtRTEI = { 157,/* lineNo */
   9,                                   /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_e_emlrtRTEI = { 155,/* lineNo */
+static emlrtRTEInfo c1_e_emlrtRTEI = { 158,/* lineNo */
   17,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_f_emlrtRTEI = { 155,/* lineNo */
+static emlrtRTEInfo c1_f_emlrtRTEI = { 158,/* lineNo */
   34,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_g_emlrtRTEI = { 155,/* lineNo */
+static emlrtRTEInfo c1_g_emlrtRTEI = { 158,/* lineNo */
   9,                                   /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
@@ -331,25 +331,25 @@ static emlrtRTEInfo c1_k_emlrtRTEI = { 740,/* lineNo */
   "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pName */
 };
 
-static emlrtRTEInfo c1_l_emlrtRTEI = { 220,/* lineNo */
+static emlrtRTEInfo c1_l_emlrtRTEI = { 223,/* lineNo */
   25,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_m_emlrtRTEI = { 221,/* lineNo */
+static emlrtRTEInfo c1_m_emlrtRTEI = { 224,/* lineNo */
   25,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_n_emlrtRTEI = { 222,/* lineNo */
+static emlrtRTEInfo c1_n_emlrtRTEI = { 225,/* lineNo */
   25,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtRTEInfo c1_o_emlrtRTEI = { 223,/* lineNo */
+static emlrtRTEInfo c1_o_emlrtRTEI = { 226,/* lineNo */
   25,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
@@ -361,7 +361,7 @@ static emlrtRTEInfo c1_p_emlrtRTEI = { 225,/* lineNo */
   "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
 };
 
-static emlrtDCInfo c1_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_emlrtDCI = { 157,/* lineNo */
   60,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -370,7 +370,7 @@ static emlrtDCInfo c1_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_emlrtBCI = { 1,  /* iFirst */
   120,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   60,                                  /* colNo */
   "u",                                 /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -378,7 +378,7 @@ static emlrtBCInfo c1_emlrtBCI = { 1,  /* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_b_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_b_emlrtDCI = { 157,/* lineNo */
   68,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -387,7 +387,7 @@ static emlrtDCInfo c1_b_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_b_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   68,                                  /* colNo */
   "u",                                 /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -395,7 +395,7 @@ static emlrtBCInfo c1_b_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_c_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_c_emlrtDCI = { 157,/* lineNo */
   77,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -404,7 +404,7 @@ static emlrtDCInfo c1_c_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_c_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   77,                                  /* colNo */
   "u",                                 /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -412,7 +412,7 @@ static emlrtBCInfo c1_c_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_d_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_d_emlrtDCI = { 157,/* lineNo */
   85,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -421,7 +421,7 @@ static emlrtDCInfo c1_d_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_d_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   85,                                  /* colNo */
   "u",                                 /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -429,7 +429,7 @@ static emlrtBCInfo c1_d_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_e_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_e_emlrtDCI = { 158,/* lineNo */
   63,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -438,7 +438,7 @@ static emlrtDCInfo c1_e_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_e_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   63,                                  /* colNo */
   "canny_img",                         /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -446,7 +446,7 @@ static emlrtBCInfo c1_e_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_f_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_f_emlrtDCI = { 158,/* lineNo */
   71,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -455,7 +455,7 @@ static emlrtDCInfo c1_f_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_f_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   71,                                  /* colNo */
   "canny_img",                         /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -463,7 +463,7 @@ static emlrtBCInfo c1_f_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_g_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_g_emlrtDCI = { 158,/* lineNo */
   80,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -472,7 +472,7 @@ static emlrtDCInfo c1_g_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_g_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   80,                                  /* colNo */
   "canny_img",                         /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -480,7 +480,7 @@ static emlrtBCInfo c1_g_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_h_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_h_emlrtDCI = { 158,/* lineNo */
   88,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -489,7 +489,7 @@ static emlrtDCInfo c1_h_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_h_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   88,                                  /* colNo */
   "canny_img",                         /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -497,7 +497,7 @@ static emlrtBCInfo c1_h_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_i_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_i_emlrtDCI = { 158,/* lineNo */
   17,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -506,7 +506,7 @@ static emlrtDCInfo c1_i_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_i_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   17,                                  /* colNo */
   "yaw_mat",                           /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -514,7 +514,7 @@ static emlrtBCInfo c1_i_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_j_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_j_emlrtDCI = { 158,/* lineNo */
   25,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -523,7 +523,7 @@ static emlrtDCInfo c1_j_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_j_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   25,                                  /* colNo */
   "yaw_mat",                           /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -531,7 +531,7 @@ static emlrtBCInfo c1_j_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_k_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_k_emlrtDCI = { 158,/* lineNo */
   34,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -540,7 +540,7 @@ static emlrtDCInfo c1_k_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_k_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   34,                                  /* colNo */
   "yaw_mat",                           /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -548,7 +548,7 @@ static emlrtBCInfo c1_k_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_l_emlrtDCI = { 155,/* lineNo */
+static emlrtDCInfo c1_l_emlrtDCI = { 158,/* lineNo */
   42,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -557,7 +557,7 @@ static emlrtDCInfo c1_l_emlrtDCI = { 155,/* lineNo */
 
 static emlrtBCInfo c1_l_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   42,                                  /* colNo */
   "yaw_mat",                           /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -566,13 +566,13 @@ static emlrtBCInfo c1_l_emlrtBCI = { 1,/* iFirst */
 };
 
 static emlrtECInfo c1_emlrtECI = { -1, /* nDims */
-  155,                                 /* lineNo */
+  158,                                 /* lineNo */
   9,                                   /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtDCInfo c1_m_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_m_emlrtDCI = { 157,/* lineNo */
   22,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -581,7 +581,7 @@ static emlrtDCInfo c1_m_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_m_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   22,                                  /* colNo */
   "find_yaw_mat",                      /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -589,7 +589,7 @@ static emlrtBCInfo c1_m_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_n_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_n_emlrtDCI = { 157,/* lineNo */
   30,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -598,7 +598,7 @@ static emlrtDCInfo c1_n_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_n_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   30,                                  /* colNo */
   "find_yaw_mat",                      /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -606,7 +606,7 @@ static emlrtBCInfo c1_n_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_o_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_o_emlrtDCI = { 157,/* lineNo */
   39,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -615,7 +615,7 @@ static emlrtDCInfo c1_o_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_o_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   39,                                  /* colNo */
   "find_yaw_mat",                      /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -623,7 +623,7 @@ static emlrtBCInfo c1_o_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_p_emlrtDCI = { 154,/* lineNo */
+static emlrtDCInfo c1_p_emlrtDCI = { 157,/* lineNo */
   47,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -632,7 +632,7 @@ static emlrtDCInfo c1_p_emlrtDCI = { 154,/* lineNo */
 
 static emlrtBCInfo c1_p_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   47,                                  /* colNo */
   "find_yaw_mat",                      /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -641,13 +641,13 @@ static emlrtBCInfo c1_p_emlrtBCI = { 1,/* iFirst */
 };
 
 static emlrtECInfo c1_b_emlrtECI = { -1,/* nDims */
-  154,                                 /* lineNo */
+  157,                                 /* lineNo */
   9,                                   /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
 };
 
-static emlrtDCInfo c1_q_emlrtDCI = { 167,/* lineNo */
+static emlrtDCInfo c1_q_emlrtDCI = { 170,/* lineNo */
   38,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -656,7 +656,7 @@ static emlrtDCInfo c1_q_emlrtDCI = { 167,/* lineNo */
 
 static emlrtBCInfo c1_q_emlrtBCI = { 1,/* iFirst */
   1000,                                /* iLast */
-  167,                                 /* lineNo */
+  170,                                 /* lineNo */
   38,                                  /* colNo */
   "local_area",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -664,7 +664,7 @@ static emlrtBCInfo c1_q_emlrtBCI = { 1,/* iFirst */
   3                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_r_emlrtDCI = { 168,/* lineNo */
+static emlrtDCInfo c1_r_emlrtDCI = { 171,/* lineNo */
   38,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -673,7 +673,7 @@ static emlrtDCInfo c1_r_emlrtDCI = { 168,/* lineNo */
 
 static emlrtBCInfo c1_r_emlrtBCI = { 1,/* iFirst */
   1000,                                /* iLast */
-  168,                                 /* lineNo */
+  171,                                 /* lineNo */
   38,                                  /* colNo */
   "local_area",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -681,7 +681,7 @@ static emlrtBCInfo c1_r_emlrtBCI = { 1,/* iFirst */
   3                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_s_emlrtDCI = { 175,/* lineNo */
+static emlrtDCInfo c1_s_emlrtDCI = { 178,/* lineNo */
   34,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -690,7 +690,7 @@ static emlrtDCInfo c1_s_emlrtDCI = { 175,/* lineNo */
 
 static emlrtBCInfo c1_s_emlrtBCI = { 1,/* iFirst */
   1000,                                /* iLast */
-  175,                                 /* lineNo */
+  178,                                 /* lineNo */
   34,                                  /* colNo */
   "local_area",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -698,7 +698,7 @@ static emlrtBCInfo c1_s_emlrtBCI = { 1,/* iFirst */
   3                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_t_emlrtDCI = { 176,/* lineNo */
+static emlrtDCInfo c1_t_emlrtDCI = { 179,/* lineNo */
   34,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -707,7 +707,7 @@ static emlrtDCInfo c1_t_emlrtDCI = { 176,/* lineNo */
 
 static emlrtBCInfo c1_t_emlrtBCI = { 1,/* iFirst */
   1000,                                /* iLast */
-  176,                                 /* lineNo */
+  179,                                 /* lineNo */
   34,                                  /* colNo */
   "local_area",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -715,7 +715,7 @@ static emlrtBCInfo c1_t_emlrtBCI = { 1,/* iFirst */
   3                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_u_emlrtDCI = { 198,/* lineNo */
+static emlrtDCInfo c1_u_emlrtDCI = { 201,/* lineNo */
   41,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -724,7 +724,7 @@ static emlrtDCInfo c1_u_emlrtDCI = { 198,/* lineNo */
 
 static emlrtBCInfo c1_u_emlrtBCI = { 1,/* iFirst */
   1000,                                /* iLast */
-  198,                                 /* lineNo */
+  201,                                 /* lineNo */
   41,                                  /* colNo */
   "local_area",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -734,16 +734,16 @@ static emlrtBCInfo c1_u_emlrtBCI = { 1,/* iFirst */
 
 static emlrtBCInfo c1_v_emlrtBCI = { 1,/* iFirst */
   31,                                  /* iLast */
-  92,                                  /* lineNo */
-  28,                                  /* colNo */
+  93,                                  /* lineNo */
+  32,                                  /* colNo */
   "center_mat",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_v_emlrtDCI = { 92,/* lineNo */
-  28,                                  /* colNo */
+static emlrtDCInfo c1_v_emlrtDCI = { 93,/* lineNo */
+  32,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
   1                                    /* checkKind */
@@ -751,16 +751,16 @@ static emlrtDCInfo c1_v_emlrtDCI = { 92,/* lineNo */
 
 static emlrtBCInfo c1_w_emlrtBCI = { 1,/* iFirst */
   31,                                  /* iLast */
-  92,                                  /* lineNo */
-  32,                                  /* colNo */
+  93,                                  /* lineNo */
+  36,                                  /* colNo */
   "center_mat",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_w_emlrtDCI = { 92,/* lineNo */
-  32,                                  /* colNo */
+static emlrtDCInfo c1_w_emlrtDCI = { 93,/* lineNo */
+  36,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
   1                                    /* checkKind */
@@ -768,7 +768,7 @@ static emlrtDCInfo c1_w_emlrtDCI = { 92,/* lineNo */
 
 static emlrtBCInfo c1_x_emlrtBCI = { 1,/* iFirst */
   1000,                                /* iLast */
-  192,                                 /* lineNo */
+  195,                                 /* lineNo */
   26,                                  /* colNo */
   "local_area",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -776,7 +776,7 @@ static emlrtBCInfo c1_x_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_x_emlrtDCI = { 192,/* lineNo */
+static emlrtDCInfo c1_x_emlrtDCI = { 195,/* lineNo */
   26,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -785,7 +785,7 @@ static emlrtDCInfo c1_x_emlrtDCI = { 192,/* lineNo */
 
 static emlrtBCInfo c1_y_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  172,                                 /* lineNo */
+  175,                                 /* lineNo */
   35,                                  /* colNo */
   "find_yaw_mat",                      /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -793,7 +793,7 @@ static emlrtBCInfo c1_y_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_y_emlrtDCI = { 172,/* lineNo */
+static emlrtDCInfo c1_y_emlrtDCI = { 175,/* lineNo */
   35,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -802,7 +802,7 @@ static emlrtDCInfo c1_y_emlrtDCI = { 172,/* lineNo */
 
 static emlrtBCInfo c1_ab_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  172,                                 /* lineNo */
+  175,                                 /* lineNo */
   39,                                  /* colNo */
   "find_yaw_mat",                      /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -810,7 +810,7 @@ static emlrtBCInfo c1_ab_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_ab_emlrtDCI = { 172,/* lineNo */
+static emlrtDCInfo c1_ab_emlrtDCI = { 175,/* lineNo */
   39,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -819,7 +819,7 @@ static emlrtDCInfo c1_ab_emlrtDCI = { 172,/* lineNo */
 
 static emlrtBCInfo c1_bb_emlrtBCI = { 1,/* iFirst */
   120,                                 /* iLast */
-  165,                                 /* lineNo */
+  168,                                 /* lineNo */
   28,                                  /* colNo */
   "u",                                 /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -827,7 +827,7 @@ static emlrtBCInfo c1_bb_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_bb_emlrtDCI = { 165,/* lineNo */
+static emlrtDCInfo c1_bb_emlrtDCI = { 168,/* lineNo */
   28,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -836,7 +836,7 @@ static emlrtDCInfo c1_bb_emlrtDCI = { 165,/* lineNo */
 
 static emlrtBCInfo c1_cb_emlrtBCI = { 1,/* iFirst */
   160,                                 /* iLast */
-  165,                                 /* lineNo */
+  168,                                 /* lineNo */
   32,                                  /* colNo */
   "u",                                 /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -844,7 +844,7 @@ static emlrtBCInfo c1_cb_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_cb_emlrtDCI = { 165,/* lineNo */
+static emlrtDCInfo c1_cb_emlrtDCI = { 168,/* lineNo */
   32,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -1060,31 +1060,25 @@ static void mdl_terminate_c1_flightControlSystem
 static void mdl_setup_runtime_resources_c1_flightControlSystem
   (SFc1_flightControlSystemInstanceStruct *chartInstance)
 {
-  static const int32_T c1_d_postfixPredicateTree[5] = { 0, 1, -3, 2, -3 };
+  static const int32_T c1_c_postfixPredicateTree[5] = { 0, 1, -3, 2, -3 };
 
-  static const int32_T c1_e_postfixPredicateTree[5] = { 0, 1, -3, 2, -3 };
+  static const int32_T c1_d_postfixPredicateTree[5] = { 0, 1, -3, 2, -3 };
 
   static const int32_T c1_b_postfixPredicateTree[3] = { 0, 1, -3 };
 
-  static const int32_T c1_c_postfixPredicateTree[3] = { 0, 1, -3 };
+  static const int32_T c1_c_condTxtEndIdx[3] = { 4484, 4540, 4677 };
 
-  static const int32_T c1_d_condTxtEndIdx[3] = { 4352, 4408, 4545 };
+  static const int32_T c1_c_condTxtStartIdx[3] = { 4430, 4488, 4569 };
 
-  static const int32_T c1_d_condTxtStartIdx[3] = { 4298, 4356, 4437 };
+  static const int32_T c1_d_condTxtEndIdx[3] = { 4946, 5004, 5060 };
 
-  static const int32_T c1_e_condTxtEndIdx[3] = { 4814, 4872, 4928 };
-
-  static const int32_T c1_e_condTxtStartIdx[3] = { 4799, 4818, 4876 };
+  static const int32_T c1_d_condTxtStartIdx[3] = { 4931, 4950, 5008 };
 
   static const int32_T c1_postfixPredicateTree[3] = { 0, 1, -3 };
 
-  static const int32_T c1_b_condTxtEndIdx[2] = { 2670, 2688 };
+  static const int32_T c1_b_condTxtEndIdx[2] = { 3694, 3714 };
 
-  static const int32_T c1_b_condTxtStartIdx[2] = { 2658, 2674 };
-
-  static const int32_T c1_c_condTxtEndIdx[2] = { 3562, 3582 };
-
-  static const int32_T c1_c_condTxtStartIdx[2] = { 3545, 3566 };
+  static const int32_T c1_b_condTxtStartIdx[2] = { 3677, 3698 };
 
   static const int32_T c1_condTxtEndIdx[2] = { 1452, 1472 };
 
@@ -1106,28 +1100,28 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
   covrtStateInitFcn(chartInstance->c1_covrtInstance, 0U, 0U, false, false, false,
                     0U, &c1_decisionTxtStartIdx, &c1_decisionTxtEndIdx);
   covrtTransInitFcn(chartInstance->c1_covrtInstance, 0U, 0, NULL, NULL, 0U, NULL);
-  covrtEmlInitFcn(chartInstance->c1_covrtInstance, "", 4U, 0U, 2U, 0U, 24U, 0U,
-                  8U, 0U, 5U, 0U, 12U, 5U);
+  covrtEmlInitFcn(chartInstance->c1_covrtInstance, "", 4U, 0U, 2U, 0U, 25U, 0U,
+                  8U, 0U, 5U, 0U, 10U, 4U);
   covrtEmlFcnInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U,
-                     "eML_blk_kernel", 0, -1, 5913);
+                     "eML_blk_kernel", 0, -1, 6045);
   covrtEmlFcnInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, "local_find",
-                     5916, -1, 6320);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 4656,
-    -1, 4681);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 4707,
-    -1, 4732);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 5108,
-    -1, 5133);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 5155,
-    -1, 5180);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 6031,
-    -1, 6069);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 6127,
-    -1, 6165);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 6U, 6198,
-    -1, 6236);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 7U, 6269,
-    -1, 6307);
+                     6048, -1, 6452);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 4788,
+    -1, 4813);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 4839,
+    -1, 4864);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 5240,
+    -1, 5265);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 5287,
+    -1, 5312);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 6163,
+    -1, 6201);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 6259,
+    -1, 6297);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 6U, 6330,
+    -1, 6368);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 7U, 6401,
+    -1, 6439);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 147, 168, -1,
                     189, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 191, 215, -1,
@@ -1135,7 +1129,7 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 241, 266, -1,
                     300, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 1431, 1473,
-                    3537, 5910, false);
+                    3669, 6042, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 1506, 1522,
                     1569, 1613, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 1569, 1590, -1,
@@ -1144,63 +1138,62 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
                     1905, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 7U, 1833, 1849, -1,
                     1897, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 8U, 2154, 2183, -1,
-                    2275, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 9U, 2375, 2407,
-                    2504, 2642, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 10U, 2504, 2541, -1,
-                    2642, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 11U, 2655, 2689, -1,
-                    2743, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 12U, 3537, 3583, -1,
-                    5910, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 13U, 3731, 3751, -1,
-                    4113, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 14U, 4243, 4263,
-                    4790, 5202, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 15U, 4293, 4546, -1,
-                    4777, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 16U, 4567, 4588, -1,
-                    4757, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 17U, 4790, 4929, -1,
-                    5202, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4959, 4991, -1,
-                    5201, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 5247, 5267, -1,
-                    5336, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 5457, 5482,
-                    5519, 5520, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 5682, 5705,
-                    5731, 5813, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 22U, 5731, 5758,
-                    5817, 5908, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 23U, 5817, 5845, -1,
-                    5901, false);
-  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 2086, 2109,
-                     2295);
-  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 2118, 2141,
-                     2287);
-  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 4138, 4154,
-                     5237);
-  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 4164, 4183,
-                     5229);
-  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 5425, 5448,
-                     5520);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 8U, 1910, 1926, -1,
+                    2874, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 9U, 2201, 2230, -1,
+                    2334, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 10U, 2466, 2498,
+                    2607, 2753, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 11U, 2607, 2644, -1,
+                    2753, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 12U, 2782, 2800, -1,
+                    2862, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 13U, 3669, 3715, -1,
+                    6042, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 14U, 3863, 3883, -1,
+                    4245, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 15U, 4375, 4395,
+                    4922, 5334, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 16U, 4425, 4678, -1,
+                    4909, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 17U, 4699, 4720, -1,
+                    4889, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4922, 5061, -1,
+                    5334, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 5091, 5123, -1,
+                    5333, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 5379, 5399, -1,
+                    5468, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 5589, 5614,
+                    5651, 5652, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 22U, 5814, 5837,
+                    5863, 5945, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 23U, 5863, 5890,
+                    5949, 6040, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 24U, 5949, 5977, -1,
+                    6033, false);
+  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 2125, 2148,
+                     2362);
+  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 2161, 2184,
+                     2350);
+  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 4270, 4286,
+                     5369);
+  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 4296, 4315,
+                     5361);
+  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 5557, 5580,
+                     5652);
   covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 1435, 1472,
                       2U, 0U, c1_condTxtStartIdx, c1_condTxtEndIdx, 3U,
                       c1_postfixPredicateTree, false);
-  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 2658, 2688,
+  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 3677, 3714,
                       2U, 2U, c1_b_condTxtStartIdx, c1_b_condTxtEndIdx, 3U,
                       c1_b_postfixPredicateTree, false);
-  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 3545, 3582,
-                      2U, 4U, c1_c_condTxtStartIdx, c1_c_condTxtEndIdx, 3U,
+  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 4430, 4677,
+                      3U, 4U, c1_c_condTxtStartIdx, c1_c_condTxtEndIdx, 5U,
                       c1_c_postfixPredicateTree, false);
-  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 4298, 4545,
-                      3U, 6U, c1_d_condTxtStartIdx, c1_d_condTxtEndIdx, 5U,
+  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 4931, 5060,
+                      3U, 7U, c1_d_condTxtStartIdx, c1_d_condTxtEndIdx, 5U,
                       c1_d_postfixPredicateTree, false);
-  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 4799, 4928,
-                      3U, 9U, c1_e_condTxtStartIdx, c1_e_condTxtEndIdx, 5U,
-                      c1_e_postfixPredicateTree, false);
   covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 1435,
     1452, -1, 0U);
   covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 1456,
@@ -1211,48 +1204,48 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
     1589, -1, 0U);
   covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 1837,
     1848, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 2158,
-    2182, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 6U, 2379,
-    2406, -1, 4U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 7U, 2512,
-    2540, -1, 2U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 8U, 2658,
-    2670, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 9U, 2674,
-    2688, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 10U, 3545,
-    3562, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 11U, 3566,
-    3582, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 12U, 3735,
-    3750, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 13U, 4247,
-    4262, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 14U, 4298,
-    4352, -1, 3U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 15U, 4356,
-    4408, -1, 5U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 16U, 4572,
-    4587, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 17U, 4799,
-    4814, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4818,
-    4872, -1, 3U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 4876,
-    4928, -1, 5U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 4964,
-    4990, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 5251,
-    5266, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 22U, 5461,
-    5481, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 23U, 5686,
-    5704, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 24U, 5739,
-    5757, -1, 4U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 25U, 5825,
-    5844, -1, 3U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 1913,
+    1925, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 6U, 2205,
+    2229, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 7U, 2470,
+    2497, -1, 4U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 8U, 2615,
+    2643, -1, 2U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 9U, 2785,
+    2799, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 10U, 3677,
+    3694, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 11U, 3698,
+    3714, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 12U, 3867,
+    3882, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 13U, 4379,
+    4394, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 14U, 4430,
+    4484, -1, 3U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 15U, 4488,
+    4540, -1, 5U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 16U, 4704,
+    4719, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 17U, 4931,
+    4946, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4950,
+    5004, -1, 3U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 5008,
+    5060, -1, 5U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 5096,
+    5122, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 5383,
+    5398, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 22U, 5593,
+    5613, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 23U, 5818,
+    5836, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 24U, 5871,
+    5889, -1, 4U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 25U, 5957,
+    5976, -1, 3U);
 }
 
 static void mdl_cleanup_runtime_resources_c1_flightControlSystem
@@ -1287,13 +1280,13 @@ static void sf_gateway_c1_flightControlSystem
   real_T c1_ab_a;
   real_T c1_avg_col;
   real_T c1_b_c;
+  real_T c1_b_col;
   real_T c1_b_output_mode;
+  real_T c1_b_row;
   real_T c1_b_yaw_out;
   real_T c1_bb_a;
   real_T c1_c;
   real_T c1_c_c;
-  real_T c1_c_col;
-  real_T c1_c_row;
   real_T c1_cb_a;
   real_T c1_center_one_num;
   real_T c1_col_max;
@@ -1369,12 +1362,12 @@ static void sf_gateway_c1_flightControlSystem
   int32_T c1_local_area_new_size[2];
   int32_T c1_b_tmp_size[1];
   int32_T c1_tmp_size[1];
-  int32_T c1_b_col;
   int32_T c1_b_i1;
   int32_T c1_b_k;
   int32_T c1_b_loop_ub;
-  int32_T c1_b_row;
+  int32_T c1_c_col;
   int32_T c1_c_loop_ub;
+  int32_T c1_c_row;
   int32_T c1_col;
   int32_T c1_d_loop_ub;
   int32_T c1_e_loop_ub;
@@ -1644,8 +1637,8 @@ static void sf_gateway_c1_flightControlSystem
                        !(chartInstance->c1_add_yaw == 0.0))) {
       c1_i16 = 0;
       for (c1_i17 = 0; c1_i17 < 3; c1_i17++) {
-        for (c1_i19 = 0; c1_i19 < 31; c1_i19++) {
-          c1_yaw_mat_compare[c1_i19 + c1_i16] = c1_heading_mat[(c1_i19 + c1_i16)
+        for (c1_i20 = 0; c1_i20 < 31; c1_i20++) {
+          c1_yaw_mat_compare[c1_i20 + c1_i16] = c1_heading_mat[(c1_i20 + c1_i16)
             + 403];
         }
 
@@ -1661,108 +1654,105 @@ static void sf_gateway_c1_flightControlSystem
       }
     }
 
-    c1_count = 0.0;
-    c1_avg_col = 0.0;
-    for (c1_b_row = 0; c1_b_row < 31; c1_b_row++) {
-      c1_c_row = 1.0 + (real_T)c1_b_row;
-      covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 0, 1);
-      for (c1_b_col = 0; c1_b_col < 31; c1_b_col++) {
-        c1_c_col = 1.0 + (real_T)c1_b_col;
-        covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 1, 1);
-        if (c1_c_row != (real_T)(int32_T)muDoubleScalarFloor(c1_c_row)) {
-          emlrtIntegerCheckR2012b(c1_c_row, &c1_v_emlrtDCI, &c1_st);
+    if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 8,
+                       covrtRelationalopUpdateFcn
+                       (chartInstance->c1_covrtInstance, 4U, 0U, 5U,
+                        chartInstance->c1_add_yaw, 0.0, -1, 0U,
+                        chartInstance->c1_add_yaw == 0.0))) {
+      c1_count = 0.0;
+      c1_avg_col = 0.0;
+      for (c1_c_row = 0; c1_c_row < 31; c1_c_row++) {
+        c1_b_row = 1.0 + (real_T)c1_c_row;
+        covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 0, 1);
+        for (c1_c_col = 0; c1_c_col < 31; c1_c_col++) {
+          c1_b_col = 1.0 + (real_T)c1_c_col;
+          covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 1, 1);
+          if (c1_b_row != (real_T)(int32_T)muDoubleScalarFloor(c1_b_row)) {
+            emlrtIntegerCheckR2012b(c1_b_row, &c1_v_emlrtDCI, &c1_st);
+          }
+
+          c1_i30 = (int32_T)c1_b_row;
+          if ((c1_i30 < 1) || (c1_i30 > 31)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i30, 1, 31, &c1_v_emlrtBCI, &c1_st);
+          }
+
+          if (c1_b_col != (real_T)(int32_T)muDoubleScalarFloor(c1_b_col)) {
+            emlrtIntegerCheckR2012b(c1_b_col, &c1_w_emlrtDCI, &c1_st);
+          }
+
+          c1_i35 = (int32_T)c1_b_col;
+          if ((c1_i35 < 1) || (c1_i35 > 31)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i35, 1, 31, &c1_w_emlrtBCI, &c1_st);
+          }
+
+          c1_d2 = (real_T)c1_b_center_mat[(c1_i30 + 31 * (c1_i35 - 1)) - 1];
+          if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 9,
+                             covrtRelationalopUpdateFcn
+                             (chartInstance->c1_covrtInstance, 4U, 0U, 6U, c1_d2,
+                              1.0, -1, 0U, c1_d2 == 1.0))) {
+            c1_count++;
+            c1_avg_col += c1_b_col;
+          }
+
+          _SF_MEX_LISTEN_FOR_CTRL_C(chartInstance->S);
         }
 
-        c1_i27 = (int32_T)c1_c_row;
-        if ((c1_i27 < 1) || (c1_i27 > 31)) {
-          emlrtDynamicBoundsCheckR2012b(c1_i27, 1, 31, &c1_v_emlrtBCI, &c1_st);
-        }
-
-        if (c1_c_col != (real_T)(int32_T)muDoubleScalarFloor(c1_c_col)) {
-          emlrtIntegerCheckR2012b(c1_c_col, &c1_w_emlrtDCI, &c1_st);
-        }
-
-        c1_i32 = (int32_T)c1_c_col;
-        if ((c1_i32 < 1) || (c1_i32 > 31)) {
-          emlrtDynamicBoundsCheckR2012b(c1_i32, 1, 31, &c1_w_emlrtBCI, &c1_st);
-        }
-
-        c1_d2 = (real_T)c1_b_center_mat[(c1_i27 + 31 * (c1_i32 - 1)) - 1];
-        if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 8,
-                           covrtRelationalopUpdateFcn
-                           (chartInstance->c1_covrtInstance, 4U, 0U, 5U, c1_d2,
-                            1.0, -1, 0U, c1_d2 == 1.0))) {
-          c1_count++;
-          c1_avg_col += c1_c_col;
-        }
-
+        covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 1, 0);
         _SF_MEX_LISTEN_FOR_CTRL_C(chartInstance->S);
       }
 
-      covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 1, 0);
-      _SF_MEX_LISTEN_FOR_CTRL_C(chartInstance->S);
-    }
-
-    covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 0, 0);
-    c1_x = c1_avg_col / c1_count;
-    c1_avg_col = c1_x;
-    c1_avg_col = muDoubleScalarRound(c1_avg_col);
-    c1_roll_cond = 0.0;
-    if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 9,
-                       covrtRelationalopUpdateFcn
-                       (chartInstance->c1_covrtInstance, 4U, 0U, 6U, c1_avg_col,
-                        19.0, -1, 4U, c1_avg_col > 19.0))) {
-      c1_b_output_mode = -2.0;
-      c1_roll_cond = 1.0;
-    } else if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 10,
-                covrtRelationalopUpdateFcn(chartInstance->c1_covrtInstance, 4U,
-                 0U, 7U, c1_avg_col, 13.0, -1, 2U, c1_avg_col < 13.0))) {
-      c1_b_output_mode = 2.0;
-      c1_roll_cond = 1.0;
-    }
-
-    if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 2,
+      covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 0, 0);
+      c1_x = c1_avg_col / c1_count;
+      c1_avg_col = c1_x;
+      c1_avg_col = muDoubleScalarRound(c1_avg_col);
+      c1_roll_cond = 0.0;
+      if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 10,
                          covrtRelationalopUpdateFcn
-                         (chartInstance->c1_covrtInstance, 4U, 0U, 8U,
-                          chartInstance->c1_add_yaw, 0.0, -1, 0U,
-                          chartInstance->c1_add_yaw == 0.0)) && covrtEmlCondEval
-        (chartInstance->c1_covrtInstance, 4U, 0, 3, covrtRelationalopUpdateFcn
-         (chartInstance->c1_covrtInstance, 4U, 0U, 9U, c1_roll_cond, 0.0, -1, 0U,
-          c1_roll_cond == 0.0))) {
-      covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 1, true);
-      covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 11, true);
-      c1_b_output_mode = 1.0;
-    } else {
-      covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 1, false);
-      covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 11, false);
-    }
-
-    c1_i31 = 0;
-    for (c1_i34 = 0; c1_i34 < 31; c1_i34++) {
-      for (c1_i36 = 0; c1_i36 < 31; c1_i36++) {
-        chartInstance->c1_head_canny_mat[(c1_i36 + c1_i31) + 7680] = (real_T)
-          c1_b_u[(c1_i36 + c1_i31) + 7680];
+                         (chartInstance->c1_covrtInstance, 4U, 0U, 7U,
+                          c1_avg_col, 19.0, -1, 4U, c1_avg_col > 19.0))) {
+        c1_b_output_mode = -2.0;
+        c1_roll_cond = 1.0;
+      } else if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 11,
+                  covrtRelationalopUpdateFcn(chartInstance->c1_covrtInstance, 4U,
+        0U, 8U, c1_avg_col, 13.0, -1, 2U, c1_avg_col < 13.0))) {
+        c1_b_output_mode = 2.0;
+        c1_roll_cond = 1.0;
       }
 
-      c1_i31 += 120;
+      if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 12,
+                         covrtRelationalopUpdateFcn
+                         (chartInstance->c1_covrtInstance, 4U, 0U, 9U,
+                          c1_roll_cond, 0.0, -1, 0U, c1_roll_cond == 0.0))) {
+        c1_b_output_mode = 1.0;
+      }
+    }
+
+    c1_i19 = 0;
+    for (c1_i22 = 0; c1_i22 < 31; c1_i22++) {
+      for (c1_i23 = 0; c1_i23 < 31; c1_i23++) {
+        chartInstance->c1_head_canny_mat[(c1_i23 + c1_i19) + 7680] = (real_T)
+          c1_b_u[(c1_i23 + c1_i19) + 7680];
+      }
+
+      c1_i19 += 120;
     }
   } else {
     covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 0, false);
     covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 3, false);
-    if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 4,
+    if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 2,
                          covrtRelationalopUpdateFcn
                          (chartInstance->c1_covrtInstance, 4U, 0U, 10U, (real_T)
                           c1_heading_cond, 0.0, -1, 0U, !c1_heading_cond)) &&
-        covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 5,
+        covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 3,
                          covrtRelationalopUpdateFcn
                          (chartInstance->c1_covrtInstance, 4U, 0U, 11U, (real_T)
                           c1_center_cond, 1.0, -1, 0U, (int32_T)c1_center_cond)))
     {
-      covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 2, true);
-      covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 12, true);
+      covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 1, true);
+      covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 13, true);
       c1_side_decision = 0.0;
       c1_count = 0.0;
-      if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 13,
+      if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 14,
                          covrtRelationalopUpdateFcn
                          (chartInstance->c1_covrtInstance, 4U, 0U, 12U,
                           chartInstance->c1_local_cond, 1.0, -1, 0U,
@@ -1776,29 +1766,29 @@ static void sf_gateway_c1_flightControlSystem
         c1_b2 = false;
         c1_b3 = (c1_b1 || c1_b2);
         if (c1_b3) {
-          c1_i22 = 1;
-          c1_i24 = 0;
+          c1_i25 = 1;
+          c1_i27 = 0;
         } else {
           if (c1_row_min != (real_T)(int32_T)muDoubleScalarFloor(c1_row_min)) {
             emlrtIntegerCheckR2012b(c1_row_min, &c1_emlrtDCI, &c1_st);
           }
 
-          c1_i25 = (int32_T)c1_row_min;
-          if ((c1_i25 < 1) || (c1_i25 > 120)) {
-            emlrtDynamicBoundsCheckR2012b(c1_i25, 1, 120, &c1_emlrtBCI, &c1_st);
+          c1_i28 = (int32_T)c1_row_min;
+          if ((c1_i28 < 1) || (c1_i28 > 120)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i28, 1, 120, &c1_emlrtBCI, &c1_st);
           }
 
-          c1_i22 = c1_i25;
+          c1_i25 = c1_i28;
           if (c1_row_max != (real_T)(int32_T)muDoubleScalarFloor(c1_row_max)) {
             emlrtIntegerCheckR2012b(c1_row_max, &c1_b_emlrtDCI, &c1_st);
           }
 
-          c1_i29 = (int32_T)c1_row_max;
-          if ((c1_i29 < 1) || (c1_i29 > 120)) {
-            emlrtDynamicBoundsCheckR2012b(c1_i29, 1, 120, &c1_b_emlrtBCI, &c1_st);
+          c1_i32 = (int32_T)c1_row_max;
+          if ((c1_i32 < 1) || (c1_i32 > 120)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i32, 1, 120, &c1_b_emlrtBCI, &c1_st);
           }
 
-          c1_i24 = c1_i29;
+          c1_i27 = c1_i32;
         }
 
         c1_b4 = (c1_col_min > c1_col_max);
@@ -1806,19 +1796,19 @@ static void sf_gateway_c1_flightControlSystem
         c1_b6 = false;
         c1_b7 = (c1_b5 || c1_b6);
         if (c1_b7) {
-          c1_i30 = 1;
-          c1_i33 = 0;
+          c1_i33 = 1;
+          c1_i34 = 0;
         } else {
           if (c1_col_min != (real_T)(int32_T)muDoubleScalarFloor(c1_col_min)) {
             emlrtIntegerCheckR2012b(c1_col_min, &c1_c_emlrtDCI, &c1_st);
           }
 
-          c1_i35 = (int32_T)c1_col_min;
-          if ((c1_i35 < 1) || (c1_i35 > 160)) {
-            emlrtDynamicBoundsCheckR2012b(c1_i35, 1, 160, &c1_c_emlrtBCI, &c1_st);
+          c1_i36 = (int32_T)c1_col_min;
+          if ((c1_i36 < 1) || (c1_i36 > 160)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i36, 1, 160, &c1_c_emlrtBCI, &c1_st);
           }
 
-          c1_i30 = c1_i35;
+          c1_i33 = c1_i36;
           if (c1_col_max != (real_T)(int32_T)muDoubleScalarFloor(c1_col_max)) {
             emlrtIntegerCheckR2012b(c1_col_max, &c1_d_emlrtDCI, &c1_st);
           }
@@ -1828,7 +1818,7 @@ static void sf_gateway_c1_flightControlSystem
             emlrtDynamicBoundsCheckR2012b(c1_i40, 1, 160, &c1_d_emlrtBCI, &c1_st);
           }
 
-          c1_i33 = c1_i40;
+          c1_i34 = c1_i40;
         }
 
         c1_b12 = (c1_row_min > c1_row_max);
@@ -1903,14 +1893,14 @@ static void sf_gateway_c1_flightControlSystem
           c1_c_tmp_data[c1_i53] = (c1_i48 + c1_i53) - 1;
         }
 
-        c1_c_tmp_size[0] = (c1_i24 - c1_i22) + 1;
-        c1_c_tmp_size[1] = (c1_i33 - c1_i30) + 1;
-        c1_d_loop_ub = c1_i33 - c1_i30;
+        c1_c_tmp_size[0] = (c1_i27 - c1_i25) + 1;
+        c1_c_tmp_size[1] = (c1_i34 - c1_i33) + 1;
+        c1_d_loop_ub = c1_i34 - c1_i33;
         for (c1_i54 = 0; c1_i54 <= c1_d_loop_ub; c1_i54++) {
-          c1_e_loop_ub = c1_i24 - c1_i22;
+          c1_e_loop_ub = c1_i27 - c1_i25;
           for (c1_i55 = 0; c1_i55 <= c1_e_loop_ub; c1_i55++) {
             chartInstance->c1_tmp_data[c1_i55 + c1_c_tmp_size[0] * c1_i54] =
-              (real_T)c1_b_u[((c1_i22 + c1_i55) + 120 * ((c1_i30 + c1_i54) - 1))
+              (real_T)c1_b_u[((c1_i25 + c1_i55) + 120 * ((c1_i33 + c1_i54) - 1))
               - 1];
           }
         }
@@ -2089,27 +2079,27 @@ static void sf_gateway_c1_flightControlSystem
       }
 
       for (c1_row = 0; c1_row < 120; c1_row++) {
-        c1_c_row = 1.0 + (real_T)c1_row;
+        c1_b_row = 1.0 + (real_T)c1_row;
         covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 2, 1);
         for (c1_col = 0; c1_col < 160; c1_col++) {
-          c1_c_col = 1.0 + (real_T)c1_col;
+          c1_b_col = 1.0 + (real_T)c1_col;
           covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 3, 1);
           c1_guard1 = false;
           c1_guard2 = false;
-          if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 14,
+          if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 15,
                              covrtRelationalopUpdateFcn
                              (chartInstance->c1_covrtInstance, 4U, 0U, 13U,
                               chartInstance->c1_local_cond, 0.0, -1, 0U,
                               chartInstance->c1_local_cond == 0.0))) {
             c1_b_st.site = &c1_b_emlrtRSI;
-            c1_d_a = c1_c_row - 60.0;
+            c1_d_a = c1_b_row - 60.0;
             c1_f_a = c1_d_a;
             c1_h_a = c1_f_a;
             c1_j_a = c1_h_a;
             c1_l_a = c1_j_a;
             c1_c = c1_l_a * c1_l_a;
             c1_b_st.site = &c1_b_emlrtRSI;
-            c1_n_a = c1_c_col - 80.0;
+            c1_n_a = c1_b_col - 80.0;
             c1_p_a = c1_n_a;
             c1_r_a = c1_p_a;
             c1_t_a = c1_r_a;
@@ -2118,19 +2108,19 @@ static void sf_gateway_c1_flightControlSystem
             c1_d3 = c1_c + c1_c_c;
             c1_b_st.site = &c1_b_emlrtRSI;
             c1_b_sqrt(chartInstance, &c1_b_st, &c1_d3);
-            if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 6,
+            if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 4,
                                  covrtRelationalopUpdateFcn
                                  (chartInstance->c1_covrtInstance, 4U, 0U, 14U,
                                   c1_d3, 50.0, -1, 3U, c1_d3 <= 50.0))) {
               c1_b_st.site = &c1_b_emlrtRSI;
-              c1_x_a = c1_c_row - 60.0;
+              c1_x_a = c1_b_row - 60.0;
               c1_ab_a = c1_x_a;
               c1_cb_a = c1_ab_a;
               c1_eb_a = c1_cb_a;
               c1_gb_a = c1_eb_a;
               c1_e_c = c1_gb_a * c1_gb_a;
               c1_b_st.site = &c1_b_emlrtRSI;
-              c1_ib_a = c1_c_col - 80.0;
+              c1_ib_a = c1_b_col - 80.0;
               c1_kb_a = c1_ib_a;
               c1_mb_a = c1_kb_a;
               c1_ob_a = c1_mb_a;
@@ -2139,47 +2129,47 @@ static void sf_gateway_c1_flightControlSystem
               c1_d5 = c1_e_c + c1_g_c;
               c1_b_st.site = &c1_b_emlrtRSI;
               c1_b_sqrt(chartInstance, &c1_b_st, &c1_d5);
-              if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 7,
+              if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 5,
                                    covrtRelationalopUpdateFcn
                                    (chartInstance->c1_covrtInstance, 4U, 0U, 15U,
                                     c1_d5, 30.0, -1, 5U, c1_d5 >= 30.0))) {
-                if ((c1_c_row > 50.0) && (c1_c_row < 70.0) && (c1_c_col > 70.0))
+                if ((c1_b_row > 50.0) && (c1_b_row < 70.0) && (c1_b_col > 70.0))
                 {
                   c1_b20 = true;
                 } else {
                   c1_b20 = false;
                 }
 
-                if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 8,
+                if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 6,
                                      !c1_b20)) {
-                  covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 3,
+                  covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 2,
                                    true);
-                  covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 15,
+                  covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 16,
                                  true);
-                  if (c1_c_row != (real_T)(int32_T)muDoubleScalarFloor(c1_c_row))
+                  if (c1_b_row != (real_T)(int32_T)muDoubleScalarFloor(c1_b_row))
                   {
-                    emlrtIntegerCheckR2012b(c1_c_row, &c1_bb_emlrtDCI, &c1_st);
+                    emlrtIntegerCheckR2012b(c1_b_row, &c1_bb_emlrtDCI, &c1_st);
                   }
 
-                  c1_i58 = (int32_T)c1_c_row;
+                  c1_i58 = (int32_T)c1_b_row;
                   if ((c1_i58 < 1) || (c1_i58 > 120)) {
                     emlrtDynamicBoundsCheckR2012b(c1_i58, 1, 120,
                       &c1_bb_emlrtBCI, &c1_st);
                   }
 
-                  if (c1_c_col != (real_T)(int32_T)muDoubleScalarFloor(c1_c_col))
+                  if (c1_b_col != (real_T)(int32_T)muDoubleScalarFloor(c1_b_col))
                   {
-                    emlrtIntegerCheckR2012b(c1_c_col, &c1_cb_emlrtDCI, &c1_st);
+                    emlrtIntegerCheckR2012b(c1_b_col, &c1_cb_emlrtDCI, &c1_st);
                   }
 
-                  c1_i62 = (int32_T)c1_c_col;
+                  c1_i62 = (int32_T)c1_b_col;
                   if ((c1_i62 < 1) || (c1_i62 > 160)) {
                     emlrtDynamicBoundsCheckR2012b(c1_i62, 1, 160,
                       &c1_cb_emlrtBCI, &c1_st);
                   }
 
                   c1_d8 = (real_T)c1_b_u[(c1_i58 + 120 * (c1_i62 - 1)) - 1];
-                  if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 16,
+                  if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 17,
                                      covrtRelationalopUpdateFcn
                                      (chartInstance->c1_covrtInstance, 4U, 0U,
                                       16U, c1_d8, 1.0, -1, 0U, c1_d8 == 1.0))) {
@@ -2195,7 +2185,7 @@ static void sf_gateway_c1_flightControlSystem
                         &c1_q_emlrtBCI, &c1_st);
                     }
 
-                    c1_d10 = muDoubleScalarRound(c1_c_row);
+                    c1_d10 = muDoubleScalarRound(c1_b_row);
                     c1_b_covSaturation = false;
                     if (c1_d10 < 256.0) {
                       if (c1_d10 >= 0.0) {
@@ -2203,12 +2193,12 @@ static void sf_gateway_c1_flightControlSystem
                       } else {
                         c1_b_covSaturation = true;
                         c1_u1 = 0U;
-                        sf_data_saturate_error(chartInstance->S, 1U, 4656, 25);
+                        sf_data_saturate_error(chartInstance->S, 1U, 4788, 25);
                       }
                     } else if (c1_d10 >= 256.0) {
                       c1_b_covSaturation = true;
                       c1_u1 = MAX_uint8_T;
-                      sf_data_saturate_error(chartInstance->S, 1U, 4656, 25);
+                      sf_data_saturate_error(chartInstance->S, 1U, 4788, 25);
                     } else {
                       c1_u1 = 0U;
                     }
@@ -2227,7 +2217,7 @@ static void sf_gateway_c1_flightControlSystem
                         &c1_r_emlrtBCI, &c1_st);
                     }
 
-                    c1_d12 = muDoubleScalarRound(c1_c_col);
+                    c1_d12 = muDoubleScalarRound(c1_b_col);
                     c1_d_covSaturation = false;
                     if (c1_d12 < 256.0) {
                       if (c1_d12 >= 0.0) {
@@ -2235,12 +2225,12 @@ static void sf_gateway_c1_flightControlSystem
                       } else {
                         c1_d_covSaturation = true;
                         c1_u3 = 0U;
-                        sf_data_saturate_error(chartInstance->S, 1U, 4707, 25);
+                        sf_data_saturate_error(chartInstance->S, 1U, 4839, 25);
                       }
                     } else if (c1_d12 >= 256.0) {
                       c1_d_covSaturation = true;
                       c1_u3 = MAX_uint8_T;
-                      sf_data_saturate_error(chartInstance->S, 1U, 4707, 25);
+                      sf_data_saturate_error(chartInstance->S, 1U, 4839, 25);
                     } else {
                       c1_u3 = 0U;
                     }
@@ -2258,19 +2248,19 @@ static void sf_gateway_c1_flightControlSystem
             } else {
               c1_guard2 = true;
             }
-          } else if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 9,
+          } else if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 7,
                       covrtRelationalopUpdateFcn(chartInstance->c1_covrtInstance,
             4U, 0U, 17U, chartInstance->c1_local_cond, 1.0, -1, 0U,
                        chartInstance->c1_local_cond == 1.0))) {
             c1_b_st.site = &c1_c_emlrtRSI;
-            c1_e_a = c1_c_row - 60.0;
+            c1_e_a = c1_b_row - 60.0;
             c1_g_a = c1_e_a;
             c1_i_a = c1_g_a;
             c1_k_a = c1_i_a;
             c1_m_a = c1_k_a;
             c1_b_c = c1_m_a * c1_m_a;
             c1_b_st.site = &c1_c_emlrtRSI;
-            c1_o_a = c1_c_col - 80.0;
+            c1_o_a = c1_b_col - 80.0;
             c1_q_a = c1_o_a;
             c1_s_a = c1_q_a;
             c1_u_a = c1_s_a;
@@ -2279,19 +2269,19 @@ static void sf_gateway_c1_flightControlSystem
             c1_d4 = c1_b_c + c1_d_c;
             c1_b_st.site = &c1_c_emlrtRSI;
             c1_b_sqrt(chartInstance, &c1_b_st, &c1_d4);
-            if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 10,
+            if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 8,
                                  covrtRelationalopUpdateFcn
                                  (chartInstance->c1_covrtInstance, 4U, 0U, 18U,
                                   c1_d4, 50.0, -1, 3U, c1_d4 <= 50.0))) {
               c1_b_st.site = &c1_c_emlrtRSI;
-              c1_y_a = c1_c_row - 60.0;
+              c1_y_a = c1_b_row - 60.0;
               c1_bb_a = c1_y_a;
               c1_db_a = c1_bb_a;
               c1_fb_a = c1_db_a;
               c1_hb_a = c1_fb_a;
               c1_f_c = c1_hb_a * c1_hb_a;
               c1_b_st.site = &c1_c_emlrtRSI;
-              c1_jb_a = c1_c_col - 80.0;
+              c1_jb_a = c1_b_col - 80.0;
               c1_lb_a = c1_jb_a;
               c1_nb_a = c1_lb_a;
               c1_pb_a = c1_nb_a;
@@ -2300,29 +2290,29 @@ static void sf_gateway_c1_flightControlSystem
               c1_d6 = c1_f_c + c1_h_c;
               c1_b_st.site = &c1_c_emlrtRSI;
               c1_b_sqrt(chartInstance, &c1_b_st, &c1_d6);
-              if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 11,
+              if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 9,
                                    covrtRelationalopUpdateFcn
                                    (chartInstance->c1_covrtInstance, 4U, 0U, 19U,
                                     c1_d6, 30.0, -1, 5U, c1_d6 >= 30.0))) {
-                covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 4, true);
-                covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 17, true);
-                if (c1_c_row != (real_T)(int32_T)muDoubleScalarFloor(c1_c_row))
+                covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 3, true);
+                covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 18, true);
+                if (c1_b_row != (real_T)(int32_T)muDoubleScalarFloor(c1_b_row))
                 {
-                  emlrtIntegerCheckR2012b(c1_c_row, &c1_y_emlrtDCI, &c1_st);
+                  emlrtIntegerCheckR2012b(c1_b_row, &c1_y_emlrtDCI, &c1_st);
                 }
 
-                c1_i56 = (int32_T)c1_c_row;
+                c1_i56 = (int32_T)c1_b_row;
                 if ((c1_i56 < 1) || (c1_i56 > 120)) {
                   emlrtDynamicBoundsCheckR2012b(c1_i56, 1, 120, &c1_y_emlrtBCI,
                     &c1_st);
                 }
 
-                if (c1_c_col != (real_T)(int32_T)muDoubleScalarFloor(c1_c_col))
+                if (c1_b_col != (real_T)(int32_T)muDoubleScalarFloor(c1_b_col))
                 {
-                  emlrtIntegerCheckR2012b(c1_c_col, &c1_ab_emlrtDCI, &c1_st);
+                  emlrtIntegerCheckR2012b(c1_b_col, &c1_ab_emlrtDCI, &c1_st);
                 }
 
-                c1_i60 = (int32_T)c1_c_col;
+                c1_i60 = (int32_T)c1_b_col;
                 if ((c1_i60 < 1) || (c1_i60 > 160)) {
                   emlrtDynamicBoundsCheckR2012b(c1_i60, 1, 160, &c1_ab_emlrtBCI,
                     &c1_st);
@@ -2330,12 +2320,12 @@ static void sf_gateway_c1_flightControlSystem
 
                 c1_d7 = chartInstance->c1_find_yaw_mat[(c1_i56 + 120 * (c1_i60 -
                   1)) - 1];
-                if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 18,
+                if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 19,
                                    covrtRelationalopUpdateFcn
                                    (chartInstance->c1_covrtInstance, 4U, 0U, 20U,
                                     c1_d7, 1.0, -1, 0U, c1_d7 == 1.0))) {
                   c1_count++;
-                  c1_side_decision += c1_c_col;
+                  c1_side_decision += c1_b_col;
                   if (c1_count != (real_T)(int32_T)muDoubleScalarFloor(c1_count))
                   {
                     emlrtIntegerCheckR2012b(c1_count, &c1_s_emlrtDCI, &c1_st);
@@ -2347,7 +2337,7 @@ static void sf_gateway_c1_flightControlSystem
                       &c1_s_emlrtBCI, &c1_st);
                   }
 
-                  c1_d9 = muDoubleScalarRound(c1_c_row);
+                  c1_d9 = muDoubleScalarRound(c1_b_row);
                   c1_covSaturation = false;
                   if (c1_d9 < 256.0) {
                     if (c1_d9 >= 0.0) {
@@ -2355,12 +2345,12 @@ static void sf_gateway_c1_flightControlSystem
                     } else {
                       c1_covSaturation = true;
                       c1_c_u = 0U;
-                      sf_data_saturate_error(chartInstance->S, 1U, 5108, 25);
+                      sf_data_saturate_error(chartInstance->S, 1U, 5240, 25);
                     }
                   } else if (c1_d9 >= 256.0) {
                     c1_covSaturation = true;
                     c1_c_u = MAX_uint8_T;
-                    sf_data_saturate_error(chartInstance->S, 1U, 5108, 25);
+                    sf_data_saturate_error(chartInstance->S, 1U, 5240, 25);
                   } else {
                     c1_c_u = 0U;
                   }
@@ -2379,7 +2369,7 @@ static void sf_gateway_c1_flightControlSystem
                       &c1_t_emlrtBCI, &c1_st);
                   }
 
-                  c1_d11 = muDoubleScalarRound(c1_c_col);
+                  c1_d11 = muDoubleScalarRound(c1_b_col);
                   c1_c_covSaturation = false;
                   if (c1_d11 < 256.0) {
                     if (c1_d11 >= 0.0) {
@@ -2387,12 +2377,12 @@ static void sf_gateway_c1_flightControlSystem
                     } else {
                       c1_c_covSaturation = true;
                       c1_u2 = 0U;
-                      sf_data_saturate_error(chartInstance->S, 1U, 5155, 25);
+                      sf_data_saturate_error(chartInstance->S, 1U, 5287, 25);
                     }
                   } else if (c1_d11 >= 256.0) {
                     c1_c_covSaturation = true;
                     c1_u2 = MAX_uint8_T;
-                    sf_data_saturate_error(chartInstance->S, 1U, 5155, 25);
+                    sf_data_saturate_error(chartInstance->S, 1U, 5287, 25);
                   } else {
                     c1_u2 = 0U;
                   }
@@ -2412,13 +2402,13 @@ static void sf_gateway_c1_flightControlSystem
           }
 
           if (c1_guard2) {
-            covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 3, false);
-            covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 15, false);
+            covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 2, false);
+            covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 16, false);
           }
 
           if (c1_guard1) {
-            covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 4, false);
-            covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 17, false);
+            covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 3, false);
+            covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 18, false);
           }
 
           _SF_MEX_LISTEN_FOR_CTRL_C(chartInstance->S);
@@ -2429,7 +2419,7 @@ static void sf_gateway_c1_flightControlSystem
       }
 
       covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 2, 0);
-      if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 19,
+      if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 20,
                          covrtRelationalopUpdateFcn
                          (chartInstance->c1_covrtInstance, 4U, 0U, 21U,
                           chartInstance->c1_local_cond, 1.0, -1, 0U,
@@ -2449,14 +2439,14 @@ static void sf_gateway_c1_flightControlSystem
             emlrtIntegerCheckR2012b(c1_k, &c1_x_emlrtDCI, &c1_st);
           }
 
-          c1_i28 = (int32_T)c1_k;
-          if ((c1_i28 < 1) || (c1_i28 > 1000)) {
-            emlrtDynamicBoundsCheckR2012b(c1_i28, 1, 1000, &c1_x_emlrtBCI,
+          c1_i31 = (int32_T)c1_k;
+          if ((c1_i31 < 1) || (c1_i31 > 1000)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i31, 1, 1000, &c1_x_emlrtBCI,
               &c1_st);
           }
 
-          c1_d1 = (real_T)c1_local_area[(c1_i28 - 1) << 1];
-          if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 20,
+          c1_d1 = (real_T)c1_local_area[(c1_i31 - 1) << 1];
+          if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 21,
                              covrtRelationalopUpdateFcn
                              (chartInstance->c1_covrtInstance, 4U, 0U, 22U,
                               c1_d1, 0.0, -1, 0U, c1_d1 == 0.0))) {
@@ -2510,19 +2500,19 @@ static void sf_gateway_c1_flightControlSystem
         chartInstance->c1_local_array[c1_i46] = c1_b_dv[c1_i46];
       }
 
-      if (!covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 21,
+      if (!covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 22,
                           covrtRelationalopUpdateFcn
                           (chartInstance->c1_covrtInstance, 4U, 0U, 23U,
                            c1_side_decision, 0.0, -1, 0U, c1_side_decision ==
                            0.0))) {
-        if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 22,
+        if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 23,
                            covrtRelationalopUpdateFcn
                            (chartInstance->c1_covrtInstance, 4U, 0U, 24U,
                             c1_side_decision, 80.0, -1, 4U, c1_side_decision >
                             80.0))) {
           c1_b_yaw_out = 1.0;
           chartInstance->c1_add_yaw = 1.0;
-        } else if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 23,
+        } else if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 24,
                     covrtRelationalopUpdateFcn(chartInstance->c1_covrtInstance,
                      4U, 0U, 25U, c1_side_decision, 80.0, -1, 3U,
                      c1_side_decision <= 80.0))) {
@@ -2531,8 +2521,8 @@ static void sf_gateway_c1_flightControlSystem
         }
       }
     } else {
-      covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 2, false);
-      covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 12, false);
+      covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 1, false);
+      covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 13, false);
     }
   }
 
@@ -2545,26 +2535,26 @@ static void sf_gateway_c1_flightControlSystem
       chartInstance->c1_head_canny_mat[c1_i18];
   }
 
-  for (c1_i20 = 0; c1_i20 < 19200; c1_i20++) {
-    (*chartInstance->c1_b_yaw_mat)[c1_i20] = chartInstance->c1_yaw_mat[c1_i20];
+  for (c1_i21 = 0; c1_i21 < 19200; c1_i21++) {
+    (*chartInstance->c1_b_yaw_mat)[c1_i21] = chartInstance->c1_yaw_mat[c1_i21];
   }
 
   *chartInstance->c1_output_mode = c1_b_output_mode;
   *chartInstance->c1_yaw_out = c1_b_yaw_out;
   c1_do_animation_call_c1_flightControlSystem(chartInstance);
-  for (c1_i21 = 0; c1_i21 < 961; c1_i21++) {
+  for (c1_i24 = 0; c1_i24 < 961; c1_i24++) {
     covrtSigUpdateFcn(chartInstance->c1_covrtInstance, 1U, (real_T)
-                      (*chartInstance->c1_center_mat)[c1_i21]);
-  }
-
-  for (c1_i23 = 0; c1_i23 < 19200; c1_i23++) {
-    covrtSigUpdateFcn(chartInstance->c1_covrtInstance, 2U,
-                      (*chartInstance->c1_b_head_canny_mat)[c1_i23]);
+                      (*chartInstance->c1_center_mat)[c1_i24]);
   }
 
   for (c1_i26 = 0; c1_i26 < 19200; c1_i26++) {
+    covrtSigUpdateFcn(chartInstance->c1_covrtInstance, 2U,
+                      (*chartInstance->c1_b_head_canny_mat)[c1_i26]);
+  }
+
+  for (c1_i29 = 0; c1_i29 < 19200; c1_i29++) {
     covrtSigUpdateFcn(chartInstance->c1_covrtInstance, 3U,
-                      (*chartInstance->c1_b_yaw_mat)[c1_i26]);
+                      (*chartInstance->c1_b_yaw_mat)[c1_i29]);
   }
 
   covrtSigUpdateFcn(chartInstance->c1_covrtInstance, 4U,
@@ -3675,14 +3665,14 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_qY > c1_q0) {
     c1_covSaturation = true;
     c1_qY = 0U;
-    sf_data_saturate_error(chartInstance->S, 1U, 6031, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 6163, 38);
   }
 
   c1_b_u = c1_qY;
   if (c1_b_u > 255U) {
     c1_covSaturation = true;
     c1_b_u = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 6031, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 6163, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 4, 0,
@@ -3707,7 +3697,7 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_u1 > 255U) {
     c1_b_covSaturation = true;
     c1_u1 = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 6127, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 6259, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 5, 0,
@@ -3733,14 +3723,14 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_b_qY > c1_b_q0) {
     c1_c_covSaturation = true;
     c1_b_qY = 0U;
-    sf_data_saturate_error(chartInstance->S, 1U, 6198, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 6330, 38);
   }
 
   c1_u2 = c1_b_qY;
   if (c1_u2 > 255U) {
     c1_c_covSaturation = true;
     c1_u2 = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 6198, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 6330, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 6, 0,
@@ -3765,7 +3755,7 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_u3 > 255U) {
     c1_d_covSaturation = true;
     c1_u3 = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 6269, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 6401, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 7, 0,
@@ -4199,10 +4189,10 @@ static void init_simulink_io_address(SFc1_flightControlSystemInstanceStruct
 /* SFunction Glue Code */
 void sf_c1_flightControlSystem_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(536200373U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3150366336U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(507075309U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2133860028U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(174781675U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(889808077U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(3039670101U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(1688729920U);
 }
 
 mxArray *sf_c1_flightControlSystem_third_party_uses_info(void)
@@ -4269,7 +4259,7 @@ static const mxArray *sf_get_sim_state_info_c1_flightControlSystem(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "sUFBBxaDUFX6ekBduQGL0pB";
+  return "sIo9ZbphEtSQ8f1wt60e3PH";
 }
 
 static void sf_opaque_initialize_c1_flightControlSystem(void *chartInstanceVar)
@@ -4376,34 +4366,34 @@ const char* sf_c1_flightControlSystem_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [25] = {
-    "eNrtWctuI0UUrUSZQCYzURZo2IxE2CE0oCAQYqQROH4NlhwSaCc8hGRVuq/dJVdX9VRV2zFCiAV",
-    "fwIJv4DP4BJYsQCz4AZYsudXd9lgdk3TZQTEztOR0yva5t859V5ustQ4JXjv4+vFVQjbx/iK+1k",
-    "l23crXazOv7P0N8ihff71NiC8D6IPwkl6PnRO3SyTRMVU00sT9EjSCT0BLnhgmRUv0ZHksEz1QI",
-    "HwUEEtlnPRqFiWciUEzEb7VrD8NmR96oUx4UEWBNDgSfPxPeuPEHKPGOlPgmyZAYEIlk37Y5LR/",
-    "uRWUGdVC8Ac6iZxtpcF4SWyp6sOEGxZzaJyD3xLaULSCvoKvZ6iBmjl3M7Llq70JWkYxZ1SUt3V",
-    "ItQcxRoeBkzjAv0eJQeuVwvohVaYKIR2CbrNBql0KKKWdafz2GRPUSMUob0S8ZqWV5HvMkeMhpg",
-    "R39RHyrSqgg1gyYRwTwmuinRuCnnGow1nSd9TrwZPEZsMpgxEoN//2anIIivbhSLjtOfVR4zwNy",
-    "mkulcQaFsEpVQc+xq6GwK1uYNJpj2I4QgfFOGEhNXFLdxQbYmy41rqWTf+Fal0SZdGvF8KmehtD",
-    "cI6rqd6mL2qUc+2G7ci4DUPgqf46NXQBbKbfAaw1CzoSo8NWG8eKlQiGmZBja1IErHxUDguotLF",
-    "9hE2qBJxFNg0gQDNPtz4VdFUeJdrIqIYlp95ul9R3EdsSBlSP+lC6xyjKNOCG07hy1BswbRMJ0W",
-    "glk7IsLSHLwYWgRPcSUR9JNUAbuzazp7aymeCGhqCPhdlAWuQaGN2nlCcl9xzpPuYPhseJxirrp",
-    "hexNn8WAvvUDyGwnZNxOMQ6iwLKuljbln+AbIfMjOugfcXispmUYEHHpmut1BnHcCIGQo5EU8nI",
-    "yyevS+IKAKsGVYKJfhVbuBo3cfPldq3gSSet7q5DjrUzNZye2dh4DAK7oeVqpwbqY1Y1BI7IuKF",
-    "lsB77CocYoZk22KjHWavP+p6d3z8kT+f3jTnz+72Z+X03X/tvdXuc9UNbaIyS3Buj7CiTtz8j70",
-    "6J88BkH5fhyAUcmeIm99dm8Gtz9JKZe1Hf1vrl+1zH/9ZyXGUGd7egZ6OA28xtNvr1rvy9Pvrum",
-    "x8e/PHb9p3vl9H/022389ZOvr4/mZumVXp4oZCViYeXC/Fg1/qkWa2e0/pJ87N3YVANko8ft/fj",
-    "aipv94r9bhX2O3l/z85qmMRpTVB+K8jPbXZNk+w8YeW/N7PfzSvssTUTT4T8+cFy+JcqxXiYZ6/",
-    "bBXvZtQ+2ZXYxfS/G8c3xuV+Kz06Bj12HeHLt+lSIccZpNfi8XorPdoGPXct0cOxGWFhXyD9vVo",
-    "r4eXxeKPCx6zEdpY5ZDR4PluKBvrkmHruV5fAX9ZflQYOgi1xS/M/ErZ6v52uL4YSReE5fmsdjv",
-    "cBjd0Jij1ayf86uxR6r4pdF8p5Ln/IuVYqOp3Ju3D+VL3P/dJ8r/8zrm5l/fDzdktXxz7enuX8+",
-    "XxH/7F3LPo6v8M9ewT976TO9LrUnN+jOPyHsXMP87Yoj/+NWArf2HPIrc/5dFHeL/Hvn7evELcv",
-    "P9Vz/X//+/iV1lxS+v7vCPIr3RZ/vrBqvXxznjVfy9fvT3xdqIePBnCec+cdtoL15nz4j8f2Xo/",
-    "0mz5sa1n75D9FfvH0gKB9rlj2enbx9rOzvidOPFFA9/7nxTfSTZc4lIyYCOdJvPHzn4VL96W91i",
-    "l4P",
+    "eNrtWctuI0UUrUSZQGYgygIxLEYibNAIAcowCE0kHk78YCwlJNBOEKORrHL3tbvk6qqeqmo7Riz",
+    "Y8QXs+AC+ALHkE1iyYMkHsGTBglvdbY/VMUmXHRTD0JLTKdvn3jr3XW2y0jwkeG3i6/vXCFnH+/",
+    "P4WiXZdSNfr0y9svfXyPv5+qtbhPgygB4IL+l22Rlxu0QSHVNFI03cL0Ej+Ay05IlhUjRFV5bHM",
+    "tEFBcJHAbFUxkmvZlHCmeg3EuFbzfrzkPmhF8qEB/sokAZHgo/+Tm+cmGPUWGMKfNMACEyoZNIL",
+    "G5z2LraCMsNqCH5fJ5GzrTQYL4ktVX2YcMNiDvUz8JtCG4pW0Jfw9Qw1UDVnbka2fLU3Rsso5oy",
+    "K8rYOqfYgxugwcBIH+PcoMWi9Ulg/pMrsQ0gHoA9YP9UuBZTSzjR+u8MENVIxyusRr1ppJfkec+",
+    "R4iCnBXX2EfPcV0H4smTCOCeE10M51QTscatBJeo56PXiS2Gw4ZTAE5ebfblUOQNEeHAm3Pac+q",
+    "p+lQTnJpZJYwyI4pWrPx9jVELjVDUw67VEMR2ihGCcspCZu6pZiA4wN11rXtOk/V61Loiz69VzY",
+    "VG99AM5xNdHb8EWVcq7dsC0ZH8AAeKq/Rg2dA5vpdwBrzYKWxOiw1caxYiWCYSbk2KoUASsflYM",
+    "CKm1sn2CTKgFnkU0DCNDMk61PBF2WR4k2MqpiyakdHJTUdx7bFAZUl/pQuscoyjTghtO4ctQbMG",
+    "0TCdFoJZOyLC0hy8G5oER3E1EbStVHG7s2s6e2spnghoagh4XZQFrk6hjdp5QnJfcc6R7mD4bHi",
+    "cYq66YXsTZ/5gL71A8hsJ2TcTjEOosCyrpY25a/h2wHzIxqoH3F4rKZlGBBx6ZrrdQaxXAi+kIO",
+    "RUPJyMsnrwviCgCrBlWCid4+tnA1auDmy+1awZNWWt1dhxxrZ2o47djY+BgEdkPL1U4N1Mesqgs",
+    "ckXFDi2A99iUOMUIzbbBRj7JWn/U9O78/JE/n97UZ8/vLU/P7Vr7277W7nPVCW2iMktwboewok7",
+    "czJe+FEueB8T4uwpFzODLBje93p/ArM/SSqXtR38bqxftcxf9WclxlCvdiQc9aAbee2+y3ux98e",
+    "/vxK3/++MOvr8fvfPfNIvp/uul23trM13fGc9OkSg/OFbIy8XC7EA92rZty91EnDuvG+/RB997Q",
+    "vLcD948fpvK2LtnvRmG/4/e37ayGSZzWBOU3g/zcZtc0yc4TVv6Dqf2uX2KPjal4IuT3jxbDv1Q",
+    "pxsMse90s2MuufbAts43pez6Or4/PnVJ8Ngt87DrEk2vbp0KMMk7LweeNUnxuFfjYtUwHx3aEhX",
+    "WJ/PN2pYifxee5Ah+7HtFh6pjl4PHmQjzQN1fEY6uyGP68/rI8aBC0kUuK/5m41fPVfG0xnDASz",
+    "+hLs3isFnhsjUls00r2T+dK7LEsfpkn77n0KW9TpehoIufa/VN5nPun/Uz5Z1bfzPzj4+mWLI9/",
+    "vj7N/fPFkvhn+0r2cXyJf7YL/tlOn+m1qT25QXv2CWHzCuZvVxz5H7cUuJVnkF+Z8++8uBvknzt",
+    "vXyVuUX6u5/p/+/d3Lqi7pPD9rSXmUbzP+3xn2Xj94jhvvJqvP5z8vlANGQ9mPOHMPz4A2p316X",
+    "8kvv9wtN/4eVPd2i//IfrR/T1B+Uiz7PHs+O1jZX9PnHykgOrZz42vo58sci4ZMhHIoX5r993dh",
+    "frTX+v9Xi8=",
     ""
   };
 
-  static char newstr [1729] = "";
+  static char newstr [1737] = "";
   newstr[0] = '\0';
   for (i = 0; i < 25; i++) {
     strcat(newstr, encStrCodegen[i]);
@@ -4416,10 +4406,10 @@ static void mdlSetWorkWidths_c1_flightControlSystem(SimStruct *S)
 {
   const char* newstr = sf_c1_flightControlSystem_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(1863179383U));
-  ssSetChecksum1(S,(2222408927U));
-  ssSetChecksum2(S,(3811350142U));
-  ssSetChecksum3(S,(2450263005U));
+  ssSetChecksum0(S,(2503813348U));
+  ssSetChecksum1(S,(4229454871U));
+  ssSetChecksum2(S,(651998904U));
+  ssSetChecksum3(S,(2275160688U));
 }
 
 static void mdlRTW_c1_flightControlSystem(SimStruct *S)
