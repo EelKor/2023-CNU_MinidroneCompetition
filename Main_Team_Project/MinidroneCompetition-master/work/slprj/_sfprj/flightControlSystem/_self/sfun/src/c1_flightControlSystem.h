@@ -1002,13 +1002,13 @@ typedef struct {
   real_T c1_add_yaw;
   boolean_T c1_add_yaw_not_empty;
   uint32_T c1_mlFcnLineNumber;
-  void *c1_fcnDataPtrs[47];
-  char_T *c1_dataNames[47];
+  void *c1_fcnDataPtrs[54];
+  char_T *c1_dataNames[54];
   uint32_T c1_numFcnVars;
-  uint32_T c1_ssIds[47];
-  uint32_T c1_statuses[47];
-  void *c1_outMexFcns[47];
-  void *c1_inMexFcns[47];
+  uint32_T c1_ssIds[54];
+  uint32_T c1_statuses[54];
+  void *c1_outMexFcns[54];
+  void *c1_inMexFcns[54];
   real_T c1_yaw_mat[19200];
   real_T c1_find_yaw_mat[19200];
   real_T c1_head_canny_mat[19200];
@@ -1025,7 +1025,7 @@ typedef struct {
   boolean_T (*c1_center_mat)[961];
   real_T (*c1_b_head_canny_mat)[19200];
   real_T (*c1_b_yaw_mat)[19200];
-  real_T *c1_x_out;
+  real_T *c1_output_mode;
   real_T *c1_yaw_out;
 } SFc1_flightControlSystemInstanceStruct;
 
