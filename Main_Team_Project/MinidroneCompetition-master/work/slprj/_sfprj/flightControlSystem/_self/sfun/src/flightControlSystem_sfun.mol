@@ -4,6 +4,7 @@ flightControlSystem_sfun_registry.obj
 half_type.obj
 
 
+"C:\Program Files\MATLAB\R2022b\extern\lib\win64\mingw64\libmwbwlookup_tbb.lib" 
 "C:\Program Files\MATLAB\R2022b\extern\lib\win64\mingw64\libmwcannythresholding_tbb.lib" 
 "-LC:\Program Files\MATLAB\R2022b\extern\lib\win64\mingw64" "-llibmwippfilter" 
 "C:\Program Files\MATLAB\R2022b\extern\lib\win64\mingw64\libmwgetnumcores.lib" 

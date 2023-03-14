@@ -142,6 +142,34 @@ typedef struct c1_tag_yMfj6323Zqv19VFnWGoHjH c1_cell_17;
 
 #endif                                 /* typedef_c1_cell_17 */
 
+#ifndef typedef_c1_cell_19
+#define typedef_c1_cell_19
+
+typedef struct c1_tag_1Arln2w5g2jgtSu0nxxuyG c1_cell_19;
+
+#endif                                 /* typedef_c1_cell_19 */
+
+#ifndef typedef_c1_cell_18
+#define typedef_c1_cell_18
+
+typedef struct c1_tag_aNmOBlUL9eIe9DuJb7zyUC c1_cell_18;
+
+#endif                                 /* typedef_c1_cell_18 */
+
+#ifndef typedef_c1_cell_20
+#define typedef_c1_cell_20
+
+typedef struct c1_tag_9SoYFOHTFNVnYR44IKzdJH c1_cell_20;
+
+#endif                                 /* typedef_c1_cell_20 */
+
+#ifndef typedef_c1_cell_21
+#define typedef_c1_cell_21
+
+typedef struct c1_tag_NN6thEF39FWL7a4zhq3UrE c1_cell_21;
+
+#endif                                 /* typedef_c1_cell_21 */
+
 #ifndef typedef_c1_s_tP4ysjhyvuYk36JuHDg8bD
 #define typedef_c1_s_tP4ysjhyvuYk36JuHDg8bD
 
@@ -267,6 +295,34 @@ typedef struct c1_tag_u4ui3JwwaZ1jYzDQeNl7gB c1_s_u4ui3JwwaZ1jYzDQeNl7gB;
 typedef struct c1_tag_lv60kHidgCVN68cHDjBCkF c1_s_lv60kHidgCVN68cHDjBCkF;
 
 #endif                                 /* typedef_c1_s_lv60kHidgCVN68cHDjBCkF */
+
+#ifndef typedef_c1_s_QPZY2mznR0KV8lbnnjx9y
+#define typedef_c1_s_QPZY2mznR0KV8lbnnjx9y
+
+typedef struct c1_tag_QPZY2mznR0KV8lbnnjx9y c1_s_QPZY2mznR0KV8lbnnjx9y;
+
+#endif                                 /* typedef_c1_s_QPZY2mznR0KV8lbnnjx9y */
+
+#ifndef typedef_c1_s_sL5r3tnOjefTceie37OHrH
+#define typedef_c1_s_sL5r3tnOjefTceie37OHrH
+
+typedef struct c1_tag_sL5r3tnOjefTceie37OHrH c1_s_sL5r3tnOjefTceie37OHrH;
+
+#endif                                 /* typedef_c1_s_sL5r3tnOjefTceie37OHrH */
+
+#ifndef typedef_c1_s_fnNBZRcViWKJIkyfK13VxD
+#define typedef_c1_s_fnNBZRcViWKJIkyfK13VxD
+
+typedef struct c1_tag_fnNBZRcViWKJIkyfK13VxD c1_s_fnNBZRcViWKJIkyfK13VxD;
+
+#endif                                 /* typedef_c1_s_fnNBZRcViWKJIkyfK13VxD */
+
+#ifndef typedef_c1_s_IPBrlHl0TINQKXLbyKcqRF
+#define typedef_c1_s_IPBrlHl0TINQKXLbyKcqRF
+
+typedef struct c1_tag_IPBrlHl0TINQKXLbyKcqRF c1_s_IPBrlHl0TINQKXLbyKcqRF;
+
+#endif                                 /* typedef_c1_s_IPBrlHl0TINQKXLbyKcqRF */
 
 /* Type Definitions */
 #ifndef struct_c1_tag_0K68mFBjQDo1WRxKPpRFgD
@@ -673,6 +729,102 @@ typedef struct c1_tag_yMfj6323Zqv19VFnWGoHjH c1_cell_17;
 
 #endif                                 /* typedef_c1_cell_17 */
 
+#ifndef struct_c1_tag_1Arln2w5g2jgtSu0nxxuyG
+#define struct_c1_tag_1Arln2w5g2jgtSu0nxxuyG
+
+struct c1_tag_1Arln2w5g2jgtSu0nxxuyG
+{
+  char_T f1[4];
+  char_T f2[8];
+  char_T f3[6];
+};
+
+#endif                                 /* struct_c1_tag_1Arln2w5g2jgtSu0nxxuyG */
+
+#ifndef typedef_c1_cell_19
+#define typedef_c1_cell_19
+
+typedef struct c1_tag_1Arln2w5g2jgtSu0nxxuyG c1_cell_19;
+
+#endif                                 /* typedef_c1_cell_19 */
+
+#ifndef struct_c1_tag_aNmOBlUL9eIe9DuJb7zyUC
+#define struct_c1_tag_aNmOBlUL9eIe9DuJb7zyUC
+
+struct c1_tag_aNmOBlUL9eIe9DuJb7zyUC
+{
+  char_T f1[6];
+  char_T f2[12];
+  char_T f3[6];
+  char_T f4[5];
+  char_T f5[5];
+  char_T f6[4];
+  char_T f7[6];
+  char_T f8[9];
+  char_T f9[5];
+  char_T f10[6];
+  char_T f11[4];
+  char_T f12[6];
+  char_T f13[8];
+  char_T f14[6];
+  char_T f15[6];
+  char_T f16[4];
+  char_T f17[6];
+  char_T f18[6];
+  char_T f19[8];
+  char_T f20[4];
+  char_T f21[7];
+  char_T f22[4];
+  char_T f23[6];
+};
+
+#endif                                 /* struct_c1_tag_aNmOBlUL9eIe9DuJb7zyUC */
+
+#ifndef typedef_c1_cell_18
+#define typedef_c1_cell_18
+
+typedef struct c1_tag_aNmOBlUL9eIe9DuJb7zyUC c1_cell_18;
+
+#endif                                 /* typedef_c1_cell_18 */
+
+#ifndef struct_c1_tag_9SoYFOHTFNVnYR44IKzdJH
+#define struct_c1_tag_9SoYFOHTFNVnYR44IKzdJH
+
+struct c1_tag_9SoYFOHTFNVnYR44IKzdJH
+{
+  char_T f1[2];
+  char_T f2[9];
+  char_T f3[4];
+};
+
+#endif                                 /* struct_c1_tag_9SoYFOHTFNVnYR44IKzdJH */
+
+#ifndef typedef_c1_cell_20
+#define typedef_c1_cell_20
+
+typedef struct c1_tag_9SoYFOHTFNVnYR44IKzdJH c1_cell_20;
+
+#endif                                 /* typedef_c1_cell_20 */
+
+#ifndef struct_c1_tag_NN6thEF39FWL7a4zhq3UrE
+#define struct_c1_tag_NN6thEF39FWL7a4zhq3UrE
+
+struct c1_tag_NN6thEF39FWL7a4zhq3UrE
+{
+  char_T f1[6];
+  char_T f2[9];
+  char_T f3[4];
+};
+
+#endif                                 /* struct_c1_tag_NN6thEF39FWL7a4zhq3UrE */
+
+#ifndef typedef_c1_cell_21
+#define typedef_c1_cell_21
+
+typedef struct c1_tag_NN6thEF39FWL7a4zhq3UrE c1_cell_21;
+
+#endif                                 /* typedef_c1_cell_21 */
+
 #ifndef struct_c1_tag_tP4ysjhyvuYk36JuHDg8bD
 #define struct_c1_tag_tP4ysjhyvuYk36JuHDg8bD
 
@@ -979,6 +1131,74 @@ typedef struct c1_tag_lv60kHidgCVN68cHDjBCkF c1_s_lv60kHidgCVN68cHDjBCkF;
 
 #endif                                 /* typedef_c1_s_lv60kHidgCVN68cHDjBCkF */
 
+#ifndef struct_c1_tag_QPZY2mznR0KV8lbnnjx9y
+#define struct_c1_tag_QPZY2mznR0KV8lbnnjx9y
+
+struct c1_tag_QPZY2mznR0KV8lbnnjx9y
+{
+  c1_cell_19 _data;
+};
+
+#endif                                 /* struct_c1_tag_QPZY2mznR0KV8lbnnjx9y */
+
+#ifndef typedef_c1_s_QPZY2mznR0KV8lbnnjx9y
+#define typedef_c1_s_QPZY2mznR0KV8lbnnjx9y
+
+typedef struct c1_tag_QPZY2mznR0KV8lbnnjx9y c1_s_QPZY2mznR0KV8lbnnjx9y;
+
+#endif                                 /* typedef_c1_s_QPZY2mznR0KV8lbnnjx9y */
+
+#ifndef struct_c1_tag_sL5r3tnOjefTceie37OHrH
+#define struct_c1_tag_sL5r3tnOjefTceie37OHrH
+
+struct c1_tag_sL5r3tnOjefTceie37OHrH
+{
+  c1_cell_18 _data;
+};
+
+#endif                                 /* struct_c1_tag_sL5r3tnOjefTceie37OHrH */
+
+#ifndef typedef_c1_s_sL5r3tnOjefTceie37OHrH
+#define typedef_c1_s_sL5r3tnOjefTceie37OHrH
+
+typedef struct c1_tag_sL5r3tnOjefTceie37OHrH c1_s_sL5r3tnOjefTceie37OHrH;
+
+#endif                                 /* typedef_c1_s_sL5r3tnOjefTceie37OHrH */
+
+#ifndef struct_c1_tag_fnNBZRcViWKJIkyfK13VxD
+#define struct_c1_tag_fnNBZRcViWKJIkyfK13VxD
+
+struct c1_tag_fnNBZRcViWKJIkyfK13VxD
+{
+  c1_cell_20 _data;
+};
+
+#endif                                 /* struct_c1_tag_fnNBZRcViWKJIkyfK13VxD */
+
+#ifndef typedef_c1_s_fnNBZRcViWKJIkyfK13VxD
+#define typedef_c1_s_fnNBZRcViWKJIkyfK13VxD
+
+typedef struct c1_tag_fnNBZRcViWKJIkyfK13VxD c1_s_fnNBZRcViWKJIkyfK13VxD;
+
+#endif                                 /* typedef_c1_s_fnNBZRcViWKJIkyfK13VxD */
+
+#ifndef struct_c1_tag_IPBrlHl0TINQKXLbyKcqRF
+#define struct_c1_tag_IPBrlHl0TINQKXLbyKcqRF
+
+struct c1_tag_IPBrlHl0TINQKXLbyKcqRF
+{
+  c1_cell_21 _data;
+};
+
+#endif                                 /* struct_c1_tag_IPBrlHl0TINQKXLbyKcqRF */
+
+#ifndef typedef_c1_s_IPBrlHl0TINQKXLbyKcqRF
+#define typedef_c1_s_IPBrlHl0TINQKXLbyKcqRF
+
+typedef struct c1_tag_IPBrlHl0TINQKXLbyKcqRF c1_s_IPBrlHl0TINQKXLbyKcqRF;
+
+#endif                                 /* typedef_c1_s_IPBrlHl0TINQKXLbyKcqRF */
+
 #ifndef typedef_SFc1_flightControlSystemInstanceStruct
 #define typedef_SFc1_flightControlSystemInstanceStruct
 
@@ -1002,13 +1222,13 @@ typedef struct {
   real_T c1_add_yaw;
   boolean_T c1_add_yaw_not_empty;
   uint32_T c1_mlFcnLineNumber;
-  void *c1_fcnDataPtrs[54];
-  char_T *c1_dataNames[54];
+  void *c1_fcnDataPtrs[53];
+  char_T *c1_dataNames[53];
   uint32_T c1_numFcnVars;
-  uint32_T c1_ssIds[54];
-  uint32_T c1_statuses[54];
-  void *c1_outMexFcns[54];
-  void *c1_inMexFcns[54];
+  uint32_T c1_ssIds[53];
+  uint32_T c1_statuses[53];
+  void *c1_outMexFcns[53];
+  void *c1_inMexFcns[53];
   real_T c1_yaw_mat[19200];
   real_T c1_find_yaw_mat[19200];
   real_T c1_head_canny_mat[19200];
@@ -1017,8 +1237,8 @@ typedef struct {
   real32_T c1_b_a[20640];
   real32_T c1_c_a[19200];
   real32_T c1_i1[19200];
-  real_T c1_dv[19200];
-  real_T c1_dv1[19200];
+  real_T c1_b_dv[19200];
+  real_T c1_b_dv1[19200];
   CovrtStateflowInstance *c1_covrtInstance;
   void *c1_fEmlrtCtx;
   boolean_T (*c1_u)[19200];
@@ -1027,6 +1247,8 @@ typedef struct {
   real_T (*c1_b_yaw_mat)[19200];
   real_T *c1_output_mode;
   real_T *c1_yaw_out;
+  real_T *c1_min_ysa;
+  real_T *c1_max_ysa;
 } SFc1_flightControlSystemInstanceStruct;
 
 #endif                                 /* typedef_SFc1_flightControlSystemInstanceStruct */

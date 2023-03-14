@@ -29,6 +29,7 @@
 #define rtIsInf(X)                     ((int)mxIsInf(X))
 
 /* Auxiliary Header Files */
+#include "libmwbwlookup_tbb.h"
 #include "libmwcannythresholding_tbb.h"
 #include "libmwgetnumcores.h"
 #include "libmwimfilter.h"
