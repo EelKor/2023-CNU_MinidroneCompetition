@@ -38,31 +38,31 @@ static real_T _sfTime_;
 static emlrtMCInfo c1_emlrtMCI = { 13, /* lineNo */
   9,                                   /* colNo */
   "sqrt",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\elfun\\sqrt.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\elfun\\sqrt.m"/* pName */
 };
 
 static emlrtMCInfo c1_b_emlrtMCI = { 82,/* lineNo */
   5,                                   /* colNo */
   "power",                             /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\ops\\power.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\ops\\power.m"/* pName */
 };
 
 static emlrtMCInfo c1_c_emlrtMCI = { 28,/* lineNo */
   27,                                  /* colNo */
   "unaryMinOrMax",                     /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
 };
 
 static emlrtMCInfo c1_d_emlrtMCI = { 134,/* lineNo */
   27,                                  /* colNo */
   "unaryMinOrMax",                     /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
 };
 
 static emlrtMCInfo c1_e_emlrtMCI = { 87,/* lineNo */
   33,                                  /* colNo */
   "eml_int_forloop_overflow_check",    /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\eml\\eml_int_forloop_overflow_check.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\eml\\eml_int_forloop_overflow_check.m"/* pName */
 };
 
 static emlrtRSInfo c1_emlrtRSI = { 23, /* lineNo */
@@ -92,132 +92,132 @@ static emlrtRSInfo c1_e_emlrtRSI = { 190,/* lineNo */
 
 static emlrtRSInfo c1_f_emlrtRSI = { 116,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_g_emlrtRSI = { 132,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_h_emlrtRSI = { 138,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_i_emlrtRSI = { 708,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_j_emlrtRSI = { 709,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_k_emlrtRSI = { 714,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_l_emlrtRSI = { 715,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_m_emlrtRSI = { 44,/* lineNo */
   "mpower",                            /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\matfun\\mpower.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\matfun\\mpower.m"/* pathName */
 };
 
 static emlrtRSInfo c1_n_emlrtRSI = { 71,/* lineNo */
   "power",                             /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\ops\\power.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\ops\\power.m"/* pathName */
 };
 
 static emlrtRSInfo c1_o_emlrtRSI = { 106,/* lineNo */
   "imfilter",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
 };
 
 static emlrtRSInfo c1_p_emlrtRSI = { 110,/* lineNo */
   "imfilter",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
 };
 
 static emlrtRSInfo c1_q_emlrtRSI = { 854,/* lineNo */
   "imfilter",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
 };
 
 static emlrtRSInfo c1_r_emlrtRSI = { 72,/* lineNo */
   "padarray",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\padarray.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\padarray.m"/* pathName */
 };
 
 static emlrtRSInfo c1_s_emlrtRSI = { 928,/* lineNo */
   "imfilter",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
 };
 
 static emlrtRSInfo c1_t_emlrtRSI = { 1002,/* lineNo */
   "imfilter",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
 };
 
 static emlrtRSInfo c1_u_emlrtRSI = { 1030,/* lineNo */
   "imfilter",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
 };
 
 static emlrtRSInfo c1_v_emlrtRSI = { 1042,/* lineNo */
   "imfilter",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imfilter.m"/* pathName */
 };
 
 static emlrtRSInfo c1_w_emlrtRSI = { 724,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_x_emlrtRSI = { 133,/* lineNo */
   "imhist",                            /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imhist.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imhist.m"/* pathName */
 };
 
 static emlrtRSInfo c1_y_emlrtRSI = { 170,/* lineNo */
   "imhist",                            /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imhist.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imhist.m"/* pathName */
 };
 
 static emlrtRSInfo c1_ab_emlrtRSI = { 456,/* lineNo */
   "imhist",                            /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imhist.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imhist.m"/* pathName */
 };
 
 static emlrtRSInfo c1_bb_emlrtRSI = { 14,/* lineNo */
   "warning",                           /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\shared\\coder\\coder\\lib\\+coder\\+internal\\warning.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\shared\\coder\\coder\\lib\\+coder\\+internal\\warning.m"/* pathName */
 };
 
 static emlrtRSInfo c1_cb_emlrtRSI = { 762,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_db_emlrtRSI = { 768,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_eb_emlrtRSI = { 872,/* lineNo */
   "edge",                              /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pathName */
 };
 
 static emlrtRSInfo c1_fb_emlrtRSI = { 76,/* lineNo */
   "imreconstruct",                     /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imreconstruct.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\imreconstruct.m"/* pathName */
 };
 
 static emlrtRSInfo c1_gb_emlrtRSI = { 206,/* lineNo */
@@ -242,47 +242,47 @@ static emlrtRSInfo c1_jb_emlrtRSI = { 209,/* lineNo */
 
 static emlrtRSInfo c1_kb_emlrtRSI = { 15,/* lineNo */
   "min",                               /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\datafun\\min.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\datafun\\min.m"/* pathName */
 };
 
 static emlrtRSInfo c1_lb_emlrtRSI = { 46,/* lineNo */
   "minOrMax",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
 };
 
 static emlrtRSInfo c1_mb_emlrtRSI = { 92,/* lineNo */
   "minOrMax",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
 };
 
 static emlrtRSInfo c1_nb_emlrtRSI = { 15,/* lineNo */
   "max",                               /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\datafun\\max.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\datafun\\max.m"/* pathName */
 };
 
 static emlrtRSInfo c1_ob_emlrtRSI = { 44,/* lineNo */
   "minOrMax",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
 };
 
 static emlrtRSInfo c1_pb_emlrtRSI = { 79,/* lineNo */
   "minOrMax",                          /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\minOrMax.m"/* pathName */
 };
 
 static emlrtRSInfo c1_qb_emlrtRSI = { 48,/* lineNo */
   "string",                            /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\shared\\coder\\coder\\lib\\+coder\\+internal\\string.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\shared\\coder\\coder\\lib\\+coder\\+internal\\string.m"/* pathName */
 };
 
 static emlrtRSInfo c1_rb_emlrtRSI = { 38,/* lineNo */
   "fprintf",                           /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\iofun\\fprintf.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\iofun\\fprintf.m"/* pathName */
 };
 
 static emlrtRSInfo c1_sb_emlrtRSI = { 66,/* lineNo */
   "fprintf",                           /* fcnName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\iofun\\fprintf.m"/* pathName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\iofun\\fprintf.m"/* pathName */
 };
 
 static emlrtRTEInfo c1_emlrtRTEI = { 173,/* lineNo */
@@ -330,25 +330,25 @@ static emlrtRTEInfo c1_g_emlrtRTEI = { 127,/* lineNo */
 static emlrtRTEInfo c1_h_emlrtRTEI = { 739,/* lineNo */
   9,                                   /* colNo */
   "edge",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pName */
 };
 
 static emlrtRTEInfo c1_i_emlrtRTEI = { 740,/* lineNo */
   37,                                  /* colNo */
   "edge",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pName */
 };
 
 static emlrtRTEInfo c1_j_emlrtRTEI = { 76,/* lineNo */
   9,                                   /* colNo */
   "eml_mtimes_helper",                 /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\ops\\eml_mtimes_helper.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\lib\\matlab\\ops\\eml_mtimes_helper.m"/* pName */
 };
 
 static emlrtRTEInfo c1_k_emlrtRTEI = { 740,/* lineNo */
   9,                                   /* colNo */
   "edge",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m"/* pName */
 };
 
 static emlrtRTEInfo c1_l_emlrtRTEI = { 206,/* lineNo */
@@ -373,12 +373,6 @@ static emlrtRTEInfo c1_o_emlrtRTEI = { 209,/* lineNo */
   25,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683"          /* pName */
-};
-
-static emlrtRTEInfo c1_p_emlrtRTEI = { 225,/* lineNo */
-  48,                                  /* colNo */
-  "unaryMinOrMax",                     /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\eml\\eml\\+coder\\+internal\\unaryMinOrMax.m"/* pName */
 };
 
 static emlrtDCInfo c1_emlrtDCI = { 126,/* lineNo */
@@ -754,7 +748,7 @@ static emlrtBCInfo c1_u_emlrtBCI = { 1,/* iFirst */
 
 static emlrtBCInfo c1_v_emlrtBCI = { 1,/* iFirst */
   1000,                                /* iLast */
-  169,                                 /* lineNo */
+  164,                                 /* lineNo */
   26,                                  /* colNo */
   "local_area",                        /* aName */
   "Image Processing System/Mode_Select_Function",/* fName */
@@ -762,7 +756,7 @@ static emlrtBCInfo c1_v_emlrtBCI = { 1,/* iFirst */
   0                                    /* checkKind */
 };
 
-static emlrtDCInfo c1_v_emlrtDCI = { 169,/* lineNo */
+static emlrtDCInfo c1_v_emlrtDCI = { 164,/* lineNo */
   26,                                  /* colNo */
   "Image Processing System/Mode_Select_Function",/* fName */
   "#flightControlSystem:2683",         /* pName */
@@ -843,7 +837,7 @@ static emlrtBCInfo c1_bb_emlrtBCI = { -1,/* iFirst */
   27,                                  /* colNo */
   "",                                  /* aName */
   "edge",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
   0                                    /* checkKind */
 };
 
@@ -853,7 +847,7 @@ static emlrtBCInfo c1_cb_emlrtBCI = { -1,/* iFirst */
   28,                                  /* colNo */
   "",                                  /* aName */
   "edge",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
   0                                    /* checkKind */
 };
 
@@ -863,7 +857,7 @@ static emlrtBCInfo c1_db_emlrtBCI = { -1,/* iFirst */
   70,                                  /* colNo */
   "",                                  /* aName */
   "edge",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
   0                                    /* checkKind */
 };
 
@@ -873,7 +867,7 @@ static emlrtBCInfo c1_eb_emlrtBCI = { -1,/* iFirst */
   31,                                  /* colNo */
   "",                                  /* aName */
   "edge",                              /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\edge.m",/* pName */
   0                                    /* checkKind */
 };
 
@@ -883,7 +877,7 @@ static emlrtBCInfo c1_fb_emlrtBCI = { 1,/* iFirst */
   32,                                  /* colNo */
   "",                                  /* aName */
   "padarray",                          /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\padarray.m",/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\padarray.m",/* pName */
   0                                    /* checkKind */
 };
 
@@ -893,7 +887,7 @@ static emlrtBCInfo c1_gb_emlrtBCI = { 1,/* iFirst */
   42,                                  /* colNo */
   "",                                  /* aName */
   "padarray",                          /* fName */
-  "C:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\padarray.m",/* pName */
+  "D:\\Program Files\\MATLAB\\R2022b\\toolbox\\images\\images\\eml\\padarray.m",/* pName */
   0                                    /* checkKind */
 };
 
@@ -958,6 +952,8 @@ static void c1_string_disp(SFc1_flightControlSystemInstanceStruct *chartInstance
   const emlrtStack *c1_sp);
 static void c1_b_string_disp(SFc1_flightControlSystemInstanceStruct
   *chartInstance, const emlrtStack *c1_sp);
+static const mxArray *c1_emlrt_marshallOut
+  (SFc1_flightControlSystemInstanceStruct *chartInstance, const real_T c1_b_u);
 static real_T c1_emlrt_marshallIn(SFc1_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c1_a__output_of_feval_, const char_T
   *c1_identifier);
@@ -1085,9 +1081,9 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
 
   static const int32_T c1_e_condTxtStartIdx[3] = { 3833, 3852, 3882 };
 
-  static const int32_T c1_f_condTxtEndIdx[3] = { 5229, 5250, 5270 };
+  static const int32_T c1_f_condTxtEndIdx[3] = { 5247, 5268, 5288 };
 
-  static const int32_T c1_f_condTxtStartIdx[3] = { 5205, 5233, 5254 };
+  static const int32_T c1_f_condTxtStartIdx[3] = { 5223, 5251, 5272 };
 
   static const int32_T c1_postfixPredicateTree[3] = { 0, 1, -3 };
 
@@ -1118,9 +1114,9 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
   covrtEmlInitFcn(chartInstance->c1_covrtInstance, "", 4U, 0U, 2U, 0U, 22U, 0U,
                   9U, 0U, 3U, 0U, 17U, 6U);
   covrtEmlFcnInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U,
-                     "eML_blk_kernel", 0, -1, 5458);
+                     "eML_blk_kernel", 0, -1, 5476);
   covrtEmlFcnInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, "local_find",
-                     5462, -1, 5866);
+                     5480, -1, 5884);
   covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 3709,
     -1, 3734);
   covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 3755,
@@ -1129,16 +1125,16 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
     -1, 4129);
   covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 4151,
     -1, 4176);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 5294,
-    -1, 5410);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 5577,
-    -1, 5615);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 6U, 5673,
-    -1, 5711);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 7U, 5744,
-    -1, 5782);
-  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 8U, 5815,
-    -1, 5853);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 5312,
+    -1, 5428);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 5595,
+    -1, 5633);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 6U, 5691,
+    -1, 5729);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 7U, 5762,
+    -1, 5800);
+  covrtEmlSaturationInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 8U, 5833,
+    -1, 5871);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 157, 178, -1,
                     199, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 201, 225, -1,
@@ -1146,7 +1142,7 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 251, 276, -1,
                     310, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 3U, 1335, 1377,
-                    2582, 5150, false);
+                    2582, 5168, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 1402, 1418,
                     1442, 1484, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 1442, 1462,
@@ -1158,7 +1154,7 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 8U, 1727, 1743, -1,
                     1780, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 9U, 2582, 2628,
-                    5093, 5150, false);
+                    5111, 5168, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 10U, 2788, 2808, -1,
                     3178, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 11U, 3496, 3602,
@@ -1171,24 +1167,24 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
                     4197, false);
   covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 15U, 4244, 4264, -1,
                     4349, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 16U, 4564, 4589,
-                    4607, 4608, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 17U, 4614, 4626,
-                    4732, 4798, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4828, 4859,
-                    4885, 4982, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 4885, 4927,
-                    4986, 5092, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 4986, 5029, -1,
-                    5085, false);
-  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 5202, 5272,
-                    5412, 5458, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 16U, 4453, 4478,
+                    4496, 4497, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 17U, 4632, 4644,
+                    4750, 4816, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4846, 4877,
+                    4903, 5000, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 4903, 4945,
+                    5004, 5110, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 5004, 5047, -1,
+                    5103, false);
+  covrtEmlIfInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 5220, 5290,
+                    5430, 5476, false);
   covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 3207, 3223,
                      4234);
   covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 1U, 3233, 3252,
                      4226);
-  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 4539, 4555,
-                     4608);
+  covrtEmlForInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 2U, 4411, 4444,
+                     4497);
   covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 1339, 1376,
                       2U, 0U, c1_condTxtStartIdx, c1_condTxtEndIdx, 3U,
                       c1_postfixPredicateTree, false);
@@ -1204,7 +1200,7 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
   covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 4U, 3833, 3908,
                       3U, 11U, c1_e_condTxtStartIdx, c1_e_condTxtEndIdx, 5U,
                       c1_e_postfixPredicateTree, false);
-  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 5205, 5270,
+  covrtEmlMCDCInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 5U, 5223, 5288,
                       3U, 14U, c1_f_condTxtStartIdx, c1_f_condTxtEndIdx, 5U,
                       c1_f_postfixPredicateTree, false);
   covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 0U, 1339,
@@ -1243,22 +1239,22 @@ static void mdl_setup_runtime_resources_c1_flightControlSystem
     3970, -1, 0U);
   covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 17U, 4248,
     4263, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4568,
-    4588, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 4617,
-    4625, -1, 5U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 4832,
-    4858, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 4893,
-    4926, -1, 4U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 22U, 4994,
-    5028, -1, 3U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 23U, 5205,
-    5229, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 24U, 5233,
-    5250, -1, 0U);
-  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 25U, 5254,
-    5270, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 18U, 4457,
+    4477, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 19U, 4635,
+    4643, -1, 5U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 20U, 4850,
+    4876, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 21U, 4911,
+    4944, -1, 4U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 22U, 5012,
+    5046, -1, 3U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 23U, 5223,
+    5247, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 24U, 5251,
+    5268, -1, 0U);
+  covrtEmlRelationalInitFcn(chartInstance->c1_covrtInstance, 4U, 0U, 25U, 5272,
+    5288, -1, 0U);
 }
 
 static void mdl_cleanup_runtime_resources_c1_flightControlSystem
@@ -1383,7 +1379,7 @@ static void sf_gateway_c1_flightControlSystem
   int32_T c1_i42;
   int32_T c1_i43;
   int32_T c1_i44;
-  int32_T c1_i45;
+  int32_T c1_i46;
   int32_T c1_i47;
   int32_T c1_i48;
   int32_T c1_i49;
@@ -1442,9 +1438,9 @@ static void sf_gateway_c1_flightControlSystem
   int8_T c1_i21;
   int8_T c1_i27;
   int8_T c1_i36;
-  int8_T c1_i46;
+  int8_T c1_i45;
   uint8_T c1_local_area[2000];
-  uint8_T c1_local_area_new_data[2];
+  uint8_T c1_local_area_new_data[1998];
   uint8_T c1_c_u;
   uint8_T c1_u1;
   uint8_T c1_u2;
@@ -1721,13 +1717,13 @@ static void sf_gateway_c1_flightControlSystem
           c1_i32 = c1_i40;
         }
 
-        c1_b11 = (c1_row_min > c1_row_max);
-        c1_b13 = c1_b11;
+        c1_b10 = (c1_row_min > c1_row_max);
+        c1_b12 = c1_b10;
         c1_b14 = false;
-        c1_b15 = (c1_b13 || c1_b14);
+        c1_b15 = (c1_b12 || c1_b14);
         if (c1_b15) {
           c1_i41 = 1;
-          c1_i43 = 0;
+          c1_i42 = 0;
         } else {
           if (c1_row_min != (real_T)(int32_T)muDoubleScalarFloor(c1_row_min)) {
             emlrtIntegerCheckR2012b(c1_row_min, &c1_m_emlrtDCI, &c1_st);
@@ -1743,12 +1739,12 @@ static void sf_gateway_c1_flightControlSystem
             emlrtIntegerCheckR2012b(c1_row_max, &c1_n_emlrtDCI, &c1_st);
           }
 
-          c1_i49 = (int32_T)c1_row_max;
-          if ((c1_i49 < 1) || (c1_i49 > 120)) {
-            emlrtDynamicBoundsCheckR2012b(c1_i49, 1, 120, &c1_n_emlrtBCI, &c1_st);
+          c1_i48 = (int32_T)c1_row_max;
+          if ((c1_i48 < 1) || (c1_i48 > 120)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i48, 1, 120, &c1_n_emlrtBCI, &c1_st);
           }
 
-          c1_i43 = c1_i49;
+          c1_i42 = c1_i48;
         }
 
         c1_b17 = (c1_col_min > c1_col_max);
@@ -1756,7 +1752,7 @@ static void sf_gateway_c1_flightControlSystem
         c1_b19 = false;
         c1_b20 = (c1_b18 || c1_b19);
         if (c1_b20) {
-          c1_i50 = 1;
+          c1_i49 = 1;
           c1_i51 = 0;
         } else {
           if (c1_col_min != (real_T)(int32_T)muDoubleScalarFloor(c1_col_min)) {
@@ -1768,7 +1764,7 @@ static void sf_gateway_c1_flightControlSystem
             emlrtDynamicBoundsCheckR2012b(c1_i53, 1, 160, &c1_o_emlrtBCI, &c1_st);
           }
 
-          c1_i50 = c1_i53;
+          c1_i49 = c1_i53;
           if (c1_col_max != (real_T)(int32_T)muDoubleScalarFloor(c1_col_max)) {
             emlrtIntegerCheckR2012b(c1_col_max, &c1_p_emlrtDCI, &c1_st);
           }
@@ -1781,16 +1777,16 @@ static void sf_gateway_c1_flightControlSystem
           c1_i51 = c1_i57;
         }
 
-        c1_tmp_size[0] = (c1_i43 - c1_i41) + 1;
-        c1_b_loop_ub = c1_i43 - c1_i41;
+        c1_tmp_size[0] = (c1_i42 - c1_i41) + 1;
+        c1_b_loop_ub = c1_i42 - c1_i41;
         for (c1_i55 = 0; c1_i55 <= c1_b_loop_ub; c1_i55++) {
           c1_b_tmp_data[c1_i55] = (c1_i41 + c1_i55) - 1;
         }
 
-        c1_b_tmp_size[0] = (c1_i51 - c1_i50) + 1;
-        c1_c_loop_ub = c1_i51 - c1_i50;
+        c1_b_tmp_size[0] = (c1_i51 - c1_i49) + 1;
+        c1_c_loop_ub = c1_i51 - c1_i49;
         for (c1_i58 = 0; c1_i58 <= c1_c_loop_ub; c1_i58++) {
-          c1_c_tmp_data[c1_i58] = (c1_i50 + c1_i58) - 1;
+          c1_c_tmp_data[c1_i58] = (c1_i49 + c1_i58) - 1;
         }
 
         c1_c_tmp_size[0] = (c1_i24 - c1_i22) + 1;
@@ -2261,7 +2257,7 @@ static void sf_gateway_c1_flightControlSystem
       c1_b_k = 0;
       do {
         c1_exitg1 = 0;
-        if (c1_b_k < 2) {
+        if (c1_b_k < 1000) {
           c1_k = 1.0 + (real_T)c1_b_k;
           covrtEmlForEval(chartInstance->c1_covrtInstance, 4U, 0, 2, 1);
           if (c1_k != (real_T)(int32_T)muDoubleScalarFloor(c1_k)) {
@@ -2290,6 +2286,8 @@ static void sf_gateway_c1_flightControlSystem
         }
       } while (c1_exitg1 == 0);
 
+      sf_mex_call(&c1_st, NULL, "disp", 0U, 1U, 14, c1_emlrt_marshallOut
+                  (chartInstance, 120.0));
       if (covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 17,
                          covrtRelationalopUpdateFcn
                          (chartInstance->c1_covrtInstance, 4U, 0U, 19U, c1_k -
@@ -2297,9 +2295,9 @@ static void sf_gateway_c1_flightControlSystem
         c1_d2 = c1_k - 1.0;
         c1_b8 = (c1_d2 < 1.0);
         c1_b9 = c1_b8;
-        c1_b10 = false;
-        c1_b12 = (c1_b9 || c1_b10);
-        if (c1_b12) {
+        c1_b11 = false;
+        c1_b13 = (c1_b9 || c1_b11);
+        if (c1_b13) {
           c1_i38 = 1;
           c1_i39 = 0;
         } else {
@@ -2308,30 +2306,30 @@ static void sf_gateway_c1_flightControlSystem
             emlrtIntegerCheckR2012b(c1_d2, &c1_u_emlrtDCI, &c1_st);
           }
 
-          c1_i42 = (int32_T)c1_d2;
-          if ((c1_i42 < 1) || (c1_i42 > 1000)) {
-            emlrtDynamicBoundsCheckR2012b(c1_i42, 1, 1000, &c1_u_emlrtBCI,
+          c1_i43 = (int32_T)c1_d2;
+          if ((c1_i43 < 1) || (c1_i43 > 1000)) {
+            emlrtDynamicBoundsCheckR2012b(c1_i43, 1, 1000, &c1_u_emlrtBCI,
               &c1_st);
           }
 
-          c1_i39 = c1_i42;
+          c1_i39 = c1_i43;
         }
 
         c1_local_area_new_size[0] = 2;
         c1_local_area_new_size[1] = (c1_i39 - c1_i38) + 1;
         c1_loop_ub = c1_i39 - c1_i38;
-        for (c1_i45 = 0; c1_i45 <= c1_loop_ub; c1_i45++) {
+        for (c1_i46 = 0; c1_i46 <= c1_loop_ub; c1_i46++) {
           for (c1_i47 = 0; c1_i47 < 2; c1_i47++) {
-            c1_local_area_new_data[c1_i47 + (c1_i45 << 1)] =
-              c1_local_area[c1_i47 + (((c1_i38 + c1_i45) - 1) << 1)];
+            c1_local_area_new_data[c1_i47 + (c1_i46 << 1)] =
+              c1_local_area[c1_i47 + (((c1_i38 + c1_i46) - 1) << 1)];
           }
         }
 
         c1_b_st.site = &c1_c_emlrtRSI;
         c1_local_find(chartInstance, &c1_b_st, c1_local_area_new_data,
                       c1_local_area_new_size, c1_b_dv);
-        for (c1_i48 = 0; c1_i48 < 4; c1_i48++) {
-          chartInstance->c1_local_array[c1_i48] = c1_b_dv[c1_i48];
+        for (c1_i50 = 0; c1_i50 < 4; c1_i50++) {
+          chartInstance->c1_local_array[c1_i50] = c1_b_dv[c1_i50];
         }
       } else {
         c1_b_st.site = &c1_d_emlrtRSI;
@@ -2386,11 +2384,11 @@ static void sf_gateway_c1_flightControlSystem
         c1_i21 = (int8_T)c1_d;
       } else {
         c1_i21 = MIN_int8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+        sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
       }
     } else if (c1_d >= 128.0) {
       c1_i21 = MAX_int8_T;
-      sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+      sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
     } else {
       c1_i21 = 0;
     }
@@ -2402,11 +2400,11 @@ static void sf_gateway_c1_flightControlSystem
         c1_i27 = (int8_T)c1_d1;
       } else {
         c1_i27 = MIN_int8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+        sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
       }
     } else if (c1_d1 >= 128.0) {
       c1_i27 = MAX_int8_T;
-      sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+      sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
     } else {
       c1_i27 = 0;
     }
@@ -2419,11 +2417,11 @@ static void sf_gateway_c1_flightControlSystem
         c1_i36 = (int8_T)c1_d3;
       } else {
         c1_i36 = MIN_int8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+        sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
       }
     } else if (c1_d3 >= 128.0) {
       c1_i36 = MAX_int8_T;
-      sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+      sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
     } else {
       c1_i36 = 0;
     }
@@ -2434,23 +2432,23 @@ static void sf_gateway_c1_flightControlSystem
     c1_covSaturation = false;
     if (c1_d5 < 128.0) {
       if (c1_d5 >= -128.0) {
-        c1_i46 = (int8_T)c1_d5;
+        c1_i45 = (int8_T)c1_d5;
       } else {
         c1_covSaturation = true;
-        c1_i46 = MIN_int8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+        c1_i45 = MIN_int8_T;
+        sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
       }
     } else if (c1_d5 >= 128.0) {
       c1_covSaturation = true;
-      c1_i46 = MAX_int8_T;
-      sf_data_saturate_error(chartInstance->S, 1U, 5294, 116);
+      c1_i45 = MAX_int8_T;
+      sf_data_saturate_error(chartInstance->S, 1U, 5312, 116);
     } else {
-      c1_i46 = 0;
+      c1_i45 = 0;
     }
 
     covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 4, 0,
       c1_covSaturation);
-    (*chartInstance->c1_pts_local_area)[3] = c1_i46;
+    (*chartInstance->c1_pts_local_area)[3] = c1_i45;
   } else {
     covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 5, false);
     covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 21, false);
@@ -3580,7 +3578,7 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   uint32_T c1_u1;
   uint32_T c1_u2;
   uint32_T c1_u3;
-  uint8_T c1_varargin_1_data[1];
+  uint8_T c1_varargin_1_data[999];
   uint8_T c1_b_maxval;
   uint8_T c1_b_minval;
   uint8_T c1_maxval;
@@ -3616,14 +3614,14 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_qY > c1_q0) {
     c1_covSaturation = true;
     c1_qY = 0U;
-    sf_data_saturate_error(chartInstance->S, 1U, 5577, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 5595, 38);
   }
 
   c1_b_u = c1_qY;
   if (c1_b_u > 255U) {
     c1_covSaturation = true;
     c1_b_u = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 5577, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 5595, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 5, 0,
@@ -3648,7 +3646,7 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_u1 > 255U) {
     c1_b_covSaturation = true;
     c1_u1 = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 5673, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 5691, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 6, 0,
@@ -3674,14 +3672,14 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_b_qY > c1_b_q0) {
     c1_c_covSaturation = true;
     c1_b_qY = 0U;
-    sf_data_saturate_error(chartInstance->S, 1U, 5744, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 5762, 38);
   }
 
   c1_u2 = c1_b_qY;
   if (c1_u2 > 255U) {
     c1_c_covSaturation = true;
     c1_u2 = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 5744, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 5762, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 7, 0,
@@ -3706,7 +3704,7 @@ static void c1_local_find(SFc1_flightControlSystemInstanceStruct *chartInstance,
   if (c1_u3 > 255U) {
     c1_d_covSaturation = true;
     c1_u3 = 255U;
-    sf_data_saturate_error(chartInstance->S, 1U, 5815, 38);
+    sf_data_saturate_error(chartInstance->S, 1U, 5833, 38);
   }
 
   covrtSaturationUpdateFcn(chartInstance->c1_covrtInstance, 4, 0, 8, 0,
@@ -3722,7 +3720,10 @@ static uint8_T c1_minimum(SFc1_flightControlSystemInstanceStruct *chartInstance,
   const mxArray *c1_c_y = NULL;
   const mxArray *c1_d_y = NULL;
   const mxArray *c1_y = NULL;
-  uint8_T c1_b_x_data[1];
+  int32_T c1_b_istop;
+  int32_T c1_istop;
+  int32_T c1_k;
+  uint8_T c1_ex;
   boolean_T c1_b;
   boolean_T c1_b1;
   (void)chartInstance;
@@ -3760,8 +3761,16 @@ static uint8_T c1_minimum(SFc1_flightControlSystemInstanceStruct *chartInstance,
       (&c1_st, NULL, "message", 1U, 1U, 14, c1_d_y)));
   }
 
-  c1_b_x_data[0] = c1_x_data[0];
-  return c1_b_x_data[0];
+  c1_istop = c1_x_size[1];
+  c1_b_istop = c1_istop;
+  c1_ex = c1_x_data[0];
+  for (c1_k = 2; c1_k <= c1_b_istop; c1_k++) {
+    if (c1_ex > c1_x_data[c1_k - 1]) {
+      c1_ex = c1_x_data[c1_k - 1];
+    }
+  }
+
+  return c1_ex;
 }
 
 static uint8_T c1_maximum(SFc1_flightControlSystemInstanceStruct *chartInstance,
@@ -3772,7 +3781,10 @@ static uint8_T c1_maximum(SFc1_flightControlSystemInstanceStruct *chartInstance,
   const mxArray *c1_c_y = NULL;
   const mxArray *c1_d_y = NULL;
   const mxArray *c1_y = NULL;
-  uint8_T c1_b_x_data[1];
+  int32_T c1_b_istop;
+  int32_T c1_istop;
+  int32_T c1_k;
+  uint8_T c1_ex;
   boolean_T c1_b;
   boolean_T c1_b1;
   (void)chartInstance;
@@ -3810,8 +3822,16 @@ static uint8_T c1_maximum(SFc1_flightControlSystemInstanceStruct *chartInstance,
       (&c1_st, NULL, "message", 1U, 1U, 14, c1_d_y)));
   }
 
-  c1_b_x_data[0] = c1_x_data[0];
-  return c1_b_x_data[0];
+  c1_istop = c1_x_size[1];
+  c1_b_istop = c1_istop;
+  c1_ex = c1_x_data[0];
+  for (c1_k = 2; c1_k <= c1_b_istop; c1_k++) {
+    if (c1_ex < c1_x_data[c1_k - 1]) {
+      c1_ex = c1_x_data[c1_k - 1];
+    }
+  }
+
+  return c1_ex;
 }
 
 static void c1_string_disp(SFc1_flightControlSystemInstanceStruct *chartInstance,
@@ -3900,6 +3920,16 @@ static void c1_b_string_disp(SFc1_flightControlSystemInstanceStruct
   c1_c_st.site = &c1_sb_emlrtRSI;
   c1_emlrt_marshallIn(chartInstance, c1_d_feval(chartInstance, &c1_c_st, c1_y,
     c1_b_y, c1_c_y, c1_d_y), "<output of feval>");
+}
+
+static const mxArray *c1_emlrt_marshallOut
+  (SFc1_flightControlSystemInstanceStruct *chartInstance, const real_T c1_b_u)
+{
+  const mxArray *c1_y = NULL;
+  (void)chartInstance;
+  c1_y = NULL;
+  sf_mex_assign(&c1_y, sf_mex_create("y", &c1_b_u, 0, 0U, 0U, 0U, 0), false);
+  return c1_y;
 }
 
 static real_T c1_emlrt_marshallIn(SFc1_flightControlSystemInstanceStruct
@@ -4298,10 +4328,10 @@ static void init_simulink_io_address(SFc1_flightControlSystemInstanceStruct
 /* SFunction Glue Code */
 void sf_c1_flightControlSystem_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3184224432U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(1194704618U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(4123475877U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(3318885766U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(765998505U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2846258411U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1427285537U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(235857598U);
 }
 
 mxArray *sf_c1_flightControlSystem_third_party_uses_info(void)
@@ -4368,7 +4398,7 @@ static const mxArray *sf_get_sim_state_info_c1_flightControlSystem(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "sO0xgPjnL0wpt6nAPRRGINF";
+  return "sllEmvQtjx0SS2iJp5ryPjF";
 }
 
 static void sf_opaque_initialize_c1_flightControlSystem(void *chartInstanceVar)
@@ -4475,34 +4505,34 @@ const char* sf_c1_flightControlSystem_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [25] = {
-    "eNrtWc1vG0UUn0RpoE2JcqjgEomIE+JLaRGoB0Sd+KNYchor6xQBUt3J7rN36tnZ7cysPxAHjkj",
-    "8TUj9EzhWwI0rB44cebO7dq2NcXbsVDGUlTabZ/s3b37vc2aWrNWPCF7beEfvELKJz9fxXifpdS",
-    "2T16bu9PMN8lkmf7dFiBt60AXhxJ0OGxK7S8RBk0oaKGJ/CRrACaiQx5qFoi46YXEsEx2QIFwcI",
-    "AqlttKrWBBzJnq1WLhGs/rSZ67v+GHMvUMckHrHgo/+SW8U6yZqrDAJrq4BeNqXYdz1a5x251tB",
-    "6kHZB7en4sDaVgq0E0eGqjqKuWYRh+oQ3LpQmqIV1AV8HU01lPXQzsiGr3LG6DCIOKOiuK19qhy",
-    "IMDo0nEYe/j2ONVqvENb1qdSH4NM+qAbrJdpDAYW0M4W/PmOC6lAyyqsBL5vRCvJtcuR4hCnBbX",
-    "2EfA8l0F4UMqEtE8KpoZ2rgp5xqMBZ3LXU68DT2GTDQwYDkHb+7ZTDPkjahWNhN+fER9VhEpSTX",
-    "CqI1SyAh1QeuBi7Cjy7uoFJpxyK4QgtHMYKC4mJ66olWR9jw7bW1U36L1Tr4iCNfrUQNtFb7YN1",
-    "XE301lxRppwrO2wrjBrQB57or1BNF8Cm+i3ASjGvFWJ0mGpjWbFiwTATMmw5FB4rHpX9HCppbA+",
-    "wSRWAs8CkAXho5snUJwNdlEex0mFQxpJTaTQK6juPrQsNskNdKNxjJGUKcMJJXFnq9ZgyiYRotJ",
-    "JOWBYeIc3BhaBEdWJRGYSyhza2bWYvbGUywQ4NXhcLs4akyFUxuh9SHhecc6C6mD8YHqcKq6ydX",
-    "sSa/FkI7FLXB890TsbhCOssDlDUxcq0/ANk22d6VAHlShYVzaQYCzo2XWOl1iiCU9ET4UDUZBg4",
-    "2cprTlwBYNWgUjDRPcQWLkc1nHyxWUt42kqqu+0ix9iZak7PTGzcB4Hd0HA1qwbqYlZVBS6RcUL",
-    "LYB32LS5ihGJKY6Mepa0+7Xtm/f4FebF+35ixfn9zav2+k8nu7XaHs65vCo2WIXdGOHaQjrc/Nd",
-    "7NAvuB8Tzm4cg5HJngxs93p/BrM/SSqWde3/X1+fNcx//WMlxpCvdGTs9GDreZ2ez9H//46Za3+",
-    "+T3/t1fH/32S3kZ/T9s2e23tjN5d7xumlTp/rlCViQe3srFg5HV8f6w23wiGvuDSH8qDponJ/fr",
-    "D2rJeM9vzJ/vjdx8x5/vmbUaJnFSE6Rb97J9m5FpnO4nzPh3p+a7eYE9rk/FEyF/3lsOf6uUj4e",
-    "NC/jtZLILpmW2MX3Px/HV8dktxGc7x8fIPu5c2y4VYpRyWg0+9xbmE2nV5qFLeZvitmpV+LxXyu",
-    "Nn8bmW42PkYTtMdr+rweOjQjxey/Ew8ogOkgBbDR4fLMXDeORyeOyUlsOf11+UB/W8NnJJ8D8Tu",
-    "760nskGwwkj0Yz+OovHeo7HzpjE47NS8iy5l2KPVfHLRfVrK+cXI49rl6SjyThX7p9nj1L/PHv8",
-    "SvlnVv9P/ePiLp2sjn/IV6l/vv9mRfyzdynzaF7gn72cf/aSs8k2NTtQaM/e6Wxfwj7CFkf+x60",
-    "Ebu0V5FdkH78obpO8vHODy8Qty8/2fOLf/vv9OXWX5H6/s8I88s9Fz6lWjddzy/XG25n8+eQ9Sd",
-    "ln3JtxUpt93QDamfXtfyS+/7K03/jcrGrsl71Q//rjA0H5SLH0mHn8cVOa96KTryRQNfv8+yr6S",
-    "dF1781cfht5wIQXDtSHt+98cmeZ/vQ30KRnlg==",
+    "eNrtWdtuG0UYnkRpoE2JclHBTSWiXnFWOAkqIerEBzBKiGGdIECqO9n97Z16dnYzM+sD4oI7eAK",
+    "eoeIp+gjc0cfgEokb/tldu9bG2Dt2UAxlpc1mbH/zz/cf558la/Ujgtc23tEdQjbx+Tze6yS9rm",
+    "XjtYk7/XyDfJSNv98ixA096IBw4nabDYjdJeKgQSUNFLG/BA3gS1AhjzULRV20w+JYJtogQbg4Q",
+    "RRKbSVXsSDmTHRrsXCNZPWVz1zf8cOYewc4IfWOBR/+ndwo1g2UWGESXF0D8LQvw7jj1zjtzNaC",
+    "1P2yD25XxYG1rhRoJ44MVXUUc80iDtUBuHWhNEUtqDl8HU01lPXATsmGr3JG6DCIOKOiuK59qhy",
+    "I0Ds0nEQe/j2ONWqvENb1qdQH4NMeqEPWTaSHAgpJZwp/fcYE1aFklFcDXjazFeTb4MjxCEOC29",
+    "oI+R5IoN0oZEJbBoRTQz1XBT3jUIGzuGMp14Hz2ETDKYM+SDv7tsthDyTtwLGwW3Nio+ogccpxL",
+    "BXEahbAKZX7LvquAs8ub2DQKYeiO0ITp7HCQqLiumpK1kPfsM11dRP+C+W6OEi9Xy2ETeRWe2Dt",
+    "V2O5NVeUKefKDtsMo0PoAU/kV6imC2BT+RZgpZjXDNE7TLaxzFixYBgJGbYcCo8V98peDpUUts+",
+    "xSBWAs8CEAXio5vHSxxPNi6NY6TAoY8qpHB4WlHcRWxcaZJu6ULjGSMoU4IITv7KU6zFlAgnRqC",
+    "WdsCw8QxqDC0GJasei0g9lF3VsW8ye6spEgh0avA4mZg1Jkquid59SHhdcc6A6GD/oHicKs6ydX",
+    "MSa+FkI7FLXB89UTsbhCPMsTlDUxMqU/H1k22N6WAHlShYVjaQYEzoWXaOl5jCCE9EVYV/UZBg4",
+    "2c5rhl8BYNagUjDROcASLoc1XHyxVUs4bybZ3XaTY/RMNadnxjc+AYHV0HA1uwbqYlRVBW6RcUH",
+    "LYB32HW5ihGJKY6EepqU+rXtm//4pebp/35iyf39xYv++k43dt1ttzjq+STRahtwZ4txBOt/exH",
+    "w3C/QDo3XMwpELODLGjZ6vTODXpsglE8+8vOvrs9e5jv+tZbjSBO6FnJyNHG4z05lX9e+8+uMHj",
+    "17/85fffn50fnMZ+T9t2fVb29n49mjfNM7SvQuJrIg/vJTzBzNWHPe6vS/0w8Ge47zDPovel8PG",
+    "w1oy35Mbs9d7I7fe0ee7Zq+GQZzkBOnWvaxvM2Map/2Emf/DifVuztHH9Ql/IuT3e8vhb5Xy/rA",
+    "xh99ONnbBlMwWhu9FP746PrcL8dnO8TFjHzvXlkuFGKacVoPPvYX5RFq1eOhS3qLYVq0Kn9dKef",
+    "w0PtdyfMx40AqT7nc1eLxViMdzOR5mPKT9xMFWg8cbS/EwFrkcHjul5fAX5RflQT2vhVwS/K/Er",
+    "i6tZ2OD4YSRaEp9ncZjPcdjZ0TiwVkpeZbcS9HHqthlXv7aytnFjEe5S9LheJ4rt8/j+6l9Hj94",
+    "puwzrf6n9nGxSyerYx/ydWqfH75dEfvsXso6GnPss5uzz25yNtmipgOF1vROZ/sS+ghbHPkftxK",
+    "4tWeQX5E+flHcJvnnzg0uE7csP9vziX/77/dm5F2S+/3OCvPIPxc9p1o1Xk8s9xsvZ+OPx+9Jyj",
+    "7j3pST2uzrQ6Dtad/+R/z7D0v9jc7NqkZ/2Qv1b97dF5QPFUuPmUcfN6R5Lzr+SgJV08+/r6KeL",
+    "NOX9Jnwwr568+57d5eqT38B7RRnDA==",
     ""
   };
 
-  static char newstr [1765] = "";
+  static char newstr [1757] = "";
   newstr[0] = '\0';
   for (i = 0; i < 25; i++) {
     strcat(newstr, encStrCodegen[i]);
@@ -4515,10 +4545,10 @@ static void mdlSetWorkWidths_c1_flightControlSystem(SimStruct *S)
 {
   const char* newstr = sf_c1_flightControlSystem_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(3186395947U));
-  ssSetChecksum1(S,(1780245524U));
-  ssSetChecksum2(S,(3677910755U));
-  ssSetChecksum3(S,(1138416734U));
+  ssSetChecksum0(S,(577258852U));
+  ssSetChecksum1(S,(2822211369U));
+  ssSetChecksum2(S,(3618306859U));
+  ssSetChecksum3(S,(208775318U));
 }
 
 static void mdlRTW_c1_flightControlSystem(SimStruct *S)
