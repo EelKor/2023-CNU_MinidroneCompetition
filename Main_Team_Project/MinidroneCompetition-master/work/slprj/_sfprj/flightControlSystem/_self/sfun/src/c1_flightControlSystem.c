@@ -1292,9 +1292,9 @@ static void disable_c1_flightControlSystem
 static void sf_gateway_c1_flightControlSystem
   (SFc1_flightControlSystemInstanceStruct *chartInstance)
 {
-  static int8_T c1_b_pts_roi_circle[6] = { 80, 80, 60, 60, 50, 30 };
+  static int8_T c1_b_pts_roi_circle[6] = { 80, 80, 60, 60, 58, 43 };
 
-  static int8_T c1_b_pts_erase_past_line[4] = { 65, 40, 30, 120 };
+  static int8_T c1_b_pts_erase_past_line[4] = { 57, 42, 46, 118 };
 
   emlrtStack c1_b_st;
   emlrtStack c1_st = { NULL,           /* site */
@@ -2019,10 +2019,10 @@ static void sf_gateway_c1_flightControlSystem
           c1_b_st.site = &c1_b_emlrtRSI;
           c1_b_sqrt(chartInstance, &c1_b_st, &c1_distance_from_center);
           if (covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 4,
-                               c1_b_col > 65.0) && covrtEmlCondEval
-              (chartInstance->c1_covrtInstance, 4U, 0, 5, c1_b_col < 95.0) &&
+                               c1_b_col > 57.0) && covrtEmlCondEval
+              (chartInstance->c1_covrtInstance, 4U, 0, 5, c1_b_col < 103.0) &&
               covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 6,
-                               c1_b_row > 40.0)) {
+                               c1_b_row > 42.0)) {
             c1_b17 = true;
           } else {
             c1_b17 = false;
@@ -2038,13 +2038,13 @@ static void sf_gateway_c1_flightControlSystem
               covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 8,
                                covrtRelationalopUpdateFcn
                                (chartInstance->c1_covrtInstance, 4U, 0U, 10U,
-                                c1_distance_from_center, 50.0, -1, 3U,
-                                c1_distance_from_center <= 50.0)) &&
+                                c1_distance_from_center, 58.0, -1, 3U,
+                                c1_distance_from_center <= 58.0)) &&
               covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 9,
                                covrtRelationalopUpdateFcn
                                (chartInstance->c1_covrtInstance, 4U, 0U, 11U,
-                                c1_distance_from_center, 30.0, -1, 5U,
-                                c1_distance_from_center >= 30.0))) {
+                                c1_distance_from_center, 43.0, -1, 5U,
+                                c1_distance_from_center >= 43.0))) {
             covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 3, true);
             covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 11, true);
             if (c1_b_row != (real_T)(int32_T)muDoubleScalarFloor(c1_b_row)) {
@@ -2154,13 +2154,13 @@ static void sf_gateway_c1_flightControlSystem
                 covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 13,
                                  covrtRelationalopUpdateFcn
                                  (chartInstance->c1_covrtInstance, 4U, 0U, 14U,
-                                  c1_distance_from_center, 50.0, -1, 3U,
-                                  c1_distance_from_center <= 50.0)) &&
+                                  c1_distance_from_center, 58.0, -1, 3U,
+                                  c1_distance_from_center <= 58.0)) &&
                 covrtEmlCondEval(chartInstance->c1_covrtInstance, 4U, 0, 14,
                                  covrtRelationalopUpdateFcn
                                  (chartInstance->c1_covrtInstance, 4U, 0U, 15U,
-                                  c1_distance_from_center, 30.0, -1, 5U,
-                                  c1_distance_from_center >= 30.0))) {
+                                  c1_distance_from_center, 43.0, -1, 5U,
+                                  c1_distance_from_center >= 43.0))) {
               covrtEmlMcdcEval(chartInstance->c1_covrtInstance, 4U, 0, 5, true);
               covrtEmlIfEval(chartInstance->c1_covrtInstance, 4U, 0, 13, true);
               if (c1_b_row != (real_T)(int32_T)muDoubleScalarFloor(c1_b_row)) {
@@ -4428,10 +4428,10 @@ static void init_simulink_io_address(SFc1_flightControlSystemInstanceStruct
 /* SFunction Glue Code */
 void sf_c1_flightControlSystem_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(196677374U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(1126028904U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(1227686956U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(3842973017U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(317673569U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(2673975908U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(2450015320U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(2510212212U);
 }
 
 mxArray *sf_c1_flightControlSystem_third_party_uses_info(void)
@@ -4499,7 +4499,7 @@ static const mxArray *sf_get_sim_state_info_c1_flightControlSystem(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "s1ZCpmvCFAn4Yh8A4Al6hcE";
+  return "sGmTbS8bjQjnEqOkUCBAfRB";
 }
 
 static void sf_opaque_initialize_c1_flightControlSystem(void *chartInstanceVar)
@@ -4606,31 +4606,31 @@ const char* sf_c1_flightControlSystem_get_post_codegen_info(void)
 {
   int i;
   const char* encStrCodegen [26] = {
-    "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",
-    "p78AWWh5/A==",
+    "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",
+    "pD79BSETe4U=",
     ""
   };
 
@@ -4647,10 +4647,10 @@ static void mdlSetWorkWidths_c1_flightControlSystem(SimStruct *S)
 {
   const char* newstr = sf_c1_flightControlSystem_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(76757005U));
-  ssSetChecksum1(S,(3006803019U));
-  ssSetChecksum2(S,(4294440814U));
-  ssSetChecksum3(S,(2590424944U));
+  ssSetChecksum0(S,(1747536674U));
+  ssSetChecksum1(S,(3355804874U));
+  ssSetChecksum2(S,(4276154734U));
+  ssSetChecksum3(S,(4091381284U));
 }
 
 static void mdlRTW_c1_flightControlSystem(SimStruct *S)
