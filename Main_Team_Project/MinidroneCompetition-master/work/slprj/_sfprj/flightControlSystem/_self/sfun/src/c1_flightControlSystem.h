@@ -1098,13 +1098,13 @@ typedef struct {
   real_T c1_add_yaw;
   boolean_T c1_add_yaw_not_empty;
   uint32_T c1_mlFcnLineNumber;
-  void *c1_fcnDataPtrs[67];
-  char_T *c1_dataNames[67];
+  void *c1_fcnDataPtrs[68];
+  char_T *c1_dataNames[68];
   uint32_T c1_numFcnVars;
-  uint32_T c1_ssIds[67];
-  uint32_T c1_statuses[67];
-  void *c1_outMexFcns[67];
-  void *c1_inMexFcns[67];
+  uint32_T c1_ssIds[68];
+  uint32_T c1_statuses[68];
+  void *c1_outMexFcns[68];
+  void *c1_inMexFcns[68];
   real_T c1_yaw_mat[19200];
   real_T c1_find_yaw_mat[19200];
   real_T c1_tmp_data[19200];
@@ -1119,7 +1119,7 @@ typedef struct {
   boolean_T (*c1_center_mat)[961];
   boolean_T (*c1_heading_mat)[806];
   real_T (*c1_b_yaw_mat)[19200];
-  real_T *c1_x_out;
+  real_T *c1_output_mode;
   real_T *c1_yaw_out;
   int8_T (*c1_pts_erase_past_line)[4];
   int8_T (*c1_pts_local_area)[4];
