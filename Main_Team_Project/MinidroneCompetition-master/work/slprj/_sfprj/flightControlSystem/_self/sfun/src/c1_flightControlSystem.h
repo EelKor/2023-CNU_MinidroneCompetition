@@ -1093,18 +1093,18 @@ typedef struct {
   void *c1_RuntimeVar;
   real_T c1_local_cond;
   boolean_T c1_local_cond_not_empty;
-  real_T c1_local_array[4];
+  uint8_T c1_local_array[4];
   boolean_T c1_local_array_not_empty;
   real_T c1_add_yaw;
   boolean_T c1_add_yaw_not_empty;
   uint32_T c1_mlFcnLineNumber;
-  void *c1_fcnDataPtrs[71];
-  char_T *c1_dataNames[71];
+  void *c1_fcnDataPtrs[70];
+  char_T *c1_dataNames[70];
   uint32_T c1_numFcnVars;
-  uint32_T c1_ssIds[71];
-  uint32_T c1_statuses[71];
-  void *c1_outMexFcns[71];
-  void *c1_inMexFcns[71];
+  uint32_T c1_ssIds[70];
+  uint32_T c1_statuses[70];
+  void *c1_outMexFcns[70];
+  void *c1_inMexFcns[70];
   real_T c1_yaw_mat[19200];
   real_T c1_find_yaw_mat[19200];
   real_T c1_tmp_data[19200];
@@ -1121,9 +1121,9 @@ typedef struct {
   real_T (*c1_b_yaw_mat)[19200];
   real_T *c1_output_mode;
   real_T *c1_yaw_out;
-  int8_T (*c1_pts_erase_past_line)[4];
-  int8_T (*c1_pts_local_area)[4];
-  int8_T (*c1_pts_roi_circle)[6];
+  int32_T (*c1_pts_erase_past_line)[4];
+  int32_T (*c1_pts_local_area)[4];
+  int32_T (*c1_pts_roi_circle)[6];
 } SFc1_flightControlSystemInstanceStruct;
 
 #endif                                 /* typedef_SFc1_flightControlSystemInstanceStruct */
