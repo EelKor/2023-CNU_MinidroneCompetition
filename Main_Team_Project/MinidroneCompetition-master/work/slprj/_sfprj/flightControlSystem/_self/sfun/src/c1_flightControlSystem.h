@@ -163,6 +163,13 @@ typedef struct c1_tag_yMfj6323Zqv19VFnWGoHjH c1_cell_17;
 
 #endif                                 /* typedef_c1_cell_17 */
 
+#ifndef typedef_c1_s_Iyo3mwBcIEutUjsACOxbHG
+#define typedef_c1_s_Iyo3mwBcIEutUjsACOxbHG
+
+typedef struct c1_tag_Iyo3mwBcIEutUjsACOxbHG c1_s_Iyo3mwBcIEutUjsACOxbHG;
+
+#endif                                 /* typedef_c1_s_Iyo3mwBcIEutUjsACOxbHG */
+
 #ifndef typedef_c1_s_lgV6TtEjsHVlF5tYbjwFlF
 #define typedef_c1_s_lgV6TtEjsHVlF5tYbjwFlF
 
@@ -752,6 +759,23 @@ typedef struct c1_tag_yMfj6323Zqv19VFnWGoHjH c1_cell_17;
 
 #endif                                 /* typedef_c1_cell_17 */
 
+#ifndef struct_c1_tag_Iyo3mwBcIEutUjsACOxbHG
+#define struct_c1_tag_Iyo3mwBcIEutUjsACOxbHG
+
+struct c1_tag_Iyo3mwBcIEutUjsACOxbHG
+{
+  char_T Value[12];
+};
+
+#endif                                 /* struct_c1_tag_Iyo3mwBcIEutUjsACOxbHG */
+
+#ifndef typedef_c1_s_Iyo3mwBcIEutUjsACOxbHG
+#define typedef_c1_s_Iyo3mwBcIEutUjsACOxbHG
+
+typedef struct c1_tag_Iyo3mwBcIEutUjsACOxbHG c1_s_Iyo3mwBcIEutUjsACOxbHG;
+
+#endif                                 /* typedef_c1_s_Iyo3mwBcIEutUjsACOxbHG */
+
 #ifndef struct_c1_tag_lgV6TtEjsHVlF5tYbjwFlF
 #define struct_c1_tag_lgV6TtEjsHVlF5tYbjwFlF
 
@@ -1098,13 +1122,13 @@ typedef struct {
   real_T c1_add_yaw;
   boolean_T c1_add_yaw_not_empty;
   uint32_T c1_mlFcnLineNumber;
-  void *c1_fcnDataPtrs[72];
-  char_T *c1_dataNames[72];
+  void *c1_fcnDataPtrs[75];
+  char_T *c1_dataNames[75];
   uint32_T c1_numFcnVars;
-  uint32_T c1_ssIds[72];
-  uint32_T c1_statuses[72];
-  void *c1_outMexFcns[72];
-  void *c1_inMexFcns[72];
+  uint32_T c1_ssIds[75];
+  uint32_T c1_statuses[75];
+  void *c1_outMexFcns[75];
+  void *c1_inMexFcns[75];
   real_T c1_yaw_mat[19200];
   real_T c1_find_yaw_mat[19200];
   real_T c1_tmp_data[19200];
