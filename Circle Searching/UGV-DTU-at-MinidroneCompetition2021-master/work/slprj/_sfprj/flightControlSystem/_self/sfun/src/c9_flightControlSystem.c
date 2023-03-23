@@ -3440,29 +3440,35 @@ static void c9_b_chcenters(SFc9_flightControlSystemInstanceStruct *chartInstance
   const emlrtStack *c9_sp, creal_T c9_varargin_1[19200], c9_emxArray_real_T
   *c9_centers, c9_emxArray_real_T *c9_metric);
 static void c9_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
-  *chartInstance, const mxArray *c9_b_direct, const char_T *c9_identifier,
-  real_T c9_b_y[2]);
+  *chartInstance, const mxArray *c9_b_Red_Comp, const char_T *c9_identifier,
+  boolean_T c9_b_y[19200]);
 static void c9_b_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId,
+  boolean_T c9_b_y[19200]);
+static void c9_c_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+  *chartInstance, const mxArray *c9_b_direct, const char_T *c9_identifier,
   real_T c9_b_y[2]);
-static real_T c9_c_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static void c9_d_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+  *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId,
+  real_T c9_b_y[2]);
+static real_T c9_e_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_land, const char_T *c9_identifier);
-static real_T c9_d_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
-  *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId);
-static boolean_T c9_e_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
-  *chartInstance, const mxArray *c9_b_y, const char_T *c9_identifier);
-static boolean_T c9_f_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static real_T c9_f_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId);
 static boolean_T c9_g_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+  *chartInstance, const mxArray *c9_b_y, const char_T *c9_identifier);
+static boolean_T c9_h_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+  *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId);
+static boolean_T c9_i_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_flag_threshold, const char_T
   *c9_identifier, boolean_T *c9_svPtr);
-static boolean_T c9_h_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static boolean_T c9_j_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId,
   boolean_T *c9_svPtr);
-static uint8_T c9_i_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static uint8_T c9_k_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_is_active_c9_flightControlSystem, const
   char_T *c9_identifier);
-static uint8_T c9_j_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static uint8_T c9_l_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId);
 static void c9_slStringInitializeDynamicBuffers
   (SFc9_flightControlSystemInstanceStruct *chartInstance);
@@ -3699,19 +3705,19 @@ static void mdl_setup_runtime_resources_c9_flightControlSystem
 
   static const int32_T c9_c_postfixPredicateTree[7] = { 0, 1, -3, 2, -3, 3, -3 };
 
-  static const int32_T c9_b_condTxtEndIdx[4] = { 1083, 1102, 1121, 1140 };
+  static const int32_T c9_b_condTxtEndIdx[4] = { 1092, 1111, 1130, 1149 };
 
-  static const int32_T c9_b_condTxtStartIdx[4] = { 1068, 1087, 1106, 1125 };
+  static const int32_T c9_b_condTxtStartIdx[4] = { 1077, 1096, 1115, 1134 };
 
-  static const int32_T c9_c_condTxtEndIdx[4] = { 1755, 1774, 1793, 1812 };
+  static const int32_T c9_c_condTxtEndIdx[4] = { 1764, 1783, 1802, 1821 };
 
-  static const int32_T c9_c_condTxtStartIdx[4] = { 1740, 1759, 1778, 1797 };
+  static const int32_T c9_c_condTxtStartIdx[4] = { 1749, 1768, 1787, 1806 };
 
   static const int32_T c9_postfixPredicateTree[2] = { 0, -1 };
 
-  static const int32_T c9_condTxtEndIdx[1] = { 858 };
+  static const int32_T c9_condTxtEndIdx[1] = { 867 };
 
-  static const int32_T c9_condTxtStartIdx[1] = { 844 };
+  static const int32_T c9_condTxtStartIdx[1] = { 853 };
 
   static const uint32_T c9_decisionTxtEndIdx = 0U;
   static const uint32_T c9_decisionTxtStartIdx = 0U;
@@ -3724,7 +3730,7 @@ static void mdl_setup_runtime_resources_c9_flightControlSystem
     &chartInstance->c9_mlFcnLineNumber, &chartInstance->c9_IsHeatMapPresent, 0);
   sim_mode_is_external(chartInstance->S);
   covrtCreateStateflowInstanceData(chartInstance->c9_covrtInstance, 1U, 0U, 1U,
-    35U);
+    37U);
   covrtChartInitFcn(chartInstance->c9_covrtInstance, 0U, false, false, false);
   covrtStateInitFcn(chartInstance->c9_covrtInstance, 0U, 0U, false, false, false,
                     0U, &c9_decisionTxtStartIdx, &c9_decisionTxtEndIdx);
@@ -3732,60 +3738,60 @@ static void mdl_setup_runtime_resources_c9_flightControlSystem
   covrtEmlInitFcn(chartInstance->c9_covrtInstance, "", 4U, 0U, 1U, 0U, 6U, 0U,
                   8U, 0U, 0U, 0U, 9U, 3U);
   covrtEmlFcnInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 0U,
-                     "eML_blk_kernel", 0, -1, 1881);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 0U, 1425,
-    -1, 1452);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 1425,
-    -1, 1468);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 1438,
-    -1, 1452);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 3U, 1455,
-    -1, 1468);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 4U, 510, -1,
-    537);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 5U, 510, -1,
-    553);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 6U, 523, -1,
-    537);
-  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 7U, 540, -1,
-    553);
-  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 0U, 153, 180, -1,
-                    213, false);
-  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 238, 266, 1217,
-                    1860, false);
-  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 840, 859, -1,
-                    1216, false);
-  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 3U, 1065, 1141, -1,
-                    1176, false);
-  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 4U, 1615, 1633,
-                    1671, 1856, false);
-  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 5U, 1737, 1813, -1,
-                    1848, false);
-  covrtEmlMCDCInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 0U, 843, 858, 1U,
+                     "eML_blk_kernel", 0, -1, 1890);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 0U, 1434,
+    -1, 1461);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 1434,
+    -1, 1477);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 1447,
+    -1, 1461);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 3U, 1464,
+    -1, 1477);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 4U, 519, -1,
+    546);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 5U, 519, -1,
+    562);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 6U, 532, -1,
+    546);
+  covrtEmlSaturationInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 7U, 549, -1,
+    562);
+  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 0U, 162, 189, -1,
+                    222, false);
+  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 247, 275, 1226,
+                    1869, false);
+  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 849, 868, -1,
+                    1225, false);
+  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 3U, 1074, 1150, -1,
+                    1185, false);
+  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 4U, 1624, 1642,
+                    1680, 1865, false);
+  covrtEmlIfInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 5U, 1746, 1822, -1,
+                    1857, false);
+  covrtEmlMCDCInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 0U, 852, 867, 1U,
                       0U, c9_condTxtStartIdx, c9_condTxtEndIdx, 2U,
                       c9_postfixPredicateTree, false);
-  covrtEmlMCDCInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 1068, 1140,
+  covrtEmlMCDCInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 1077, 1149,
                       4U, 1U, c9_b_condTxtStartIdx, c9_b_condTxtEndIdx, 7U,
                       c9_b_postfixPredicateTree, false);
-  covrtEmlMCDCInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 1740, 1812,
+  covrtEmlMCDCInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 1749, 1821,
                       4U, 5U, c9_c_condTxtStartIdx, c9_c_condTxtEndIdx, 7U,
                       c9_c_postfixPredicateTree, false);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 1068,
-    1083, -1, 2U);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 1087,
-    1102, -1, 4U);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 3U, 1106,
-    1121, -1, 2U);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 4U, 1125,
-    1140, -1, 4U);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 5U, 1740,
-    1755, -1, 2U);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 6U, 1759,
-    1774, -1, 4U);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 7U, 1778,
-    1793, -1, 2U);
-  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 8U, 1797,
-    1812, -1, 4U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 1U, 1077,
+    1092, -1, 2U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 2U, 1096,
+    1111, -1, 4U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 3U, 1115,
+    1130, -1, 2U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 4U, 1134,
+    1149, -1, 4U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 5U, 1749,
+    1764, -1, 2U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 6U, 1768,
+    1783, -1, 4U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 7U, 1787,
+    1802, -1, 2U);
+  covrtEmlRelationalInitFcn(chartInstance->c9_covrtInstance, 4U, 0U, 8U, 1806,
+    1821, -1, 4U);
 }
 
 static void mdl_cleanup_runtime_resources_c9_flightControlSystem
@@ -3938,6 +3944,8 @@ static void sf_gateway_c9_flightControlSystem
   int32_T c9_i75;
   int32_T c9_i76;
   int32_T c9_i77;
+  int32_T c9_i78;
+  int32_T c9_i79;
   int32_T c9_i8;
   int32_T c9_i9;
   int32_T c9_i_loop_ub;
@@ -3972,7 +3980,7 @@ static void sf_gateway_c9_flightControlSystem
   uint8_T c9_u1;
   uint8_T c9_u3;
   uint8_T c9_u5;
-  boolean_T c9_Red_Comp[19200];
+  boolean_T c9_b_Red_Comp[19200];
   boolean_T c9_b;
   boolean_T c9_b1;
   boolean_T c9_b10;
@@ -4062,9 +4070,9 @@ static void sf_gateway_c9_flightControlSystem
     }
 
     for (c9_b_k = 0; c9_b_k < 19200; c9_b_k++) {
-      c9_f_k = c9__s32_add__(chartInstance, c9_b_k, 1, 0, 1U, 523, 14);
+      c9_f_k = c9__s32_add__(chartInstance, c9_b_k, 1, 0, 1U, 532, 14);
       c9_c_x = c9_greenChannel[c9__s32_minus__(chartInstance, c9_f_k, 1, 0, 1U,
-        523, 14)];
+        532, 14)];
       c9_b_z = (real_T)c9_c_x / 2.0;
       c9_d1 = muDoubleScalarRound(c9_b_z);
       c9_b_covSaturation = false;
@@ -4074,25 +4082,25 @@ static void sf_gateway_c9_flightControlSystem
         } else {
           c9_b_covSaturation = true;
           c9_u1 = 0U;
-          sf_data_saturate_error(chartInstance->S, 1U, 523, 14);
+          sf_data_saturate_error(chartInstance->S, 1U, 532, 14);
         }
       } else if (c9_d1 >= 256.0) {
         c9_b_covSaturation = true;
         c9_u1 = MAX_uint8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 523, 14);
+        sf_data_saturate_error(chartInstance->S, 1U, 532, 14);
       } else {
         c9_u1 = 0U;
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 6, 0,
         c9_b_covSaturation);
-      c9_e_z[c9__s32_minus__(chartInstance, c9_f_k, 1, 0, 1U, 523, 14)] = c9_u1;
+      c9_e_z[c9__s32_minus__(chartInstance, c9_f_k, 1, 0, 1U, 532, 14)] = c9_u1;
     }
 
     for (c9_e_k = 0; c9_e_k < 19200; c9_e_k++) {
-      c9_h_k = c9__s32_add__(chartInstance, c9_e_k, 1, 0, 1U, 540, 13);
+      c9_h_k = c9__s32_add__(chartInstance, c9_e_k, 1, 0, 1U, 549, 13);
       c9_e_x = c9_blueChannel[c9__s32_minus__(chartInstance, c9_h_k, 1, 0, 1U,
-        540, 13)];
+        549, 13)];
       c9_d_z = (real_T)c9_e_x / 2.0;
       c9_d3 = muDoubleScalarRound(c9_d_z);
       c9_f_covSaturation = false;
@@ -4102,19 +4110,19 @@ static void sf_gateway_c9_flightControlSystem
         } else {
           c9_f_covSaturation = true;
           c9_u5 = 0U;
-          sf_data_saturate_error(chartInstance->S, 1U, 540, 13);
+          sf_data_saturate_error(chartInstance->S, 1U, 549, 13);
         }
       } else if (c9_d3 >= 256.0) {
         c9_f_covSaturation = true;
         c9_u5 = MAX_uint8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 540, 13);
+        sf_data_saturate_error(chartInstance->S, 1U, 549, 13);
       } else {
         c9_u5 = 0U;
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 7, 0,
         c9_f_covSaturation);
-      c9_greenChannel[c9__s32_minus__(chartInstance, c9_h_k, 1, 0, 1U, 540, 13)]
+      c9_greenChannel[c9__s32_minus__(chartInstance, c9_h_k, 1, 0, 1U, 549, 13)]
         = c9_u5;
     }
 
@@ -4125,14 +4133,14 @@ static void sf_gateway_c9_flightControlSystem
       if (c9_b_qY > c9_b_q0) {
         c9_e_covSaturation = true;
         c9_b_qY = 0U;
-        sf_data_saturate_error(chartInstance->S, 1U, 510, 27);
+        sf_data_saturate_error(chartInstance->S, 1U, 519, 27);
       }
 
       c9_u4 = c9_b_qY;
       if (c9_u4 > 255U) {
         c9_e_covSaturation = true;
         c9_u4 = 255U;
-        sf_data_saturate_error(chartInstance->S, 1U, 510, 27);
+        sf_data_saturate_error(chartInstance->S, 1U, 519, 27);
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 4, 0,
@@ -4143,19 +4151,19 @@ static void sf_gateway_c9_flightControlSystem
       if (c9_d_qY > c9_d_q0) {
         c9_h_covSaturation = true;
         c9_d_qY = 0U;
-        sf_data_saturate_error(chartInstance->S, 1U, 510, 43);
+        sf_data_saturate_error(chartInstance->S, 1U, 519, 43);
       }
 
       c9_u7 = c9_d_qY;
       if (c9_u7 > 255U) {
         c9_h_covSaturation = true;
         c9_u7 = 255U;
-        sf_data_saturate_error(chartInstance->S, 1U, 510, 43);
+        sf_data_saturate_error(chartInstance->S, 1U, 519, 43);
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 5, 0,
         c9_h_covSaturation);
-      c9_Red_Comp[c9_i21] = ((real_T)(uint8_T)c9_u7 > 50.0);
+      c9_b_Red_Comp[c9_i21] = ((real_T)(uint8_T)c9_u7 > 50.0);
     }
 
     c9_b_st.site = &c9_emlrtRSI;
@@ -4164,7 +4172,7 @@ static void sf_gateway_c9_flightControlSystem
     c9_radii->size[0] = 0;
     c9_radii->size[1] = 0;
     c9_c_st.site = &c9_m_emlrtRSI;
-    c9_chaccum(chartInstance, &c9_c_st, c9_Red_Comp,
+    c9_chaccum(chartInstance, &c9_c_st, c9_b_Red_Comp,
                chartInstance->c9_accumMatrix, chartInstance->c9_gradientImg);
     if (!c9_any(chartInstance, &c9_b_st, chartInstance->c9_accumMatrix)) {
     } else {
@@ -4197,48 +4205,48 @@ static void sf_gateway_c9_flightControlSystem
         c9_emxEnsureCapacity_boolean_T(chartInstance, &c9_c_st, c9_x, c9_i38,
           &c9_b_emlrtRTEI);
         c9_d_loop_ub = c9_metric->size[0] * c9_metric->size[1] - 1;
-        for (c9_i44 = 0; c9_i44 <= c9_d_loop_ub; c9_i44++) {
-          c9_x->data[c9_i44] = (c9_metric->data[c9_i44] >= 0.069999999999999951);
+        for (c9_i45 = 0; c9_i45 <= c9_d_loop_ub; c9_i45++) {
+          c9_x->data[c9_i45] = (c9_metric->data[c9_i45] >= 0.069999999999999951);
         }
 
         c9_d_st.site = &c9_jf_emlrtRSI;
         c9_b_eml_find(chartInstance, &c9_d_st, c9_x, c9_ii);
-        c9_i49 = c9_idx2Keep->size[0];
+        c9_i50 = c9_idx2Keep->size[0];
         c9_idx2Keep->size[0] = c9_ii->size[0];
         c9_emxEnsureCapacity_real_T1(chartInstance, &c9_c_st, c9_idx2Keep,
-          c9_i49, &c9_c_emlrtRTEI);
+          c9_i50, &c9_c_emlrtRTEI);
         c9_f_loop_ub = c9_ii->size[0] - 1;
-        for (c9_i54 = 0; c9_i54 <= c9_f_loop_ub; c9_i54++) {
-          c9_idx2Keep->data[c9_i54] = (real_T)c9_ii->data[c9_i54];
+        for (c9_i56 = 0; c9_i56 <= c9_f_loop_ub; c9_i56++) {
+          c9_idx2Keep->data[c9_i56] = (real_T)c9_ii->data[c9_i56];
         }
 
         c9_d_centers = c9_b_centers->size[0];
-        c9_i58 = c9_centers->size[0] * c9_centers->size[1];
+        c9_i60 = c9_centers->size[0] * c9_centers->size[1];
         c9_centers->size[0] = c9_idx2Keep->size[0];
         c9_centers->size[1] = c9_b_centers->size[1];
-        c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_centers, c9_i58,
+        c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_centers, c9_i60,
           &c9_d_emlrtRTEI);
         c9_h_loop_ub = c9_b_centers->size[1] - 1;
-        for (c9_i63 = 0; c9_i63 <= c9_h_loop_ub; c9_i63++) {
+        for (c9_i65 = 0; c9_i65 <= c9_h_loop_ub; c9_i65++) {
           c9_j_loop_ub = c9_idx2Keep->size[0] - 1;
-          for (c9_i67 = 0; c9_i67 <= c9_j_loop_ub; c9_i67++) {
-            c9_i71 = (int32_T)c9_idx2Keep->data[c9_i67];
-            if ((c9_i71 < 1) || (c9_i71 > c9_d_centers)) {
-              emlrtDynamicBoundsCheckR2012b(c9_i71, 1, c9_d_centers,
+          for (c9_i69 = 0; c9_i69 <= c9_j_loop_ub; c9_i69++) {
+            c9_i73 = (int32_T)c9_idx2Keep->data[c9_i69];
+            if ((c9_i73 < 1) || (c9_i73 > c9_d_centers)) {
+              emlrtDynamicBoundsCheckR2012b(c9_i73, 1, c9_d_centers,
                 &c9_m_emlrtBCI, &c9_b_st);
             }
 
-            c9_centers->data[c9_i67 + c9_centers->size[0] * c9_i63] =
-              c9_b_centers->data[(c9_i71 + c9_b_centers->size[0] * c9_i63) - 1];
+            c9_centers->data[c9_i69 + c9_centers->size[0] * c9_i65] =
+              c9_b_centers->data[(c9_i73 + c9_b_centers->size[0] * c9_i65) - 1];
           }
         }
 
         c9_c_metric = c9_metric->size[0];
         c9_l_loop_ub = c9_idx2Keep->size[0] - 1;
-        for (c9_i69 = 0; c9_i69 <= c9_l_loop_ub; c9_i69++) {
-          c9_i73 = (int32_T)c9_idx2Keep->data[c9_i69];
-          if ((c9_i73 < 1) || (c9_i73 > c9_c_metric)) {
-            emlrtDynamicBoundsCheckR2012b(c9_i73, 1, c9_c_metric, &c9_n_emlrtBCI,
+        for (c9_i71 = 0; c9_i71 <= c9_l_loop_ub; c9_i71++) {
+          c9_i75 = (int32_T)c9_idx2Keep->data[c9_i71];
+          if ((c9_i75 < 1) || (c9_i75 > c9_c_metric)) {
+            emlrtDynamicBoundsCheckR2012b(c9_i75, 1, c9_c_metric, &c9_n_emlrtBCI,
               &c9_b_st);
           }
         }
@@ -4252,14 +4260,14 @@ static void sf_gateway_c9_flightControlSystem
           c9_c_st.site = &c9_p_emlrtRSI;
           c9_chradiiphcode(chartInstance, &c9_c_st, c9_centers,
                            chartInstance->c9_accumMatrix, c9_idx2Keep);
-          c9_i75 = c9_radii->size[0] * c9_radii->size[1];
+          c9_i77 = c9_radii->size[0] * c9_radii->size[1];
           c9_radii->size[0] = c9_idx2Keep->size[0];
           c9_radii->size[1] = 1;
-          c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_radii, c9_i75,
+          c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_radii, c9_i77,
             &c9_e_emlrtRTEI);
           c9_n_loop_ub = c9_idx2Keep->size[0] - 1;
-          for (c9_i77 = 0; c9_i77 <= c9_n_loop_ub; c9_i77++) {
-            c9_radii->data[c9_i77] = c9_idx2Keep->data[c9_i77];
+          for (c9_i79 = 0; c9_i79 <= c9_n_loop_ub; c9_i79++) {
+            c9_radii->data[c9_i79] = c9_idx2Keep->data[c9_i79];
           }
         }
       }
@@ -4272,7 +4280,7 @@ static void sf_gateway_c9_flightControlSystem
           0, !covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 0, c9_b1 ||
            c9_b3)))) {
       c9_i27 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                            (int64_T)c9_centers->size[1], 0, 1U, 896, 17);
+                            (int64_T)c9_centers->size[1], 0, 1U, 905, 17);
       c9_i29 = 2;
       if ((c9_i29 < 1) || (c9_i29 > c9_i27)) {
         emlrtDynamicBoundsCheckR2012b(c9_i29, 1, c9_i27, &c9_c_emlrtBCI, &c9_st);
@@ -4280,7 +4288,7 @@ static void sf_gateway_c9_flightControlSystem
 
       c9_b_direct[0] = c9_centers->data[c9_i29 - 1] - 60.0;
       c9_i33 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                            (int64_T)c9_centers->size[1], 0, 1U, 916, 13);
+                            (int64_T)c9_centers->size[1], 0, 1U, 925, 13);
       c9_i35 = 1;
       if ((c9_i35 < 1) || (c9_i35 > c9_i33)) {
         emlrtDynamicBoundsCheckR2012b(c9_i35, 1, c9_i33, &c9_d_emlrtBCI, &c9_st);
@@ -4288,7 +4296,7 @@ static void sf_gateway_c9_flightControlSystem
 
       c9_b_direct[1] = c9_centers->data[c9_i35 - 1] - 80.0;
       c9_i36 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                            (int64_T)c9_centers->size[1], 0, 1U, 1068, 10);
+                            (int64_T)c9_centers->size[1], 0, 1U, 1077, 10);
       c9_i40 = 1;
       if ((c9_i40 < 1) || (c9_i40 > c9_i36)) {
         emlrtDynamicBoundsCheckR2012b(c9_i40, 1, c9_i36, &c9_e_emlrtBCI, &c9_st);
@@ -4301,40 +4309,40 @@ static void sf_gateway_c9_flightControlSystem
                            (chartInstance->c9_covrtInstance, 4U, 0U, 1U, c9_d4,
                             85.0, -1, 2U, c9_d4 < 85.0))) {
         c9_i46 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                              (int64_T)c9_centers->size[1], 0, 1U, 1087, 10);
-        c9_i47 = 1;
-        if ((c9_i47 < 1) || (c9_i47 > c9_i46)) {
-          emlrtDynamicBoundsCheckR2012b(c9_i47, 1, c9_i46, &c9_f_emlrtBCI,
+                              (int64_T)c9_centers->size[1], 0, 1U, 1096, 10);
+        c9_i48 = 1;
+        if ((c9_i48 < 1) || (c9_i48 > c9_i46)) {
+          emlrtDynamicBoundsCheckR2012b(c9_i48, 1, c9_i46, &c9_f_emlrtBCI,
             &c9_st);
         }
 
-        c9_d6 = c9_centers->data[c9_i47 - 1];
+        c9_d6 = c9_centers->data[c9_i48 - 1];
         if (covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 2,
                              covrtRelationalopUpdateFcn
                              (chartInstance->c9_covrtInstance, 4U, 0U, 2U, c9_d6,
                               75.0, -1, 4U, c9_d6 > 75.0))) {
-          c9_i52 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                                (int64_T)c9_centers->size[1], 0, 1U, 1106, 10);
-          c9_i55 = 2;
-          if ((c9_i55 < 1) || (c9_i55 > c9_i52)) {
-            emlrtDynamicBoundsCheckR2012b(c9_i55, 1, c9_i52, &c9_h_emlrtBCI,
+          c9_i54 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
+                                (int64_T)c9_centers->size[1], 0, 1U, 1115, 10);
+          c9_i57 = 2;
+          if ((c9_i57 < 1) || (c9_i57 > c9_i54)) {
+            emlrtDynamicBoundsCheckR2012b(c9_i57, 1, c9_i54, &c9_h_emlrtBCI,
               &c9_st);
           }
 
-          c9_d8 = c9_centers->data[c9_i55 - 1];
+          c9_d8 = c9_centers->data[c9_i57 - 1];
           if (covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 3,
                                covrtRelationalopUpdateFcn
                                (chartInstance->c9_covrtInstance, 4U, 0U, 3U,
                                 c9_d8, 65.0, -1, 2U, c9_d8 < 65.0))) {
-            c9_i60 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                                  (int64_T)c9_centers->size[1], 0, 1U, 1125, 10);
-            c9_i61 = 2;
-            if ((c9_i61 < 1) || (c9_i61 > c9_i60)) {
-              emlrtDynamicBoundsCheckR2012b(c9_i61, 1, c9_i60, &c9_j_emlrtBCI,
+            c9_i62 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
+                                  (int64_T)c9_centers->size[1], 0, 1U, 1134, 10);
+            c9_i63 = 2;
+            if ((c9_i63 < 1) || (c9_i63 > c9_i62)) {
+              emlrtDynamicBoundsCheckR2012b(c9_i63, 1, c9_i62, &c9_j_emlrtBCI,
                 &c9_st);
             }
 
-            c9_d10 = c9_centers->data[c9_i61 - 1];
+            c9_d10 = c9_centers->data[c9_i63 - 1];
             if (covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 4,
                                  covrtRelationalopUpdateFcn
                                  (chartInstance->c9_covrtInstance, 4U, 0U, 4U,
@@ -4393,9 +4401,9 @@ static void sf_gateway_c9_flightControlSystem
     }
 
     for (c9_k = 0; c9_k < 19200; c9_k++) {
-      c9_d_k = c9__s32_add__(chartInstance, c9_k, 1, 0, 1U, 1438, 14);
+      c9_d_k = c9__s32_add__(chartInstance, c9_k, 1, 0, 1U, 1447, 14);
       c9_b_x = c9_greenChannel[c9__s32_minus__(chartInstance, c9_d_k, 1, 0, 1U,
-        1438, 14)];
+        1447, 14)];
       c9_z = (real_T)c9_b_x / 2.0;
       c9_d = muDoubleScalarRound(c9_z);
       c9_covSaturation = false;
@@ -4405,25 +4413,25 @@ static void sf_gateway_c9_flightControlSystem
         } else {
           c9_covSaturation = true;
           c9_u = 0U;
-          sf_data_saturate_error(chartInstance->S, 1U, 1438, 14);
+          sf_data_saturate_error(chartInstance->S, 1U, 1447, 14);
         }
       } else if (c9_d >= 256.0) {
         c9_covSaturation = true;
         c9_u = MAX_uint8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 1438, 14);
+        sf_data_saturate_error(chartInstance->S, 1U, 1447, 14);
       } else {
         c9_u = 0U;
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 2, 0,
         c9_covSaturation);
-      c9_e_z[c9__s32_minus__(chartInstance, c9_d_k, 1, 0, 1U, 1438, 14)] = c9_u;
+      c9_e_z[c9__s32_minus__(chartInstance, c9_d_k, 1, 0, 1U, 1447, 14)] = c9_u;
     }
 
     for (c9_c_k = 0; c9_c_k < 19200; c9_c_k++) {
-      c9_g_k = c9__s32_add__(chartInstance, c9_c_k, 1, 0, 1U, 1455, 13);
+      c9_g_k = c9__s32_add__(chartInstance, c9_c_k, 1, 0, 1U, 1464, 13);
       c9_d_x = c9_blueChannel[c9__s32_minus__(chartInstance, c9_g_k, 1, 0, 1U,
-        1455, 13)];
+        1464, 13)];
       c9_c_z = (real_T)c9_d_x / 2.0;
       c9_d2 = muDoubleScalarRound(c9_c_z);
       c9_d_covSaturation = false;
@@ -4433,19 +4441,19 @@ static void sf_gateway_c9_flightControlSystem
         } else {
           c9_d_covSaturation = true;
           c9_u3 = 0U;
-          sf_data_saturate_error(chartInstance->S, 1U, 1455, 13);
+          sf_data_saturate_error(chartInstance->S, 1U, 1464, 13);
         }
       } else if (c9_d2 >= 256.0) {
         c9_d_covSaturation = true;
         c9_u3 = MAX_uint8_T;
-        sf_data_saturate_error(chartInstance->S, 1U, 1455, 13);
+        sf_data_saturate_error(chartInstance->S, 1U, 1464, 13);
       } else {
         c9_u3 = 0U;
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 3, 0,
         c9_d_covSaturation);
-      c9_greenChannel[c9__s32_minus__(chartInstance, c9_g_k, 1, 0, 1U, 1455, 13)]
+      c9_greenChannel[c9__s32_minus__(chartInstance, c9_g_k, 1, 0, 1U, 1464, 13)]
         = c9_u3;
     }
 
@@ -4456,14 +4464,14 @@ static void sf_gateway_c9_flightControlSystem
       if (c9_qY > c9_q0) {
         c9_c_covSaturation = true;
         c9_qY = 0U;
-        sf_data_saturate_error(chartInstance->S, 1U, 1425, 27);
+        sf_data_saturate_error(chartInstance->S, 1U, 1434, 27);
       }
 
       c9_u2 = c9_qY;
       if (c9_u2 > 255U) {
         c9_c_covSaturation = true;
         c9_u2 = 255U;
-        sf_data_saturate_error(chartInstance->S, 1U, 1425, 27);
+        sf_data_saturate_error(chartInstance->S, 1U, 1434, 27);
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 0, 0,
@@ -4474,19 +4482,19 @@ static void sf_gateway_c9_flightControlSystem
       if (c9_c_qY > c9_c_q0) {
         c9_g_covSaturation = true;
         c9_c_qY = 0U;
-        sf_data_saturate_error(chartInstance->S, 1U, 1425, 43);
+        sf_data_saturate_error(chartInstance->S, 1U, 1434, 43);
       }
 
       c9_u6 = c9_c_qY;
       if (c9_u6 > 255U) {
         c9_g_covSaturation = true;
         c9_u6 = 255U;
-        sf_data_saturate_error(chartInstance->S, 1U, 1425, 43);
+        sf_data_saturate_error(chartInstance->S, 1U, 1434, 43);
       }
 
       covrtSaturationUpdateFcn(chartInstance->c9_covrtInstance, 4, 0, 1, 0,
         c9_g_covSaturation);
-      c9_Red_Comp[c9_i20] = ((real_T)(uint8_T)c9_u6 > 50.0);
+      c9_b_Red_Comp[c9_i20] = ((real_T)(uint8_T)c9_u6 > 50.0);
     }
 
     c9_b_st.site = &c9_b_emlrtRSI;
@@ -4495,7 +4503,7 @@ static void sf_gateway_c9_flightControlSystem
     c9_radii->size[0] = 0;
     c9_radii->size[1] = 0;
     c9_c_st.site = &c9_m_emlrtRSI;
-    c9_chaccum(chartInstance, &c9_c_st, c9_Red_Comp,
+    c9_chaccum(chartInstance, &c9_c_st, c9_b_Red_Comp,
                chartInstance->c9_accumMatrix, chartInstance->c9_gradientImg);
     if (!c9_any(chartInstance, &c9_b_st, chartInstance->c9_accumMatrix)) {
     } else {
@@ -4528,48 +4536,48 @@ static void sf_gateway_c9_flightControlSystem
         c9_emxEnsureCapacity_boolean_T(chartInstance, &c9_c_st, c9_x, c9_i37,
           &c9_b_emlrtRTEI);
         c9_c_loop_ub = c9_metric->size[0] * c9_metric->size[1] - 1;
-        for (c9_i43 = 0; c9_i43 <= c9_c_loop_ub; c9_i43++) {
-          c9_x->data[c9_i43] = (c9_metric->data[c9_i43] >= 0.064999999999999947);
+        for (c9_i44 = 0; c9_i44 <= c9_c_loop_ub; c9_i44++) {
+          c9_x->data[c9_i44] = (c9_metric->data[c9_i44] >= 0.064999999999999947);
         }
 
         c9_d_st.site = &c9_jf_emlrtRSI;
         c9_b_eml_find(chartInstance, &c9_d_st, c9_x, c9_ii);
-        c9_i48 = c9_idx2Keep->size[0];
+        c9_i49 = c9_idx2Keep->size[0];
         c9_idx2Keep->size[0] = c9_ii->size[0];
         c9_emxEnsureCapacity_real_T1(chartInstance, &c9_c_st, c9_idx2Keep,
-          c9_i48, &c9_c_emlrtRTEI);
+          c9_i49, &c9_c_emlrtRTEI);
         c9_e_loop_ub = c9_ii->size[0] - 1;
-        for (c9_i53 = 0; c9_i53 <= c9_e_loop_ub; c9_i53++) {
-          c9_idx2Keep->data[c9_i53] = (real_T)c9_ii->data[c9_i53];
+        for (c9_i55 = 0; c9_i55 <= c9_e_loop_ub; c9_i55++) {
+          c9_idx2Keep->data[c9_i55] = (real_T)c9_ii->data[c9_i55];
         }
 
         c9_c_centers = c9_b_centers->size[0];
-        c9_i56 = c9_centers->size[0] * c9_centers->size[1];
+        c9_i58 = c9_centers->size[0] * c9_centers->size[1];
         c9_centers->size[0] = c9_idx2Keep->size[0];
         c9_centers->size[1] = c9_b_centers->size[1];
-        c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_centers, c9_i56,
+        c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_centers, c9_i58,
           &c9_d_emlrtRTEI);
         c9_g_loop_ub = c9_b_centers->size[1] - 1;
-        for (c9_i62 = 0; c9_i62 <= c9_g_loop_ub; c9_i62++) {
+        for (c9_i64 = 0; c9_i64 <= c9_g_loop_ub; c9_i64++) {
           c9_i_loop_ub = c9_idx2Keep->size[0] - 1;
-          for (c9_i66 = 0; c9_i66 <= c9_i_loop_ub; c9_i66++) {
-            c9_i70 = (int32_T)c9_idx2Keep->data[c9_i66];
-            if ((c9_i70 < 1) || (c9_i70 > c9_c_centers)) {
-              emlrtDynamicBoundsCheckR2012b(c9_i70, 1, c9_c_centers,
+          for (c9_i68 = 0; c9_i68 <= c9_i_loop_ub; c9_i68++) {
+            c9_i72 = (int32_T)c9_idx2Keep->data[c9_i68];
+            if ((c9_i72 < 1) || (c9_i72 > c9_c_centers)) {
+              emlrtDynamicBoundsCheckR2012b(c9_i72, 1, c9_c_centers,
                 &c9_m_emlrtBCI, &c9_b_st);
             }
 
-            c9_centers->data[c9_i66 + c9_centers->size[0] * c9_i62] =
-              c9_b_centers->data[(c9_i70 + c9_b_centers->size[0] * c9_i62) - 1];
+            c9_centers->data[c9_i68 + c9_centers->size[0] * c9_i64] =
+              c9_b_centers->data[(c9_i72 + c9_b_centers->size[0] * c9_i64) - 1];
           }
         }
 
         c9_b_metric = c9_metric->size[0];
         c9_k_loop_ub = c9_idx2Keep->size[0] - 1;
-        for (c9_i68 = 0; c9_i68 <= c9_k_loop_ub; c9_i68++) {
-          c9_i72 = (int32_T)c9_idx2Keep->data[c9_i68];
-          if ((c9_i72 < 1) || (c9_i72 > c9_b_metric)) {
-            emlrtDynamicBoundsCheckR2012b(c9_i72, 1, c9_b_metric, &c9_n_emlrtBCI,
+        for (c9_i70 = 0; c9_i70 <= c9_k_loop_ub; c9_i70++) {
+          c9_i74 = (int32_T)c9_idx2Keep->data[c9_i70];
+          if ((c9_i74 < 1) || (c9_i74 > c9_b_metric)) {
+            emlrtDynamicBoundsCheckR2012b(c9_i74, 1, c9_b_metric, &c9_n_emlrtBCI,
               &c9_b_st);
           }
         }
@@ -4583,14 +4591,14 @@ static void sf_gateway_c9_flightControlSystem
           c9_c_st.site = &c9_p_emlrtRSI;
           c9_chradiiphcode(chartInstance, &c9_c_st, c9_centers,
                            chartInstance->c9_accumMatrix, c9_idx2Keep);
-          c9_i74 = c9_radii->size[0] * c9_radii->size[1];
+          c9_i76 = c9_radii->size[0] * c9_radii->size[1];
           c9_radii->size[0] = c9_idx2Keep->size[0];
           c9_radii->size[1] = 1;
-          c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_radii, c9_i74,
+          c9_emxEnsureCapacity_real_T(chartInstance, &c9_b_st, c9_radii, c9_i76,
             &c9_e_emlrtRTEI);
           c9_m_loop_ub = c9_idx2Keep->size[0] - 1;
-          for (c9_i76 = 0; c9_i76 <= c9_m_loop_ub; c9_i76++) {
-            c9_radii->data[c9_i76] = c9_idx2Keep->data[c9_i76];
+          for (c9_i78 = 0; c9_i78 <= c9_m_loop_ub; c9_i78++) {
+            c9_radii->data[c9_i78] = c9_idx2Keep->data[c9_i78];
           }
         }
       }
@@ -4603,7 +4611,7 @@ static void sf_gateway_c9_flightControlSystem
       chartInstance->c9_flag_threshold = false;
     } else {
       c9_i25 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                            (int64_T)c9_centers->size[1], 0, 1U, 1695, 15);
+                            (int64_T)c9_centers->size[1], 0, 1U, 1704, 15);
       c9_i28 = 2;
       if ((c9_i28 < 1) || (c9_i28 > c9_i25)) {
         emlrtDynamicBoundsCheckR2012b(c9_i28, 1, c9_i25, &c9_emlrtBCI, &c9_st);
@@ -4611,7 +4619,7 @@ static void sf_gateway_c9_flightControlSystem
 
       c9_b_direct[0] = c9_centers->data[c9_i28 - 1] - 60.0;
       c9_i31 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                            (int64_T)c9_centers->size[1], 0, 1U, 1713, 13);
+                            (int64_T)c9_centers->size[1], 0, 1U, 1722, 13);
       c9_i34 = 1;
       if ((c9_i34 < 1) || (c9_i34 > c9_i31)) {
         emlrtDynamicBoundsCheckR2012b(c9_i34, 1, c9_i31, &c9_b_emlrtBCI, &c9_st);
@@ -4624,53 +4632,53 @@ static void sf_gateway_c9_flightControlSystem
         2), false);
       sf_mex_call(&c9_st, NULL, "disp", 0U, 1U, 14, c9_c_y);
       c9_i41 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                            (int64_T)c9_centers->size[1], 0, 1U, 1740, 10);
-      c9_i42 = 1;
-      if ((c9_i42 < 1) || (c9_i42 > c9_i41)) {
-        emlrtDynamicBoundsCheckR2012b(c9_i42, 1, c9_i41, &c9_g_emlrtBCI, &c9_st);
+                            (int64_T)c9_centers->size[1], 0, 1U, 1749, 10);
+      c9_i43 = 1;
+      if ((c9_i43 < 1) || (c9_i43 > c9_i41)) {
+        emlrtDynamicBoundsCheckR2012b(c9_i43, 1, c9_i41, &c9_g_emlrtBCI, &c9_st);
       }
 
-      c9_d5 = c9_centers->data[c9_i42 - 1];
+      c9_d5 = c9_centers->data[c9_i43 - 1];
       c9_guard1 = false;
       if (covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 5,
                            covrtRelationalopUpdateFcn
                            (chartInstance->c9_covrtInstance, 4U, 0U, 5U, c9_d5,
                             85.0, -1, 2U, c9_d5 < 85.0))) {
-        c9_i50 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                              (int64_T)c9_centers->size[1], 0, 1U, 1759, 10);
-        c9_i51 = 1;
-        if ((c9_i51 < 1) || (c9_i51 > c9_i50)) {
-          emlrtDynamicBoundsCheckR2012b(c9_i51, 1, c9_i50, &c9_i_emlrtBCI,
+        c9_i51 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
+                              (int64_T)c9_centers->size[1], 0, 1U, 1768, 10);
+        c9_i53 = 1;
+        if ((c9_i53 < 1) || (c9_i53 > c9_i51)) {
+          emlrtDynamicBoundsCheckR2012b(c9_i53, 1, c9_i51, &c9_i_emlrtBCI,
             &c9_st);
         }
 
-        c9_d7 = c9_centers->data[c9_i51 - 1];
+        c9_d7 = c9_centers->data[c9_i53 - 1];
         if (covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 6,
                              covrtRelationalopUpdateFcn
                              (chartInstance->c9_covrtInstance, 4U, 0U, 6U, c9_d7,
                               75.0, -1, 4U, c9_d7 > 75.0))) {
-          c9_i57 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                                (int64_T)c9_centers->size[1], 0, 1U, 1778, 10);
-          c9_i59 = 2;
-          if ((c9_i59 < 1) || (c9_i59 > c9_i57)) {
-            emlrtDynamicBoundsCheckR2012b(c9_i59, 1, c9_i57, &c9_k_emlrtBCI,
+          c9_i59 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
+                                (int64_T)c9_centers->size[1], 0, 1U, 1787, 10);
+          c9_i61 = 2;
+          if ((c9_i61 < 1) || (c9_i61 > c9_i59)) {
+            emlrtDynamicBoundsCheckR2012b(c9_i61, 1, c9_i59, &c9_k_emlrtBCI,
               &c9_st);
           }
 
-          c9_d9 = c9_centers->data[c9_i59 - 1];
+          c9_d9 = c9_centers->data[c9_i61 - 1];
           if (covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 7,
                                covrtRelationalopUpdateFcn
                                (chartInstance->c9_covrtInstance, 4U, 0U, 7U,
                                 c9_d9, 65.0, -1, 2U, c9_d9 < 65.0))) {
-            c9_i64 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
-                                  (int64_T)c9_centers->size[1], 0, 1U, 1797, 10);
-            c9_i65 = 2;
-            if ((c9_i65 < 1) || (c9_i65 > c9_i64)) {
-              emlrtDynamicBoundsCheckR2012b(c9_i65, 1, c9_i64, &c9_l_emlrtBCI,
+            c9_i66 = c9__s32_s64_(chartInstance, (int64_T)c9_centers->size[0] *
+                                  (int64_T)c9_centers->size[1], 0, 1U, 1806, 10);
+            c9_i67 = 2;
+            if ((c9_i67 < 1) || (c9_i67 > c9_i66)) {
+              emlrtDynamicBoundsCheckR2012b(c9_i67, 1, c9_i66, &c9_l_emlrtBCI,
                 &c9_st);
             }
 
-            c9_d11 = c9_centers->data[c9_i65 - 1];
+            c9_d11 = c9_centers->data[c9_i67 - 1];
             if (covrtEmlCondEval(chartInstance->c9_covrtInstance, 4U, 0, 8,
                                  covrtRelationalopUpdateFcn
                                  (chartInstance->c9_covrtInstance, 4U, 0U, 8U,
@@ -4712,15 +4720,23 @@ static void sf_gateway_c9_flightControlSystem
   }
 
   *chartInstance->c9_y = c9_b_y;
+  for (c9_i42 = 0; c9_i42 < 19200; c9_i42++) {
+    (*chartInstance->c9_Red_Comp)[c9_i42] = c9_b_Red_Comp[c9_i42];
+  }
+
   c9_do_animation_call_c9_flightControlSystem(chartInstance);
   covrtSigUpdateFcn(chartInstance->c9_covrtInstance, 1U, *chartInstance->c9_land);
-  for (c9_i45 = 0; c9_i45 < 2; c9_i45++) {
+  for (c9_i47 = 0; c9_i47 < 2; c9_i47++) {
     covrtSigUpdateFcn(chartInstance->c9_covrtInstance, 2U,
-                      (*chartInstance->c9_direct)[c9_i45]);
+                      (*chartInstance->c9_direct)[c9_i47]);
   }
 
   covrtSigUpdateFcn(chartInstance->c9_covrtInstance, 3U, (real_T)
                     *chartInstance->c9_y);
+  for (c9_i52 = 0; c9_i52 < 19200; c9_i52++) {
+    covrtSigUpdateFcn(chartInstance->c9_covrtInstance, 4U, (real_T)
+                      (*chartInstance->c9_Red_Comp)[c9_i52]);
+  }
 }
 
 static void ext_mode_exec_c9_flightControlSystem
@@ -4751,38 +4767,43 @@ static const mxArray *get_sim_state_c9_flightControlSystem
   const mxArray *c9_e_y = NULL;
   const mxArray *c9_f_y = NULL;
   const mxArray *c9_g_y = NULL;
+  const mxArray *c9_h_y = NULL;
   const mxArray *c9_st;
   c9_st = NULL;
   c9_st = NULL;
   c9_b_y = NULL;
-  sf_mex_assign(&c9_b_y, sf_mex_createcellmatrix(5, 1), false);
+  sf_mex_assign(&c9_b_y, sf_mex_createcellmatrix(6, 1), false);
   c9_c_y = NULL;
-  sf_mex_assign(&c9_c_y, sf_mex_create("y", *chartInstance->c9_direct, 0, 0U, 1U,
-    0U, 2, 1, 2), false);
+  sf_mex_assign(&c9_c_y, sf_mex_create("y", *chartInstance->c9_Red_Comp, 11, 0U,
+    1U, 0U, 2, 120, 160), false);
   sf_mex_setcell(c9_b_y, 0, c9_c_y);
   c9_d_y = NULL;
-  sf_mex_assign(&c9_d_y, sf_mex_create("y", chartInstance->c9_land, 0, 0U, 0U,
-    0U, 0), false);
+  sf_mex_assign(&c9_d_y, sf_mex_create("y", *chartInstance->c9_direct, 0, 0U, 1U,
+    0U, 2, 1, 2), false);
   sf_mex_setcell(c9_b_y, 1, c9_d_y);
   c9_e_y = NULL;
-  sf_mex_assign(&c9_e_y, sf_mex_create("y", chartInstance->c9_y, 11, 0U, 0U, 0U,
-    0), false);
+  sf_mex_assign(&c9_e_y, sf_mex_create("y", chartInstance->c9_land, 0, 0U, 0U,
+    0U, 0), false);
   sf_mex_setcell(c9_b_y, 2, c9_e_y);
   c9_f_y = NULL;
+  sf_mex_assign(&c9_f_y, sf_mex_create("y", chartInstance->c9_y, 11, 0U, 0U, 0U,
+    0), false);
+  sf_mex_setcell(c9_b_y, 3, c9_f_y);
+  c9_g_y = NULL;
   if (!chartInstance->c9_flag_threshold_not_empty) {
-    sf_mex_assign(&c9_f_y, sf_mex_create("y", NULL, 0, 0U, 1U, 0U, 2, 0, 0),
+    sf_mex_assign(&c9_g_y, sf_mex_create("y", NULL, 0, 0U, 1U, 0U, 2, 0, 0),
                   false);
   } else {
-    sf_mex_assign(&c9_f_y, sf_mex_create("y", &chartInstance->c9_flag_threshold,
+    sf_mex_assign(&c9_g_y, sf_mex_create("y", &chartInstance->c9_flag_threshold,
       11, 0U, 0U, 0U, 0), false);
   }
 
-  sf_mex_setcell(c9_b_y, 3, c9_f_y);
-  c9_g_y = NULL;
-  sf_mex_assign(&c9_g_y, sf_mex_create("y",
+  sf_mex_setcell(c9_b_y, 4, c9_g_y);
+  c9_h_y = NULL;
+  sf_mex_assign(&c9_h_y, sf_mex_create("y",
     &chartInstance->c9_is_active_c9_flightControlSystem, 3, 0U, 0U, 0U, 0),
                 false);
-  sf_mex_setcell(c9_b_y, 4, c9_g_y);
+  sf_mex_setcell(c9_b_y, 5, c9_h_y);
   sf_mex_assign(&c9_st, c9_b_y, false);
   return c9_st;
 }
@@ -4793,23 +4814,31 @@ static void set_sim_state_c9_flightControlSystem
   const mxArray *c9_u;
   real_T c9_dv[2];
   int32_T c9_i;
+  int32_T c9_i1;
+  boolean_T c9_bv[19200];
   chartInstance->c9_doneDoubleBufferReInit = true;
   c9_u = sf_mex_dup(c9_st);
   c9_emlrt_marshallIn(chartInstance, sf_mex_dup(sf_mex_getcell(c9_u, 0)),
-                      "direct", c9_dv);
-  for (c9_i = 0; c9_i < 2; c9_i++) {
-    (*chartInstance->c9_direct)[c9_i] = c9_dv[c9_i];
+                      "Red_Comp", c9_bv);
+  for (c9_i = 0; c9_i < 19200; c9_i++) {
+    (*chartInstance->c9_Red_Comp)[c9_i] = c9_bv[c9_i];
   }
 
-  *chartInstance->c9_land = c9_c_emlrt_marshallIn(chartInstance, sf_mex_dup
-    (sf_mex_getcell(c9_u, 1)), "land");
-  *chartInstance->c9_y = c9_e_emlrt_marshallIn(chartInstance, sf_mex_dup
-    (sf_mex_getcell(c9_u, 2)), "y");
-  chartInstance->c9_flag_threshold = c9_g_emlrt_marshallIn(chartInstance,
-    sf_mex_dup(sf_mex_getcell(c9_u, 3)), "flag_threshold",
+  c9_c_emlrt_marshallIn(chartInstance, sf_mex_dup(sf_mex_getcell(c9_u, 1)),
+                        "direct", c9_dv);
+  for (c9_i1 = 0; c9_i1 < 2; c9_i1++) {
+    (*chartInstance->c9_direct)[c9_i1] = c9_dv[c9_i1];
+  }
+
+  *chartInstance->c9_land = c9_e_emlrt_marshallIn(chartInstance, sf_mex_dup
+    (sf_mex_getcell(c9_u, 2)), "land");
+  *chartInstance->c9_y = c9_g_emlrt_marshallIn(chartInstance, sf_mex_dup
+    (sf_mex_getcell(c9_u, 3)), "y");
+  chartInstance->c9_flag_threshold = c9_i_emlrt_marshallIn(chartInstance,
+    sf_mex_dup(sf_mex_getcell(c9_u, 4)), "flag_threshold",
     &chartInstance->c9_flag_threshold_not_empty);
-  chartInstance->c9_is_active_c9_flightControlSystem = c9_i_emlrt_marshallIn
-    (chartInstance, sf_mex_dup(sf_mex_getcell(c9_u, 4)),
+  chartInstance->c9_is_active_c9_flightControlSystem = c9_k_emlrt_marshallIn
+    (chartInstance, sf_mex_dup(sf_mex_getcell(c9_u, 5)),
      "is_active_c9_flightControlSystem");
   sf_mex_destroy(&c9_u);
   sf_mex_destroy(&c9_st);
@@ -11310,6 +11339,35 @@ static void c9_b_chcenters(SFc9_flightControlSystemInstanceStruct *chartInstance
 }
 
 static void c9_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+  *chartInstance, const mxArray *c9_b_Red_Comp, const char_T *c9_identifier,
+  boolean_T c9_b_y[19200])
+{
+  emlrtMsgIdentifier c9_thisId;
+  c9_thisId.fIdentifier = (const char_T *)c9_identifier;
+  c9_thisId.fParent = NULL;
+  c9_thisId.bParentIsCell = false;
+  c9_b_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_Red_Comp), &c9_thisId,
+                        c9_b_y);
+  sf_mex_destroy(&c9_b_Red_Comp);
+}
+
+static void c9_b_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+  *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId,
+  boolean_T c9_b_y[19200])
+{
+  int32_T c9_i;
+  boolean_T c9_bv[19200];
+  (void)chartInstance;
+  sf_mex_import(c9_parentId, sf_mex_dup(c9_u), c9_bv, 1, 11, 0U, 1, 0U, 2, 120,
+                160);
+  for (c9_i = 0; c9_i < 19200; c9_i++) {
+    c9_b_y[c9_i] = c9_bv[c9_i];
+  }
+
+  sf_mex_destroy(&c9_u);
+}
+
+static void c9_c_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_direct, const char_T *c9_identifier,
   real_T c9_b_y[2])
 {
@@ -11317,12 +11375,12 @@ static void c9_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   c9_thisId.fIdentifier = (const char_T *)c9_identifier;
   c9_thisId.fParent = NULL;
   c9_thisId.bParentIsCell = false;
-  c9_b_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_direct), &c9_thisId,
+  c9_d_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_direct), &c9_thisId,
                         c9_b_y);
   sf_mex_destroy(&c9_b_direct);
 }
 
-static void c9_b_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static void c9_d_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId,
   real_T c9_b_y[2])
 {
@@ -11337,7 +11395,7 @@ static void c9_b_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   sf_mex_destroy(&c9_u);
 }
 
-static real_T c9_c_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static real_T c9_e_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_land, const char_T *c9_identifier)
 {
   emlrtMsgIdentifier c9_thisId;
@@ -11345,13 +11403,13 @@ static real_T c9_c_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   c9_thisId.fIdentifier = (const char_T *)c9_identifier;
   c9_thisId.fParent = NULL;
   c9_thisId.bParentIsCell = false;
-  c9_b_y = c9_d_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_land),
+  c9_b_y = c9_f_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_land),
     &c9_thisId);
   sf_mex_destroy(&c9_b_land);
   return c9_b_y;
 }
 
-static real_T c9_d_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static real_T c9_f_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId)
 {
   real_T c9_b_y;
@@ -11363,7 +11421,7 @@ static real_T c9_d_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   return c9_b_y;
 }
 
-static boolean_T c9_e_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static boolean_T c9_g_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_y, const char_T *c9_identifier)
 {
   emlrtMsgIdentifier c9_thisId;
@@ -11371,12 +11429,12 @@ static boolean_T c9_e_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   c9_thisId.fIdentifier = (const char_T *)c9_identifier;
   c9_thisId.fParent = NULL;
   c9_thisId.bParentIsCell = false;
-  c9_c_y = c9_f_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_y), &c9_thisId);
+  c9_c_y = c9_h_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_y), &c9_thisId);
   sf_mex_destroy(&c9_b_y);
   return c9_c_y;
 }
 
-static boolean_T c9_f_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static boolean_T c9_h_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId)
 {
   boolean_T c9_b;
@@ -11388,7 +11446,7 @@ static boolean_T c9_f_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   return c9_b_y;
 }
 
-static boolean_T c9_g_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static boolean_T c9_i_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_flag_threshold, const char_T
   *c9_identifier, boolean_T *c9_svPtr)
 {
@@ -11397,13 +11455,13 @@ static boolean_T c9_g_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   c9_thisId.fIdentifier = (const char_T *)c9_identifier;
   c9_thisId.fParent = NULL;
   c9_thisId.bParentIsCell = false;
-  c9_b_y = c9_h_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_flag_threshold),
+  c9_b_y = c9_j_emlrt_marshallIn(chartInstance, sf_mex_dup(c9_b_flag_threshold),
     &c9_thisId, c9_svPtr);
   sf_mex_destroy(&c9_b_flag_threshold);
   return c9_b_y;
 }
 
-static boolean_T c9_h_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static boolean_T c9_j_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId,
   boolean_T *c9_svPtr)
 {
@@ -11422,7 +11480,7 @@ static boolean_T c9_h_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   return c9_b_y;
 }
 
-static uint8_T c9_i_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static uint8_T c9_k_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_b_is_active_c9_flightControlSystem, const
   char_T *c9_identifier)
 {
@@ -11431,13 +11489,13 @@ static uint8_T c9_i_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   c9_thisId.fIdentifier = (const char_T *)c9_identifier;
   c9_thisId.fParent = NULL;
   c9_thisId.bParentIsCell = false;
-  c9_b_y = c9_j_emlrt_marshallIn(chartInstance, sf_mex_dup
+  c9_b_y = c9_l_emlrt_marshallIn(chartInstance, sf_mex_dup
     (c9_b_is_active_c9_flightControlSystem), &c9_thisId);
   sf_mex_destroy(&c9_b_is_active_c9_flightControlSystem);
   return c9_b_y;
 }
 
-static uint8_T c9_j_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
+static uint8_T c9_l_emlrt_marshallIn(SFc9_flightControlSystemInstanceStruct
   *chartInstance, const mxArray *c9_u, const emlrtMsgIdentifier *c9_parentId)
 {
   uint8_T c9_b_u;
@@ -11485,6 +11543,11 @@ static void c9_chart_data_browse_helper(SFc9_flightControlSystemInstanceStruct
     c9_b = *chartInstance->c9_y;
     sf_mex_assign(c9_mxData, sf_mex_create("mxData", &c9_b, 11, 0U, 0U, 0U, 0),
                   false);
+    break;
+
+   case 9U:
+    sf_mex_assign(c9_mxData, sf_mex_create("mxData", *chartInstance->c9_Red_Comp,
+      11, 0U, 1U, 0U, 2, 120, 160), false);
     break;
   }
 }
@@ -14812,6 +14875,8 @@ static void init_simulink_io_address(SFc9_flightControlSystemInstanceStruct
     (chartInstance->S, 0);
   chartInstance->c9_y = (boolean_T *)ssGetOutputPortSignal_wrapper
     (chartInstance->S, 3);
+  chartInstance->c9_Red_Comp = (boolean_T (*)[19200])
+    ssGetOutputPortSignal_wrapper(chartInstance->S, 4);
 }
 
 #include <stdio.h>
@@ -14821,10 +14886,10 @@ static void init_simulink_io_address(SFc9_flightControlSystemInstanceStruct
 /* SFunction Glue Code */
 void sf_c9_flightControlSystem_get_check_sum(mxArray *plhs[])
 {
-  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(2549634987U);
-  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(1307654587U);
-  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(3178433655U);
-  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(192280816U);
+  ((real_T *)mxGetPr((plhs[0])))[0] = (real_T)(3002793775U);
+  ((real_T *)mxGetPr((plhs[0])))[1] = (real_T)(3504930364U);
+  ((real_T *)mxGetPr((plhs[0])))[2] = (real_T)(259347701U);
+  ((real_T *)mxGetPr((plhs[0])))[3] = (real_T)(473792807U);
 }
 
 mxArray *sf_c9_flightControlSystem_third_party_uses_info(void)
@@ -14874,11 +14939,12 @@ static const mxArray *sf_get_sim_state_info_c9_flightControlSystem(void)
 
   mxArray *mxInfo = mxCreateStructMatrix(1, 1, 2, infoFields);
   mxArray *mxVarInfo = sf_mex_decode(
-    "eNpjYPT0ZQACPiBWYGVgYAPSHEDMxAABrFA+I5TNCBdngYsrAHFJZUEqSLy4KNkzBUjnJeaC+Ym"
-    "lFZ55aflg8y0YEOazYTGfEcl8Tqg4BHywp0y/jAO6fhYs+tmQ9AtA+SmZRanJJZDwgYXTwPlDAe"
-    "wPAwL+YEHxBwtDTmJeyuBwvwhR7mdEcT8jQyUDtcJfwIEy/RD7HQi4nw8tHYH4aTmJ6fElGUWpx"
-    "Rn5OSkQsQsM+PMbI1p+Y0JKpzkMmQwFWNyDzT9MaP4RgPvGzQFC+1IlXCiPHwWquCOAQPwooMUP"
-    "iJ9ZHJ+YXJJZlhqfbBmflpOZnlHinJ9XUpSfE1xZXJKaC/MfAJs7MkY="
+    "eNpjYPT0ZQACPiB+wcrAwAakOYCYiQECWKF8RgaIHCNcnAUurgDEJZUFqSDx4qJkzxQgnZeYC+Y"
+    "nllZ45qXlg823YECYz4bFfEYk8zmh4hDwwZ4y/UoO6PpZsOjnQNIvAOUHpabEO+fnFvBBxQfWHz"
+    "JE+YMNzR8gfkpmUWpyCcT9A+8PBbA/DAj4gwXFHywMOYl5KYPD/SJEuZ8Rxf2MDJUM1Ap/AQfK9"
+    "EPsdyDgfj60dATip+UkpseXZBSlFmfk56RAxC4w4C83GNHKDSakdJrDkMlQgMU92PzDhOYfAZhn"
+    "GrwcwPSBAKqEC+Xxo0AVdwQQiB8FtPgB8TOL4xOTSzLLUuOTLePTcjLTM0qc8/NKivJzgiuLS1J"
+    "zYf4DAAVsOns="
     );
   mxArray *mxChecksum = mxCreateDoubleMatrix(1, 4, mxREAL);
   sf_c9_flightControlSystem_get_check_sum(&mxChecksum);
@@ -14889,7 +14955,7 @@ static const mxArray *sf_get_sim_state_info_c9_flightControlSystem(void)
 
 static const char* sf_get_instance_specialization(void)
 {
-  return "sYIPuPtxNlsg2dIZQZHsjjC";
+  return "suaQuKeRo212cIJIFopV25D";
 }
 
 static void sf_opaque_initialize_c9_flightControlSystem(void *chartInstanceVar)
@@ -14995,35 +15061,36 @@ static void mdlProcessParameters_c9_flightControlSystem(SimStruct *S)
 const char* sf_c9_flightControlSystem_get_post_codegen_info(void)
 {
   int i;
-  const char* encStrCodegen [23] = {
-    "eNrtWdtu40QYnoS22hVLVSS0cFGJXHKDBEVIICFomwMbqd0GnBboTTW1/8SzGc94Z8ZJw+kSicf",
-    "gKeAxuIPH4JJL/rGdbOqa1pMUbYG15Dpj+/tP8x9dUuseEjw28fxlm5ANvN7Ds06yYz1f1xbO7P",
-    "4a+Shff/syIb4MYAjCSwYDdkHcDpFEPapopIn7IWgEn4OWPDFMiq4YyOpYJgagQPhIIJbKOPHVL",
-    "Eo4E6NOInzLWX8RMj/0QpnwYB8J0uBI8Onf8Y0T00OOLabANx2AwIRKJsOww+nweisoM2mG4I90",
-    "EjnbSoPxktiqqg8TbljMoX0BfldoQ9EK+gZ9PUMNNM2Fm5GtvtqboWUUc0ZFdVuHVHsQo3cYOI4",
-    "D/HuUGLReJawfUmX2IaRj0AdslHKXAipxZxrfPmeCGqkY5e2INy21ivr2OOp4iCHBXfcI9d1XQE",
-    "exZMI4BoTXQTu3BT3n0ILzZOjI14OniY2GEwYTUG77O2jKMSg6hCPhJnO6R+2L1CnnsVQRa1gEJ",
-    "1Tt+ei7GgK3vIFBpz2K7gh9JOOEhdTEXd1XbIy+4Zrrujb8l8p1SZR5v14Km/Jtj8HZr+Z8O75o",
-    "Us61G7Yv4wMYA0/5t6ihS2Az/g5grVnQl+gdNts4ZqxEMIyEHNuUImDVvXJcQKWF7TEWqQpwFtk",
-    "wgADNPBd9TuimOEq0kVETU07r4KAiv6vYrjCgBtSHyjVGUaYBBU79ypFvwLQNJESjlUyqZWUKWQ",
-    "wuBSV6kIjWRKoR2ti1mD2zlY0ENzQEQ0zMBtIk10bvPqE8qShzpIcYP+gexxqzrBtfxNr4WQrsU",
-    "z+EwFZOxuEQ8ywSqLrF2pb8PdR2zMy0BdpXLK4aSQkmdCy61kr9aQzHYiTkRHSUjLy887rGrwAw",
-    "a1AlmBjuYwlX0w4KX01qBU/7aXZ3bXKsnanh9Nz6xqcgsBpaXW3XQH2MqrbAFhkFWgXrsa+xiRG",
-    "aaYOFepqV+qzu2f79EXnWv6+V9O8PF/r3rXztf3g24GwY2kRjlOTeFGlHGb13Fug9qDAPzOS4Dk",
-    "eu4MgcN7u+tYCvlfAlC9civ/v16+Ws469ajttdwL1S4LNWwG3kNvv+h+9+/Oa3+hs/jb78ee/k/",
-    "NVV+P+67jZvbebr7VnfNM/S4yuJrIo/vF7wB7vWX3V7Sc9cPOZ6uBN0Tz87faSfPGmm9Bo3yLte",
-    "kHd2v2F7NQziNCcovxvkc5td0ySbJyz9Dxbk3bjBHvcX/ImQPz5ZDb+9W8SX2WujYK+NtIbZEe6",
-    "y/z4/PRq7RX8s02Ptkh5rBIeV4G7I/1ol+WuX5K+RKbkt+2/troa/mlfK5N8s+JFdD3DyPzOhAh",
-    "1KHuT5gbjlh/qCn3LCSFwiT5k+9YI+W3NtOrvZ9fBW7LL6/jRuRY7eDfvTKOxPI51xz6jtZOCsv",
-    "GJu3kI9csWRF7g7gav9D/Wr0g8ui3uJ/HP9523iVtXPtc/9t79/XV0nhfe37rAexeuy885d0+t3",
-    "x37jzXz98fx7WzNkPCiZ+PPHOJQPyp7+R/z7T0f7zeavtrVf/o+Z0/f2BOVTHPGzTyj57Z6y39f",
-    "njxRQXf4d5XnUk6p974NCfNv1hIlATvTb7+68v7NKffoLcFc0Dw==",
+  const char* encStrCodegen [24] = {
+    "eNrtWU1v40QYnlTZaCuWqgcEQlpExYkDIDaoEkgI2uYDsrQ01GmRuFRT+008ynjGOzNOGsRh/wX",
+    "c+AncOXHmxAnxE/YGSBw48o6dZFM3pJ6kq5YPS647tp/3a95Ph5RaBwSPDTwfv0JIBa938Vwj2X",
+    "FnvC7NnNn9Mnl/vP7qOUJ8GUAPhJd0u+ycuB0iidpU0UgT90PQCI5AS54YJkVLdGVxLBNdUCB8J",
+    "BBLZZz4ahYlnIl+MxG+5aw/D5kfeqFMeLCHBGlwKPjo7/jGiWkjxzpT4JsmQGBCJZNe2OS0t9gK",
+    "ygxrIfh9nUTOttJgvCS2quqDhBsWc2icg98S2lC0gr5CX89QAzVz7mZkq6/2JmgZxZxRUdzWIdU",
+    "exOgdBo7jAP8eJgatVwjrh1SZPQjpAPQ+66fcpYBC3JnGt8+YoEYqRnkj4jVLraC+bY46HmBIcN",
+    "c9Qn33FNB+LJkwjgHhNdHODUHPONThLOk58vXgUWKj4YTBEJTb/nZrcgCK9uBQuMmc7lHjPHXKa",
+    "SwVxBoWwQlVuz76robALW9g0GmPojtCB8k4YSE1cUt3FBugb7jmupYN/6VyXRJl3q+XwqZ8GwNw",
+    "9qsp36YvapRz7YbtyHgfBsBT/nVq6BLYjL8DWGsWdCR6h802jhkrEQwjYYytSRGw4l45yKHSwvY",
+    "pFqkCcBbZMIAAzTwVfUroqjhKtJFRDVNOfX+/IL/L2JYwoLrUh8I1RlGmAQVO/cqRb8C0DSREo5",
+    "VMqmVhClkMLgUlupuI+lCqPtrYtZg9tZWNBDc0BD1MzAbSJNdA7z6hPCkoc6R7GD/oHscas6wbX",
+    "8Ta+FkK7FM/hMBWTsbhAPMsEii6xdqW/F3UdsDMqA7aVywuGkkJJnQsutZKnVEMx6Iv5FA0lYy8",
+    "cee1wK8AMGtQJZjo7WEJV6MmCl9MagWPOml2d21yrJ2p4fTM+sZHILAaWl1t10B9jKqGwBYZBVo",
+    "F67EvsYkRmmmDhXqUlfqs7tn+/WPytH8vz+nfX5zp3zfHa/+90y5nvdAmGqMk90ZIO8rovT1D71",
+    "6BeWAixyIcuYQjU9zk+voMvjSHL5m55vmtry2Wcw3/K41xOzO453N8yjlcZWyz7e+/e+v3/pNfv",
+    "375jfUf//j251X4f1Nxm7c2xuv7k75pmqUHlxJZEX94KecPdq0T+lnyCRzJ6oOq33rYasr4pLpd",
+    "T+k9ubNY3kpO3sn9LdurYRCnOUH5rWA8t9k1TbJ5wtJ/d0beyhX2WJ/xJ0J++3A1/Gs7efw8e93",
+    "N2cuujyA4tdlx1n9vTo/7hfSo5PSopLXYjqIX4/Dm9NjaycfVPD3KF/QoExy6gtsh/wuF5C9dkL",
+    "9ERuS67L+5sxr+cn6cJ/9Gzo/sustp79SECnQoeZDd+4m45bm1GT/lhJF4jjzz9FnL6bM5Uebxw",
+    "530+kP7Wuyy+v5sXYsc7Sv2Zyu3P1vprH5KbUcGp/Mr/8Y11FVXHPkfdytwpf+gfkX62mVxZfLs",
+    "+ujrxK2qn2u//k9/f1FdJ7n3N2+xHvnrsnPbbdPrF8d+49Xx+oPpd8NayHgw58vF+PE+0O68p/8",
+    "S//7T0X6TObKRzo/ZD0xfvLMrKB9pln12mdxuK/s7wfSRAqrnfw+6iXpStO+9l4tvux4yEcihfv",
+    "NBdbu6Sn36CwfXPW4=",
     ""
   };
 
-  static char newstr [1629] = "";
+  static char newstr [1669] = "";
   newstr[0] = '\0';
-  for (i = 0; i < 23; i++) {
+  for (i = 0; i < 24; i++) {
     strcat(newstr, encStrCodegen[i]);
   }
 
@@ -15034,10 +15101,10 @@ static void mdlSetWorkWidths_c9_flightControlSystem(SimStruct *S)
 {
   const char* newstr = sf_c9_flightControlSystem_get_post_codegen_info();
   sf_set_work_widths(S, newstr);
-  ssSetChecksum0(S,(2306705022U));
-  ssSetChecksum1(S,(402839419U));
-  ssSetChecksum2(S,(3076025249U));
-  ssSetChecksum3(S,(291657281U));
+  ssSetChecksum0(S,(783268405U));
+  ssSetChecksum1(S,(4024986609U));
+  ssSetChecksum2(S,(153885079U));
+  ssSetChecksum3(S,(3600807114U));
 }
 
 static void mdlRTW_c9_flightControlSystem(SimStruct *S)

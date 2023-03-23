@@ -2,6 +2,13 @@
 #define __c8_flightControlSystem_h__
 
 /* Forward Declarations */
+#ifndef typedef_c8_s_T6EhWR3BJcuhfEcq70EsyF
+#define typedef_c8_s_T6EhWR3BJcuhfEcq70EsyF
+
+typedef struct c8_tag_T6EhWR3BJcuhfEcq70EsyF c8_s_T6EhWR3BJcuhfEcq70EsyF;
+
+#endif                                 /* typedef_c8_s_T6EhWR3BJcuhfEcq70EsyF */
+
 #ifndef typedef_c8_spwGF8hrfBvP2HmJurN8EqD
 #define typedef_c8_spwGF8hrfBvP2HmJurN8EqD
 
@@ -72,12 +79,26 @@ typedef struct c8_tag_tp7gwDpHIbN78LCfjw8gxF c8_cell_6;
 
 #endif                                 /* typedef_c8_cell_6 */
 
+#ifndef typedef_c8_cell_7
+#define typedef_c8_cell_7
+
+typedef struct c8_tag_bgx7sHAF0Am3fLEnwYSegH c8_cell_7;
+
+#endif                                 /* typedef_c8_cell_7 */
+
 #ifndef typedef_c8_s_Iyo3mwBcIEutUjsACOxbHG
 #define typedef_c8_s_Iyo3mwBcIEutUjsACOxbHG
 
 typedef struct c8_tag_Iyo3mwBcIEutUjsACOxbHG c8_s_Iyo3mwBcIEutUjsACOxbHG;
 
 #endif                                 /* typedef_c8_s_Iyo3mwBcIEutUjsACOxbHG */
+
+#ifndef typedef_c8_s_J08upOd3Kq88GzikYAcy5D
+#define typedef_c8_s_J08upOd3Kq88GzikYAcy5D
+
+typedef struct c8_tag_J08upOd3Kq88GzikYAcy5D c8_s_J08upOd3Kq88GzikYAcy5D;
+
+#endif                                 /* typedef_c8_s_J08upOd3Kq88GzikYAcy5D */
 
 #ifndef typedef_c8_s_tP4ysjhyvuYk36JuHDg8bD
 #define typedef_c8_s_tP4ysjhyvuYk36JuHDg8bD
@@ -142,6 +163,48 @@ typedef struct c8_tag_sSadtR3ST4hfQVS1NBpL0E c8_s_sSadtR3ST4hfQVS1NBpL0E;
 
 #endif                                 /* typedef_c8_s_sSadtR3ST4hfQVS1NBpL0E */
 
+#ifndef typedef_c8_s_CkkMsDy4hjXSfatJmaEjYE
+#define typedef_c8_s_CkkMsDy4hjXSfatJmaEjYE
+
+typedef struct c8_tag_CkkMsDy4hjXSfatJmaEjYE c8_s_CkkMsDy4hjXSfatJmaEjYE;
+
+#endif                                 /* typedef_c8_s_CkkMsDy4hjXSfatJmaEjYE */
+
+#ifndef typedef_c8_s_Pt2EosZbwU0SFQkoyGT9u
+#define typedef_c8_s_Pt2EosZbwU0SFQkoyGT9u
+
+typedef struct c8_tag_Pt2EosZbwU0SFQkoyGT9u c8_s_Pt2EosZbwU0SFQkoyGT9u;
+
+#endif                                 /* typedef_c8_s_Pt2EosZbwU0SFQkoyGT9u */
+
+#ifndef typedef_c8_s_80eWXyMLUudM2e9zpSSpnC
+#define typedef_c8_s_80eWXyMLUudM2e9zpSSpnC
+
+typedef struct c8_tag_80eWXyMLUudM2e9zpSSpnC c8_s_80eWXyMLUudM2e9zpSSpnC;
+
+#endif                                 /* typedef_c8_s_80eWXyMLUudM2e9zpSSpnC */
+
+#ifndef typedef_c8_s_INTBU9917hSopJ344Hess
+#define typedef_c8_s_INTBU9917hSopJ344Hess
+
+typedef struct c8_tag_INTBU9917hSopJ344Hess c8_s_INTBU9917hSopJ344Hess;
+
+#endif                                 /* typedef_c8_s_INTBU9917hSopJ344Hess */
+
+#ifndef typedef_c8_s_QEImKL74sdzOTOb0p7vr8D
+#define typedef_c8_s_QEImKL74sdzOTOb0p7vr8D
+
+typedef struct c8_tag_QEImKL74sdzOTOb0p7vr8D c8_s_QEImKL74sdzOTOb0p7vr8D;
+
+#endif                                 /* typedef_c8_s_QEImKL74sdzOTOb0p7vr8D */
+
+#ifndef typedef_c8_s_cyLkpZmbKPRKFf2CUG03WE
+#define typedef_c8_s_cyLkpZmbKPRKFf2CUG03WE
+
+typedef struct c8_tag_cyLkpZmbKPRKFf2CUG03WE c8_s_cyLkpZmbKPRKFf2CUG03WE;
+
+#endif                                 /* typedef_c8_s_cyLkpZmbKPRKFf2CUG03WE */
+
 #ifndef typedef_c8_s_DYPLQB99AFdqkofqgFpMiD
 #define typedef_c8_s_DYPLQB99AFdqkofqgFpMiD
 
@@ -150,6 +213,23 @@ typedef struct c8_tag_DYPLQB99AFdqkofqgFpMiD c8_s_DYPLQB99AFdqkofqgFpMiD;
 #endif                                 /* typedef_c8_s_DYPLQB99AFdqkofqgFpMiD */
 
 /* Type Definitions */
+#ifndef struct_c8_tag_T6EhWR3BJcuhfEcq70EsyF
+#define struct_c8_tag_T6EhWR3BJcuhfEcq70EsyF
+
+struct c8_tag_T6EhWR3BJcuhfEcq70EsyF
+{
+  boolean_T outputEg;
+};
+
+#endif                                 /* struct_c8_tag_T6EhWR3BJcuhfEcq70EsyF */
+
+#ifndef typedef_c8_s_T6EhWR3BJcuhfEcq70EsyF
+#define typedef_c8_s_T6EhWR3BJcuhfEcq70EsyF
+
+typedef struct c8_tag_T6EhWR3BJcuhfEcq70EsyF c8_s_T6EhWR3BJcuhfEcq70EsyF;
+
+#endif                                 /* typedef_c8_s_T6EhWR3BJcuhfEcq70EsyF */
+
 #ifndef struct_c8_tag_spwGF8hrfBvP2HmJurN8EqD
 #define struct_c8_tag_spwGF8hrfBvP2HmJurN8EqD
 
@@ -355,6 +435,24 @@ typedef struct c8_tag_tp7gwDpHIbN78LCfjw8gxF c8_cell_6;
 
 #endif                                 /* typedef_c8_cell_6 */
 
+#ifndef struct_c8_tag_bgx7sHAF0Am3fLEnwYSegH
+#define struct_c8_tag_bgx7sHAF0Am3fLEnwYSegH
+
+struct c8_tag_bgx7sHAF0Am3fLEnwYSegH
+{
+  char_T f1[3];
+  char_T f2[8];
+};
+
+#endif                                 /* struct_c8_tag_bgx7sHAF0Am3fLEnwYSegH */
+
+#ifndef typedef_c8_cell_7
+#define typedef_c8_cell_7
+
+typedef struct c8_tag_bgx7sHAF0Am3fLEnwYSegH c8_cell_7;
+
+#endif                                 /* typedef_c8_cell_7 */
+
 #ifndef struct_c8_tag_Iyo3mwBcIEutUjsACOxbHG
 #define struct_c8_tag_Iyo3mwBcIEutUjsACOxbHG
 
@@ -371,6 +469,23 @@ struct c8_tag_Iyo3mwBcIEutUjsACOxbHG
 typedef struct c8_tag_Iyo3mwBcIEutUjsACOxbHG c8_s_Iyo3mwBcIEutUjsACOxbHG;
 
 #endif                                 /* typedef_c8_s_Iyo3mwBcIEutUjsACOxbHG */
+
+#ifndef struct_c8_tag_J08upOd3Kq88GzikYAcy5D
+#define struct_c8_tag_J08upOd3Kq88GzikYAcy5D
+
+struct c8_tag_J08upOd3Kq88GzikYAcy5D
+{
+  char_T Value[8];
+};
+
+#endif                                 /* struct_c8_tag_J08upOd3Kq88GzikYAcy5D */
+
+#ifndef typedef_c8_s_J08upOd3Kq88GzikYAcy5D
+#define typedef_c8_s_J08upOd3Kq88GzikYAcy5D
+
+typedef struct c8_tag_J08upOd3Kq88GzikYAcy5D c8_s_J08upOd3Kq88GzikYAcy5D;
+
+#endif                                 /* typedef_c8_s_J08upOd3Kq88GzikYAcy5D */
 
 #ifndef struct_c8_tag_tP4ysjhyvuYk36JuHDg8bD
 #define struct_c8_tag_tP4ysjhyvuYk36JuHDg8bD
@@ -525,6 +640,110 @@ typedef struct c8_tag_sSadtR3ST4hfQVS1NBpL0E c8_s_sSadtR3ST4hfQVS1NBpL0E;
 
 #endif                                 /* typedef_c8_s_sSadtR3ST4hfQVS1NBpL0E */
 
+#ifndef struct_c8_tag_CkkMsDy4hjXSfatJmaEjYE
+#define struct_c8_tag_CkkMsDy4hjXSfatJmaEjYE
+
+struct c8_tag_CkkMsDy4hjXSfatJmaEjYE
+{
+  c8_cell_7 _data;
+};
+
+#endif                                 /* struct_c8_tag_CkkMsDy4hjXSfatJmaEjYE */
+
+#ifndef typedef_c8_s_CkkMsDy4hjXSfatJmaEjYE
+#define typedef_c8_s_CkkMsDy4hjXSfatJmaEjYE
+
+typedef struct c8_tag_CkkMsDy4hjXSfatJmaEjYE c8_s_CkkMsDy4hjXSfatJmaEjYE;
+
+#endif                                 /* typedef_c8_s_CkkMsDy4hjXSfatJmaEjYE */
+
+#ifndef struct_c8_tag_Pt2EosZbwU0SFQkoyGT9u
+#define struct_c8_tag_Pt2EosZbwU0SFQkoyGT9u
+
+struct c8_tag_Pt2EosZbwU0SFQkoyGT9u
+{
+  c8_spwGF8hrfBvP2HmJurN8EqD nontunableWorkspace;
+};
+
+#endif                                 /* struct_c8_tag_Pt2EosZbwU0SFQkoyGT9u */
+
+#ifndef typedef_c8_s_Pt2EosZbwU0SFQkoyGT9u
+#define typedef_c8_s_Pt2EosZbwU0SFQkoyGT9u
+
+typedef struct c8_tag_Pt2EosZbwU0SFQkoyGT9u c8_s_Pt2EosZbwU0SFQkoyGT9u;
+
+#endif                                 /* typedef_c8_s_Pt2EosZbwU0SFQkoyGT9u */
+
+#ifndef struct_c8_tag_80eWXyMLUudM2e9zpSSpnC
+#define struct_c8_tag_80eWXyMLUudM2e9zpSSpnC
+
+struct c8_tag_80eWXyMLUudM2e9zpSSpnC
+{
+  c8_s_Pt2EosZbwU0SFQkoyGT9u fun;
+  boolean_T outputEg;
+};
+
+#endif                                 /* struct_c8_tag_80eWXyMLUudM2e9zpSSpnC */
+
+#ifndef typedef_c8_s_80eWXyMLUudM2e9zpSSpnC
+#define typedef_c8_s_80eWXyMLUudM2e9zpSSpnC
+
+typedef struct c8_tag_80eWXyMLUudM2e9zpSSpnC c8_s_80eWXyMLUudM2e9zpSSpnC;
+
+#endif                                 /* typedef_c8_s_80eWXyMLUudM2e9zpSSpnC */
+
+#ifndef struct_c8_tag_INTBU9917hSopJ344Hess
+#define struct_c8_tag_INTBU9917hSopJ344Hess
+
+struct c8_tag_INTBU9917hSopJ344Hess
+{
+  c8_s_sSadtR3ST4hfQVS1NBpL0E fun;
+  boolean_T outputEg;
+};
+
+#endif                                 /* struct_c8_tag_INTBU9917hSopJ344Hess */
+
+#ifndef typedef_c8_s_INTBU9917hSopJ344Hess
+#define typedef_c8_s_INTBU9917hSopJ344Hess
+
+typedef struct c8_tag_INTBU9917hSopJ344Hess c8_s_INTBU9917hSopJ344Hess;
+
+#endif                                 /* typedef_c8_s_INTBU9917hSopJ344Hess */
+
+#ifndef struct_c8_tag_QEImKL74sdzOTOb0p7vr8D
+#define struct_c8_tag_QEImKL74sdzOTOb0p7vr8D
+
+struct c8_tag_QEImKL74sdzOTOb0p7vr8D
+{
+  c8_s_INTBU9917hSopJ344Hess nontunableWorkspace;
+};
+
+#endif                                 /* struct_c8_tag_QEImKL74sdzOTOb0p7vr8D */
+
+#ifndef typedef_c8_s_QEImKL74sdzOTOb0p7vr8D
+#define typedef_c8_s_QEImKL74sdzOTOb0p7vr8D
+
+typedef struct c8_tag_QEImKL74sdzOTOb0p7vr8D c8_s_QEImKL74sdzOTOb0p7vr8D;
+
+#endif                                 /* typedef_c8_s_QEImKL74sdzOTOb0p7vr8D */
+
+#ifndef struct_c8_tag_cyLkpZmbKPRKFf2CUG03WE
+#define struct_c8_tag_cyLkpZmbKPRKFf2CUG03WE
+
+struct c8_tag_cyLkpZmbKPRKFf2CUG03WE
+{
+  c8_cell_7 _data;
+};
+
+#endif                                 /* struct_c8_tag_cyLkpZmbKPRKFf2CUG03WE */
+
+#ifndef typedef_c8_s_cyLkpZmbKPRKFf2CUG03WE
+#define typedef_c8_s_cyLkpZmbKPRKFf2CUG03WE
+
+typedef struct c8_tag_cyLkpZmbKPRKFf2CUG03WE c8_s_cyLkpZmbKPRKFf2CUG03WE;
+
+#endif                                 /* typedef_c8_s_cyLkpZmbKPRKFf2CUG03WE */
+
 #ifndef struct_c8_tag_DYPLQB99AFdqkofqgFpMiD
 #define struct_c8_tag_DYPLQB99AFdqkofqgFpMiD
 
@@ -546,26 +765,26 @@ typedef struct c8_tag_DYPLQB99AFdqkofqgFpMiD c8_s_DYPLQB99AFdqkofqgFpMiD;
 #define typedef_SFc8_flightControlSystemInstanceStruct
 
 typedef struct {
+  SimStruct *S;
+  ChartInfoStruct chartInfo;
+  int32_T c8_sfEvent;
   boolean_T c8_doneDoubleBufferReInit;
   uint8_T c8_is_active_c8_flightControlSystem;
   uint8_T c8_JITStateAnimation[1];
-  SimStruct *S;
-  ChartInfoStruct chartInfo;
   uint8_T c8_JITTransitionAnimation[1];
-  int32_T c8_sfEvent;
   int32_T c8_IsDebuggerActive;
   int32_T c8_IsSequenceViewerPresent;
   int32_T c8_SequenceViewerOptimization;
   int32_T c8_IsHeatMapPresent;
   void *c8_RuntimeVar;
   uint32_T c8_mlFcnLineNumber;
-  void *c8_fcnDataPtrs[4];
-  char_T *c8_dataNames[4];
+  void *c8_fcnDataPtrs[5];
+  char_T *c8_dataNames[5];
   uint32_T c8_numFcnVars;
-  uint32_T c8_ssIds[4];
-  uint32_T c8_statuses[4];
-  void *c8_outMexFcns[4];
-  void *c8_inMexFcns[4];
+  uint32_T c8_ssIds[5];
+  uint32_T c8_statuses[5];
+  void *c8_outMexFcns[5];
+  void *c8_inMexFcns[5];
   real_T c8_B[19200];
   real_T c8_FC[19200];
   CovrtStateflowInstance *c8_covrtInstance;
@@ -573,6 +792,7 @@ typedef struct {
   boolean_T (*c8_bw)[19200];
   boolean_T (*c8_line)[19200];
   boolean_T (*c8_branch)[19200];
+  boolean_T (*c8_major)[19200];
 } SFc8_flightControlSystemInstanceStruct;
 
 #endif                                 /* typedef_SFc8_flightControlSystemInstanceStruct */
