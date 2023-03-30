@@ -1068,7 +1068,7 @@ Transform {
   }
 }
 DEF LandingSpot Transform {
-  translation 1.216929 -0.02 2.269706
+  translation 1.224958 -0.02 1.77094
   rotation 0 0 0 0
   children Shape {
     appearance Appearance {
@@ -1094,19 +1094,24 @@ DEF Lines Transform {
       solid FALSE
       coordIndex [
         0, 1, 2, 3, -1, 
-        4, 5, 6, 7, -1 
+        4, 5, 6, 7, -1, 
+        8, 9, 10, 11, -1 
       ]
       convex FALSE
       coord Coordinate {
         point [
-          0.4087755 -0.02 -0.4050327,
-          1.098213 -0.02 -1.937085,
-          1.189404 -0.02 -1.896047,
-          0.4999673 -0.02 -0.3639955,
-          1.104638 -0.02 -1.939176,
-          2.077336 -0.02 -1.384243,
-          2.027782 -0.02 -1.297384,
-          1.055084 -0.02 -1.852317 
+          0.37009 -0.02 -0.39086,
+          0.37009 -0.02 -3.53387,
+          0.47009 -0.02 -3.53387,
+          0.47009 -0.02 -0.39086,
+          0.3682701 -0.02 -3.531981,
+          3.655421 -0.02 -3.65397,
+          3.65913 -0.02 -3.554039,
+          0.3719786 -0.02 -3.43205,
+          3.677445 -0.02 -3.611152,
+          1.963342 -0.02 -1.392235,
+          1.884205 -0.02 -1.453368,
+          3.598308 -0.02 -3.672285 
         ]
       }
     }
@@ -1418,7 +1423,7 @@ DEF Static_Objects Transform {
   ]
 }
 DEF QuadBody Transform {
-  translation 0.43011 0.001765 0.47489
+  translation 0.44086 0.001765 0.42009
   scaleOrientation 0 1 0 0
   children [
     DEF UAV_Collision Transform {
@@ -1486,12 +1491,12 @@ DEF QuadBody Transform {
 }
 DEF IsoNoRotation Viewpoint {
   description "Isometric - No Rotation"
-  position 1.33101 0.670765 1.46489
+  position 1.34176 0.670765 1.41009
   orientation -0.46727 0.858698 0.210466 0.847752
 }
 DEF OnQuadNoRotation Viewpoint {
   description "Chase - No Rotation"
-  position -2.56989 1.001765 0.47489
+  position -2.55914 1.001765 0.42009
   orientation 0 -1 -0 1.57
 }
 DEF BlueMarker Transform {
