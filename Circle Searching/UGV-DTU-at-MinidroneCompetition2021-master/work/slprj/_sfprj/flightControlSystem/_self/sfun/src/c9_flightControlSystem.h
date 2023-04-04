@@ -2860,6 +2860,7 @@ typedef struct {
   real_T (*c9_direct)[2];
   uint8_T (*c9_I)[57600];
   boolean_T *c9_y;
+  boolean_T (*c9_Red_Comp)[19200];
 } SFc9_flightControlSystemInstanceStruct;
 
 #endif                                 /* typedef_SFc9_flightControlSystemInstanceStruct */
