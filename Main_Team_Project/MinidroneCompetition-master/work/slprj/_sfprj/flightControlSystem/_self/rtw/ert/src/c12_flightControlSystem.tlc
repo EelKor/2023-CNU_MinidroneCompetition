@@ -1,0 +1,47 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   4 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "local_cond"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "flightControlSystem:3009:227-237"\
+    }\
+    ChartData {\
+      Name         "local_array"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "flightControlSystem:3009:250-261"\
+      Dimensions   [4]\
+    }\
+    ChartData {\
+      Name         "add_yaw"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "flightControlSystem:3009:274-281"\
+    }\
+    ChartData {\
+      Name         "program_start"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "flightControlSystem:3009:294-307"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
